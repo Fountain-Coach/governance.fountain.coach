@@ -94,3 +94,7 @@ Governance is a public constitutional reference, with a specific maintained
 status for each chapter. Reducing it to an invented book arc made it weaker,
 not clearer. The repository therefore preserves the **complete published
 edition** and gives the domain one clearly owned, reproducible source.
+
+## Footer-legal edition update (unpublished candidate)
+
+The current Git source moves Company Status & Transparency into the mandatory footer legal group and removes Status from header rails. The initial 2026-10-14 exact-live-snapshot audit remains historical evidence for its original Git commit. **This changed source is not the live HTTPS edition until separately published and witnessed.** Six historical HTML fragments without a complete body/footer preserve their fragment structure and require source repair before they can carry a full legal footer.

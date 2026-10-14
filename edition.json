@@ -4,11 +4,11 @@
   "canonical": "https://governance.fountain.coach/",
   "publicationRoot": "site",
   "authority": "Fountain-Coach/governance.fountain.coach",
-  "editionStatus": "public-https-witnessed-source-snapshot",
+  "editionStatus": "source-candidate-awaiting-publishing",
   "captured": "2026-10-14",
   "fileCount": 292,
   "chapterCount": 159,
-  "sha256Inventory": "d1ee6f28d75db4b250b78c0e2b5fd3f5296b749ca65e75551fb63940a51a625e",
+  "sha256Inventory": "6ab8b835c9d0627fbc9f2489e927ca9788d80f804b9fe0c8ba1455a0655b4068",
   "sourceBoundary": "Only exact publicly served bytes in site/ are the publication source; no public release occurs on push.",
   "publishedManifestKnownOmissions": [
     "chapters/158-publishing-is-not-a-distributed-transaction/index.html",
@@ -17,5 +17,7 @@
     "accessibility/index.html",
     "copyright/index.html",
     "compliance/index.html"
-  ]
+  ],
+  "changeIntent": "Move Company Status from header rails into mandatory legal footer for every complete Governance page",
+  "previousLiveWitnessCommit": "9f48476835a9a1fb525cc9001f8b3e504ae44805"
 }
