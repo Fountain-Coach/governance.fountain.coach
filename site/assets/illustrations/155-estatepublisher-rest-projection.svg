@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">One definition, two governed REST projections</title>
+  <desc id="desc">A central native definition connects the Matrix status projection and the EstatePublisher executable projection, both ending in FountainStore evidence while Swift kits and MIDI2 remain underneath as runtime authority.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7f2e8"/><stop offset="1" stop-color="#e8eef2"/></linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#244b63"/><stop offset="1" stop-color="#427c90"/></linearGradient>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0 5 3 0 6" fill="none" stroke="#244b63" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></marker>
+    <style>
+      .ink{fill:#173042;font:600 22px system-ui,-apple-system,BlinkMacSystemFont,sans-serif}.small{fill:#35566a;font:500 16px system-ui,-apple-system,BlinkMacSystemFont,sans-serif}.box{stroke:#244b63;stroke-width:2}.line{stroke:#244b63;stroke-width:1.5;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1200" height="630" rx="32" fill="url(#paper)"/>
+  <text x="110" y="105" class="small" letter-spacing="4">GOVERNANCE CHAPTER 155</text>
+  <text x="110" y="145" class="ink" font-size="30">One definition, two addressable projections</text>
+  <rect x="430" y="205" width="340" height="80" rx="16" fill="url(#blue)" class="box"/>
+  <text x="600" y="238" text-anchor="middle" fill="#fff" font-family="system-ui" font-size="22" font-weight="700">NATIVE DEFINITION</text>
+  <text x="600" y="264" text-anchor="middle" fill="#e7f2f4" font-family="system-ui" font-size="16">IDL · Swift kits · Store contract</text>
+  <path d="M520 285 340 375" class="line"/><path d="M680 285 860 375" class="line"/>
+  <rect x="190" y="390" width="300" height="78" rx="15" fill="#fff" class="box"/>
+  <text x="340" y="423" text-anchor="middle" class="ink" font-size="20">MATRIX API</text>
+  <text x="340" y="448" text-anchor="middle" class="small" font-size="15">observed scenario state</text>
+  <rect x="710" y="390" width="300" height="78" rx="15" fill="#fff" class="box"/>
+  <text x="860" y="423" text-anchor="middle" class="ink" font-size="20">ESTATEPUBLISHER API</text>
+  <text x="860" y="448" text-anchor="middle" class="small" font-size="15">typed operations</text>
+  <path d="M340 468 505 535" class="line"/><path d="M860 468 695 535" class="line"/>
+  <rect x="400" y="550" width="400" height="58" rx="15" fill="#d8e7e5" class="box"/>
+  <text x="600" y="586" text-anchor="middle" class="ink" font-size="19">FountainStore receipt + evidence</text>
+  <text x="600" y="670" text-anchor="middle" class="small">REST names the boundary; native runtime makes it true</text>
+</svg>

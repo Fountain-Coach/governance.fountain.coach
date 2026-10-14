@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" role="img" aria-labelledby="title desc">
+  <title id="title">Measured Reframe surface with a proposed illustration feature</title>
+  <desc id="desc">A light 1920 by 1080 projection matching the current Swift Reframe window: manuscript and navigation on the left, Copilot on the right, MIDI2 peers below. A proposed illustration card is shown inside the Copilot conversation region and is explicitly not live evidence.</desc>
+  <rect width="1920" height="1080" fill="#ffffff"/>
+  <rect x="0" y="0" width="1010" height="1080" fill="#fbfbfb"/>
+  <text x="24" y="35" fill="#858585" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif" font-size="23">Import source text to begin working on this manuscript.</text>
+  <line x1="0" y1="55" x2="1010" y2="55" stroke="#dedede"/>
+  <text x="28" y="100" fill="#858585" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif" font-size="22" font-weight="700" letter-spacing="3">MANUSCRIPT</text>
+  <text x="232" y="100" fill="#858585" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif" font-size="21">Questions · Movements · Read coverage</text>
+  <text x="920" y="100" text-anchor="end" fill="#858585" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif" font-size="22">Read source</text>
+  <line x1="0" y1="123" x2="1010" y2="123" stroke="#dedede"/>
+  <rect x="0" y="123" width="312" height="926" fill="#fafafa"/>
+  <text x="36" y="172" fill="#858585" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif" font-size="19" font-weight="700" letter-spacing="2">READING NAVIGATION</text>
+  <text x="36" y="222" fill="#858585" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif" font-size="18">Semantic findings will appear here after the source is read.</text>
+  <rect x="312" y="123" width="1" height="926" fill="#e3e3e3"/>
+  <text x="388" y="185" fill="#858585" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif" font-size="20">1</text>
+  <rect x="1010" y="0" width="10" height="1080" fill="#f1f1f1"/>
+  <rect x="1020" y="0" width="900" height="1080" fill="#ffffff"/>
+  <text x="1068" y="58" fill="#18212b" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif" font-size="31">✦</text>
+  <rect x="1780" y="38" width="26" height="27" rx="3" fill="none" stroke="#536171" stroke-width="2"/>
+  <path d="M1818 61l17-17M1818 43l4 18 18-4" fill="none" stroke="#536171" stroke-width="2"/>
+  <circle cx="1874" cy="52" r="14" fill="none" stroke="#536171" stroke-width="2"/>
+  <text x="1874" y="59" text-anchor="middle" fill="#536171" font-family="Georgia, serif" font-size="20">i</text>
+  <line x1="1020" y1="104" x2="1920" y2="104" stroke="#dedede"/>
+  <rect x="1070" y="205" width="800" height="375" rx="8" fill="#fcfcfc" stroke="#c8ced5" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="1100" y="244" fill="#52606e" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif" font-size="18" font-weight="700" letter-spacing="1.2">PROPOSED FEATURE · NOT LIVE</text>
+  <text x="1100" y="278" fill="#7d8791" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif" font-size="17">This card occupies the existing Copilot conversation region.</text>
+  <rect x="1100" y="307" width="250" height="214" rx="6" fill="#f0f1f2" stroke="#d3d7db"/>
+  <path d="M1130 475 Q1225 350 1320 475" fill="none" stroke="#9da7b0" stroke-width="5"/>
+  <circle cx="1188" cy="400" r="22" fill="#b7bec5"/>
+  <text x="1380" y="352" fill="#52606e" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif" font-size="17" font-weight="700">ILLUSTRATION PARTICIPANT</text>
+  <text x="1380" y="388" fill="#6d7882" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif" font-size="16">placeholder only</text>
+  <text x="1380" y="424" fill="#6d7882" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif" font-size="16">future input:</text>
+  <text x="1380" y="456" fill="#6d7882" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif" font-size="16">movement + question</text>
+  <text x="1380" y="488" fill="#6d7882" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif" font-size="16">+ source passage</text>
+  <text x="1100" y="555" fill="#9a5d28" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif" font-size="14">NO IMAGE CLOUD RECEIPT · NO STORE RESULT · NO AX CLAIM</text>
+  <line x1="1020" y1="806" x2="1920" y2="806" stroke="#dedede"/>
+  <text x="1068" y="848" fill="#536171" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif" font-size="22">Aᴵ</text>
+  <rect x="1070" y="884" width="800" height="150" fill="#ffffff" stroke="#c8ced5" stroke-width="2"/>
+  <circle cx="1105" cy="920" r="6" fill="#e7e8e9"/><rect x="1125" y="914" width="230" height="10" rx="5" fill="#e1e3e5"/>
+  <circle cx="1105" cy="950" r="6" fill="#e7e8e9"/><rect x="1125" y="944" width="370" height="10" rx="5" fill="#e1e3e5"/>
+  <circle cx="1105" cy="980" r="6" fill="#e7e8e9"/><rect x="1125" y="974" width="290" height="10" rx="5" fill="#e1e3e5"/>
+  <rect x="1068" y="1048" width="48" height="33" fill="#ffffff" stroke="#c8ced5"/>
+  <path d="M1081 1068l16-16c8-8 18 2 10 10l-16 16c-8 8-19-2-11-10l15-15" fill="none" stroke="#536171" stroke-width="3"/>
+  <rect x="1838" y="1048" width="48" height="33" fill="#a9c8ef" stroke="#8daed8"/><path d="M1853 1062l19 8-19 8 5-8z" fill="#6c8fb9"/>
+  <rect x="0" y="1049" width="1010" height="31" fill="#f5f5f5"/><line x1="0" y1="1049" x2="1010" y2="1049" stroke="#dedede"/>
+  <circle cx="44" cy="1064" r="8" fill="none" stroke="#7d8791" stroke-width="2"/>
+  <text x="80" y="1073" fill="#20262c" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif" font-size="22" font-weight="700">MIDI2 peers</text>
+  <text x="250" y="1073" fill="#858585" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif" font-size="20">· projections and operations</text>
+  <text x="975" y="1073" fill="#858585" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif" font-size="28">›</text>
+</svg>

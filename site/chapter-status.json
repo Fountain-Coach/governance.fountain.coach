@@ -1,0 +1,391 @@
+{
+  "version": 1,
+  "latestChapter": {
+    "slug": "158-publishing-is-not-a-distributed-transaction",
+    "number": "158",
+    "title": "Publishing Is Not a Distributed Transaction",
+    "label": "Latest chapter"
+  },
+  "default": {
+    "key": "reference",
+    "label": "Reference",
+    "description": "Retained for architectural history and context; it is not, by itself, the current operational authority."
+  },
+  "chapters": {
+    "01-reading-index": {
+      "key": "current",
+      "label": "Current index",
+      "description": "The maintained retrieval map for choosing the chapters that bind a task."
+    },
+    "07-agent-operating-guide": {
+      "key": "current",
+      "label": "Current operating guide",
+      "description": "The maintained collaboration and evidence rules for agents and maintainers."
+    },
+    "08-validation-and-acceptance": {
+      "key": "current",
+      "label": "Current acceptance",
+      "description": "The maintained validation and evidence boundary."
+    },
+    "43-the-released-surface-is-a-named-build": {
+      "key": "current",
+      "label": "Current release boundary",
+      "description": "The named-build rule for public capability claims."
+    },
+    "44-publication-and-source-policy": {
+      "key": "current",
+      "label": "Current publication boundary",
+      "description": "The source, private-data, and public-projection boundary."
+    },
+    "69-the-book-of-reframe-is-a-dual-projection": {
+      "key": "current",
+      "label": "Current publication model",
+      "description": "The public and maintainer projections of reviewed governance."
+    },
+    "73-reframe-scenario-development-cycle": {
+      "key": "current",
+      "label": "Current development cycle",
+      "description": "The maintained scenario-first development contract."
+    },
+    "77-swift-midi2-runtime-and-scenario-seam": {
+      "key": "current",
+      "label": "Current runtime seam",
+      "description": "The maintained Swift/MIDI2 scenario infrastructure boundary."
+    },
+    "78-scenario-driven-development-as-org-infrastructure": {
+      "key": "current",
+      "label": "Current infrastructure",
+      "description": "The maintained organizational development model."
+    },
+    "79-default-semantic-manuscript-projection": {
+      "key": "current",
+      "label": "Current product projection",
+      "description": "The maintained default Reframe manuscript projection."
+    },
+    "80-independent-governance-publication": {
+      "key": "current",
+      "label": "Current publication target",
+      "description": "The maintained independent governance publication boundary."
+    },
+    "81-universal-midi2-command-plane": {
+      "key": "current",
+      "label": "Current MIDI2 migration boundary",
+      "description": "The implemented universal MIDI2 ingress and its remaining acceptance boundary."
+    },
+    "82-remote-midi2-reading-room": {
+      "key": "current",
+      "label": "Current collaboration boundary",
+      "description": "The governed multi-user Reading Room product boundary and its remote software-peer acceptance gate."
+    },
+    "83-conversational-scenario-authoring": {
+      "key": "current",
+      "label": "Current authoring boundary",
+      "description": "The maintained conversational scenario prompt-contract and its compiled runtime projections."
+    },
+    "84-governed-reframe-design-mock": {
+      "key": "current",
+      "label": "Current design-reference boundary",
+      "description": "The maintained boundary between Reframe design intent, proposed scenario rollout, and live evidence."
+    },
+    "85-storify-source-auto-reads-a-defined-whole": {
+      "key": "current",
+      "label": "Current Storify reading boundary",
+      "description": "The maintained source-admission, named-range, reasoning, MIDI2, and terminal-evidence contract for Storify Source Auto."
+    },
+    "86-apple-native-semantic-pipeline-is-one-midi2-graph": {
+      "key": "current",
+      "label": "Current semantic pipeline refactoring",
+      "description": "The maintained Apple-native, paid-extension, MIDI2 graph boundary and implementation acceptance order."
+    },
+    "87-midi2-monitor-is-the-live-event-mirror": {
+      "key": "current",
+      "label": "Current MIDI2 monitor boundary",
+      "description": "The maintained Swift-owned live event mirror between MIDI2 observation, FountainStore proof, AX projection, and independent witnesses."
+    },
+    "88-codexkit-is-a-governed-codex-app-server-boundary": {
+      "key": "current",
+      "label": "Current CodexKit boundary",
+      "description": "The proposed reusable Swift boundary for a pinned Codex app-server runtime and its FCIS-KIT, MIDI2, Store, AX, and release evidence."
+    },
+    "89-codex-auth-instrument-is-the-copilot-login-surface": {
+      "key": "current",
+      "label": "Current auth-instrument boundary",
+      "description": "The maintained host-facing Codex login boundary: Copilot intent, MIDI2 lifecycle, provider-approved auth projection, Store proof, and AX-visible terminal state."
+    },
+    "90-independent-security-review-is-a-separate-acceptance-boundary": {
+      "key": "current",
+      "label": "Current security-review boundary",
+      "description": "The maintained separation between local tests, independent security review, live acceptance, and named-build release for Codex auth."
+    },
+    "91-fcis-kit-instrument-store-is-the-capability-plane": {
+      "key": "current",
+      "label": "Current capability-plane boundary",
+      "description": "The maintained FCIS-KIT Instrument Store architecture: Reframe host, MIDI2 capability contract, scenario-first admission, local/remote instruments, and evidence-bound release."
+    },
+    "92-fountain-coach-publication-estate": {
+      "key": "current",
+      "label": "Current publication-estate boundary",
+      "description": "The maintained semantic contract for Fountain Coach's top-level domain, specialized subdomains, shared templates, cross-domain links, and CI publication gates."
+    },
+    "93-instrument-creation-is-a-governed-promotion-path": {
+      "key": "current",
+      "label": "Current instrument-creation boundary",
+      "description": "The maintained generic contract for scenario-first instrument creation, FCIS-KIT promotion, independent evidence, release, consumer integration, and sanitized publication."
+    },
+    "94-credentialed-infrastructure-operations-and-provider-adapters": {
+      "key": "current",
+      "label": "Current infrastructure-authorization boundary",
+      "description": "The maintained provider-neutral contract for SecretStore/Copilot authorization, provider adapters, signed host installation, evidence, rollback, and revocation."
+    },
+    "96-swiftacmekit-is-a-provider-neutral-certificate-automation-boundary": {
+      "key": "current",
+      "label": "Current certificate-automation boundary",
+      "description": "The maintained provider-neutral boundary for Swift ACME automation, protected account and certificate custody, challenge handling, renewal evidence, and separation from host TLS deployment."
+    },
+    "100-semantic-scenographer": {
+      "key": "current",
+      "label": "Current spatial-thinking boundary",
+      "description": "The maintained boundary for source-addressed semantic interpretation, structured Teatro spatial scores, deterministic rendering, and traceable scenographic proposals."
+    },
+    "101-teatro-stage-engine-semantic-scenography": {
+      "key": "current",
+      "label": "Current stage-engine boundary",
+      "description": "The maintained boundary between Teatro's composition ecosystem, TeatroStageEngine's canonical stage runtime, and Reframe's source-addressed scenographic proposal."
+    },
+    "102-semantic-inference-execution-session-and-latency-governance": {
+      "key": "current",
+      "label": "Current semantic-execution boundary",
+      "description": "The maintained lane-neutral contract for isolated source-window execution, typed terminal results, provenance, resumability, and comparable latency evidence."
+    },
+    "103-fcis-kit-semantic-factory-and-wired-instrument-event-stream": {
+      "key": "current",
+      "label": "Current semantic-factory boundary",
+      "description": "The maintained FCIS-KIT composition of source-grounded instruments and its one correlated MIDI2 lifecycle stream."
+    },
+    "104-midi2-event-time-jitter-and-asynchronous-completion-governance": {
+      "key": "current",
+      "label": "Current event-time boundary",
+      "description": "The maintained MIDI2 ordering, monotonic measurement, heartbeat, cancellation, and durable asynchronous-completion contract."
+    },
+    "105-semantic-scenographer-one-spatial-thought": {
+      "key": "current",
+      "label": "Current spatial-thought boundary",
+      "description": "The maintained writer-facing contract for one source-addressed spatial-thought marker and its TeatroStageEngine-backed structured scene."
+    },
+    "106-teatro-midi2-monitor-canonical-runtime-projection": {
+      "key": "current",
+      "label": "Current Teatro monitor boundary",
+      "description": "The maintained typed MIDI2-to-Teatro runtime projection, deterministic spatial grammar, replay parity, and provenance inspector contract."
+    },
+    "107-creating-the-canonical-teatro-stage-composition-layer": {
+      "key": "current",
+      "label": "Current Teatro composition boundary",
+      "description": "The maintained creation boundary for the missing source-addressed Teatro composition layer, engine adapters, deterministic projections, provenance, replay, and the ImageGen editorial distinction."
+    },
+    "108-reframe-is-a-swift-native-cross-platform-runtime": {
+      "key": "current",
+      "label": "Current portability boundary",
+      "description": "The maintained constitution for Reframe as a portable Swift semantic runtime, its platform host adapters, cross-host MIDI2 and FountainStore spine, current Apple-framework leakage, and first macOS/Linux build gate."
+    },
+    "109-natural-language-measurement-is-a-midi2-instrument": {
+      "key": "current",
+      "label": "Current semantic-measurement instrument boundary",
+      "description": "The maintained boundary for macOS NaturalLanguage measurement: source-addressed structured evidence crosses a typed MIDI2 lifecycle and becomes a FountainStore receipt without making the host framework semantic authority."
+    },
+    "110-three-run-semantic-drift-calculus": {
+      "key": "current",
+      "label": "Current three-run drift boundary",
+      "description": "The maintained measurement principle for exactly three concurrent, source-addressed semantic readings, distinct child receipts, preserved variance, and terminal drift calculus."
+    },
+    "111-evidence-cohorts-as-publication-units": {
+      "key": "current",
+      "label": "Current evidence-publication boundary",
+      "description": "The maintained estate rule for publishing complete evidence cohorts through the TLD, Governance, Book, and sibling projections without promoting unsupported claims."
+    },
+    "113-governance-becomes-an-executable-scenographic-policy": {
+      "key": "current",
+      "label": "Current scenographic-policy boundary",
+      "description": "The maintained conversion of Semantic Scenographer governance into a versioned typed Kit policy enforced by ReframeCore and realized by TeatroStageEngine without a second source or uncertainty authority."
+    },
+    "116-fountainstore-owned-estate-edge-and-acme-promotion": {
+      "key": "current",
+      "label": "Current estate-edge boundary",
+      "description": "Current governance boundary for Store-owned estate routing, ACME/TLS promotion, external DNS, and local/remote semantic equivalence."
+    },
+    "118-european-cybersecurity-profile": {
+      "key": "current",
+      "label": "Current cybersecurity profile",
+      "description": "Current engineering profile for authority, continuity, recoverability, protected capability, personal context, and evidence without a legal compliance claim."
+    },
+    "121-dynamic-midi2-instrument-factory": {
+      "key": "current",
+      "label": "Current dynamic-instrument boundary",
+      "description": "The maintained boundary for generic MIDI2 instrument discovery, portable Swift factory creation, Linux build execution, and FountainStore evidence."
+    },
+    "122-governed-semantic-transformation-instrument": {
+      "key": "reference",
+      "label": "Reference",
+      "description": "The governed semantic transformation instrument and its deterministic State A to State B contract."
+    },
+    "123-commands-must-be-legible-to-reasoning": {
+      "key": "reference",
+      "label": "Reference",
+      "description": "The reasoning-facing command declaration contract for grounded command selection and dialogue."
+    },
+    "124-midi2-timed-webkit-transitions": {
+      "key": "reference",
+      "label": "Reference",
+      "description": "The MIDI2-timed transition contract for animating governed web state while retaining WebKit semantics."
+    },
+    "125-store-publication-graph-domain-mapping-and-atomic-route-promotion": {
+      "key": "reference",
+      "label": "Reference",
+      "description": "The Store publication graph contract for domain mapping, route promotion, and publication proof."
+    },
+    "130-human-machine-scenario-naming-is-a-governed-identity-boundary": {
+      "key": "current",
+      "label": "Current naming boundary",
+      "description": "The maintained human-facing scenario naming and typed MIDI2 identity-binding contract."
+    },
+    "131-remote-secretstore-authorization-and-approval-sessions": {
+      "key": "current",
+      "label": "Current approval-session boundary",
+      "description": "The reusable, redacted authorization-session contract for local and remote SecretStore-backed operations."
+    },
+    "132-reframe-audiounit-auv3-platform-and-aum-demo-host": {
+      "key": "current",
+      "label": "Current Reframe AudioUnit platform baseline",
+      "description": "The iPadOS AUv3 runtime boundary, AUM demo-host witness, and explicit MIDI2-to-MIDI1 acceptance path."
+    },
+    "133-csound-auv3-instrument-boundary": {
+      "key": "current",
+      "label": "Current instrument boundary",
+      "description": "The Csound/AUv3 render boundary, AUM MIDI 1.0 witness, and separately admitted MIDI2 seam."
+    },
+    "134-estatepublisher-publication-authority": {
+      "key": "current",
+      "label": "Current publication authority",
+      "description": "The mandatory EstatePublisher boundary from reviewed local estate bytes to authenticated remote Store and public HTTPS read-back."
+    },
+    "135-reframe-ipad-scenario-driven-creative-host": {
+      "key": "current",
+      "label": "Latest creative-host boundary",
+      "description": "The governed proposal for Reframe iPad as a scenario-driven creative host with inspectable, human-owned executable topology."
+    },
+    "136-reframe-web-native-headless-audio-runtime": {
+      "key": "current",
+      "label": "Current runtime boundary",
+      "description": "The multi-client web, native, headless, and local-audio runtime boundary."
+    },
+    "137-teatro-web-reframe-materialization": {
+      "key": "current",
+      "label": "Latest materialization boundary",
+      "description": "The current Teatro Web materialization projection and its local-audio claim boundary."
+    },
+    "138-ear-is-the-web-audio-graphs-midi2-listening-boundary": {
+      "key": "current",
+      "label": "Latest listening boundary",
+      "description": "Ear observes explicitly connected Web Audio sources, including other AudioWorklets, and emits validated MIDI2 UMP without becoming a microphone-only or second protocol authority."
+    },
+    "139-owner-trust-root-secretstore-custody-and-recovery": {
+      "key": "current",
+      "label": "Current owner-trust boundary",
+      "description": "The maintained owner trust-root, SecretStore custody, EstatePublisher authorization, and recovery boundary."
+    },
+    "140-local-developer-cloud-joining-machine-and-estatepublisher": {
+      "key": "current",
+      "label": "Latest joining-machine boundary",
+      "description": "The maintained authority contract for discovery, signed identity, enrollment, EstatePublisher execution, and FountainStore proof when an Ubuntu machine joins the local developer cloud."
+    },
+    "141-each-joining-machine-is-a-governed-midi2-instrument": {
+      "key": "current",
+      "label": "Current MIDI2 admission boundary",
+      "description": "The maintained machine-side MIDI2 instrument admission prerequisite for EstatePublisher."
+    },
+    "142-fountainauthkit-governed-authorization-authority": {
+      "key": "current",
+      "label": "Current authorization proposal",
+      "description": "The proposed Fountain-owned OAuth/OIDC and FCIS-KIT authorization boundary; this remains a governance proposal and does not claim a deployed or security-reviewed authorization service."
+    },
+    "143-simplicity-is-key-one-bootstrap-one-trusted-session": {
+      "key": "current",
+      "label": "Current simplicity boundary",
+      "description": "One owner bootstrap establishes one bounded remote-vault session; normal operation does not repeat Keychain or human-approval prompts."
+    },
+    "144-fountain-media-service-governed-media-plane": {
+      "key": "current",
+      "label": "Current media-plane boundary",
+      "description": "The proposed governed media plane compiles verified derivatives and delivery manifests while FountainStore and EstatePublisher retain durable publication authority."
+    },
+    "145-one-estate-one-publication-state-estatepublisher-and-reframe-semantic-browser": {
+      "key": "current",
+      "label": "Current estate-state boundary",
+      "description": "EstatePublisher owns one estate-wide publication state; every domain reflects it; Reframe's Semantic Browser and Copilot observe and mediate the next governed action."
+    },
+    "146-local-fountainstore-remote-caddy-production-estate": {
+      "key": "current",
+      "label": "Current static-production profile",
+      "description": "The governed target for local FountainStore authoring and semantic admission followed by an immutable remote Caddy release; implementation and migration remain separately proven."
+    },
+    "147-local-route-materialization-estatepublisher-preview": {
+      "key": "current",
+      "label": "Current local-route materialization boundary",
+      "description": "EstatePublisher's existing draft refresh and explicit draft check-in operations govern local route creation and update without adding a REST or CRUD authority."
+    },
+    "148-production-runtime-artifact-only": {
+      "key": "current",
+      "label": "Latest chapter",
+      "description": "The current production runtime artifact-only boundary."
+    },
+    "149-remote-codexkit-governed-midi2-peer-instrument": {
+      "key": "current",
+      "label": "Latest chapter",
+      "description": "The current governed remote CodexKit MIDI2 peer boundary."
+    },
+    "150-one-midi2-instrument-plane-multiple-governed-transports": {
+      "key": "current",
+      "label": "Latest chapter",
+      "description": "The transport-neutral governed MIDI2 instrument plane; RTP remains admitted and Network MIDI 2.0 remains an explicitly unclaimed implementation target."
+    },
+    "151-csound-teatro-speaking-sound-in-space": {
+      "key": "current",
+      "label": "Latest chapter",
+      "description": "The governed Csound Teatro semantic grammar, provider-independent human-request boundary, Scenario admission, engine projection, Ear observation, MIDI2 lifecycle, and Store-evidence contract."
+    },
+    "152-the-host-is-the-instrument": {
+      "key": "current",
+      "label": "Current chapter",
+      "description": "The governed host-as-instrument boundary."
+    },
+    "153-domain-admission-and-edge-binding-are-separate-governed-capabilities": {
+      "key": "current",
+      "label": "Latest chapter",
+      "description": "The governed boundary separating domain admission from DNS, certificate lifecycle, and edge binding."
+    },
+    "154-domain-neutral-local-model-reasoning-testing": {
+      "key": "current",
+      "label": "Latest chapter",
+      "description": "The governed offline test boundary for domain-neutral local-model reasoning over supplied MIDI2 capability contracts."
+    },
+    "155-estatepublisher-rest-projection": {
+      "key": "current",
+      "label": "Current chapter",
+      "description": "The governed boundary joining the Matrix Store state projection to the executable EstatePublisher REST projection."
+    },
+    "156-fcis-156-writer-workflow": {
+      "key": "current",
+      "label": "Current writer-workflow boundary",
+      "description": "The writer-facing rule that intention resolves to admitted native operations while EstatePublisher executes and FountainStore proves the result."
+    },
+    "157-the-writer-owns-the-public-domain": {
+      "key": "current",
+      "label": "Current writer-owned domain identity boundary",
+      "description": "The writer-controlled registered domain is the public identity boundary; Fountain Coach supplies governed machinery without becoming the writer's namespace, tenant identity, or shared issuer."
+    },
+    "158-publishing-is-not-a-distributed-transaction": {
+      "key": "current",
+      "label": "Latest chapter",
+      "description": "Static publication is a scoped immutable release over authenticated SSH/SFTP and Caddy, verified through public HTTPS without unrelated distributed runtime prerequisites."
+    }
+  }
+}

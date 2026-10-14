@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">EstatePublisher is Codex's governed deployment tool</title>
+<desc id="desc">Codex brings a human outcome to EstatePublisher. A joining device supplies facts and declared authorities supply authorization inputs. EstatePublisher is the only execution authority and FountainStore records the typed proof.</desc>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#f4efe5}.kicker{font-size:18px;fill:#d1a85f;font-weight:700;letter-spacing:2px}.small{font-size:17px;fill:#b9b0a3}.card{fill:#28251f;stroke:#4a463f;stroke-width:2}.authority{fill:#493b25;stroke:#d1a85f;stroke-width:3}.store{fill:#24211d;stroke:#c58067;stroke-width:3}.boundary{fill:none;stroke:#70624f;stroke-width:2;stroke-dasharray:8 9}.flow{fill:none;stroke:#c58067;stroke-width:3.5;stroke-linecap:round;stroke-dasharray:11 12;animation:travel 2.7s linear infinite}.arrow{fill:#c58067}.line-label{font-size:16px;fill:#d1a85f;font-weight:700;letter-spacing:1px}@keyframes travel{to{stroke-dashoffset:-46}}@media(prefers-reduced-motion:reduce){.flow{animation:none}}
+</style>
+<rect width="1200" height="630" rx="28" fill="#1d1b18"/>
+<text x="65" y="65" class="kicker">GOVERNANCE 140 · AUTHORITY BOUNDARY</text><text x="65" y="115" font-size="42" font-weight="700">Codex asks. EstatePublisher governs the operation.</text><text x="65" y="153" class="small">Facts and authorization remain separate; execution has one native authority.</text>
+<rect x="52" y="205" width="220" height="120" rx="18" class="card"/><text x="82" y="250" font-size="28" font-weight="700">Human</text><text x="82" y="286" class="small">desired outcome</text><text x="82" y="313" class="small">yes / no approval</text>
+<rect x="315" y="205" width="220" height="120" rx="18" class="card"/><text x="345" y="250" font-size="28" font-weight="700">Codex</text><text x="345" y="286" class="small">grounds intent</text><text x="345" y="313" class="small">selects one command</text>
+<rect x="585" y="185" width="315" height="210" rx="22" class="authority"/><rect x="603" y="205" width="279" height="170" rx="16" class="boundary"/><text x="615" y="245" font-size="29" font-weight="700">EstatePublisher</text><text x="615" y="282" class="small">validate · bind · execute</text><text x="615" y="315" class="small">refuse or return typed proof</text><text x="615" y="350" class="small">single execution authority</text>
+<rect x="52" y="430" width="250" height="105" rx="18" class="card"/><text x="82" y="472" font-size="26" font-weight="700">Joining device</text><text x="82" y="505" class="small">signed facts + capabilities</text>
+<rect x="945" y="205" width="205" height="190" rx="18" class="card"/><text x="975" y="247" font-size="24" font-weight="700">Declared</text><text x="975" y="278" font-size="24" font-weight="700">authorities</text><text x="975" y="320" class="small">enrollment</text><text x="975" y="348" class="small">SecretStore</text><text x="975" y="376" class="small">host adapter</text>
+<rect x="585" y="465" width="315" height="90" rx="18" class="store"/><text x="615" y="505" font-size="27" font-weight="700">FountainStore</text><text x="615" y="535" class="small">typed receipt + read-back</text>
+<path d="M272 265h43M535 265l50 25M302 482.5l283 27.5M900 290l45 10M742.5 395v70" class="flow"/><path d="M303 257l12 8-12 8M576.7 279.1L585 290l-13.7-.1ZM573.6 503L585 510l-12.6 5ZM934.6 291.5L945 300l-13 3.3ZM734.5 453l8 12 8-12" class="arrow"/>
+
+<text x="52" y="595" class="kicker">NO INVENTED COMMAND · NO SELF-APPROVAL · NO PARALLEL DEPLOYER</text>
+</svg>

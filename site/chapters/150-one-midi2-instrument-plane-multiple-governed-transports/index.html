@@ -1,0 +1,590 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>150 — One MIDI2 Instrument Plane, Multiple Governed Transports — Reframe Governance</title>
+  <meta name="description" content="Reframe and CodexKit meet as governed MIDI2 peers: MIDI-CI establishes the relationship, RTP-MIDI2 carries the remote capability plane, and durable evidence establishes completion.">
+  <meta name="fountain:share-feature" content="Governed Animated Share Card">
+  <meta name="fountain:publication-role" content="Rules and authority">
+  <meta name="fountain:publication-state" content="Reviewed local projection">
+  <link rel="canonical" href="https://governance.fountain.coach/chapters/150-one-midi2-instrument-plane-multiple-governed-transports/">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="150 — One MIDI2 Instrument Plane, Multiple Governed Transports">
+  <meta property="og:description" content="Reframe and CodexKit meet as governed MIDI2 peers across MIDI-CI and RTP-MIDI2.">
+  <meta property="og:url" content="https://governance.fountain.coach/chapters/150-one-midi2-instrument-plane-multiple-governed-transports/">
+  <meta property="og:image" content="https://governance.fountain.coach/assets/illustrations/150-one-midi2-instrument-plane-multiple-governed-transports.svg">
+  <meta property="og:image:alt" content="Reframe iPad and remote CodexKit as governed MIDI2 peers">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="150 — One MIDI2 Instrument Plane, Multiple Governed Transports">
+  <meta name="twitter:description" content="Reframe and CodexKit meet as governed MIDI2 peers across MIDI-CI and RTP-MIDI2.">
+  <meta name="twitter:image" content="https://governance.fountain.coach/assets/illustrations/150-one-midi2-instrument-plane-multiple-governed-transports.svg">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"150 — One MIDI2 Instrument Plane, Multiple Governed Transports","url":"https://governance.fountain.coach/chapters/150-one-midi2-instrument-plane-multiple-governed-transports/","publisher":{"@type":"Organization","name":"Fountain Coach","url":"https://fountain.coach/"}}</script>
+  <link rel="stylesheet" href="/assets/governance.css">
+  <link rel="stylesheet" href="/assets/estate-core.css">
+  <script src="/assets/estate-core.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to chapter</a>
+  <header class="topbar" role="banner">
+    <a class="wordmark" href="/" aria-label="Fountain Coach home"><img class="wordmark-logo" src="/assets/fountain-coach-logo-transparent.png" alt="Fountain Coach logo"><span>Fountain Coach <small>Governance · rules and authority</small></span></a>
+    <nav class="estate-nav" aria-label="Fountain Coach publication estate">
+      <a class="estate-icon" data-estate-id="estate" href="https://fountain.coach/" aria-label="Estate"><svg viewBox="0 0 24 24" class="estate-symbol" data-icon-variant="outline-regular-medium" aria-hidden="true"><path d="M4 10.5 12 4l8 6.5v8.5h-5v-5H9v5H4z"/></svg><span>Estate</span></a>
+      <a class="estate-icon" data-estate-id="book" href="https://book.fountain.coach/" aria-label="Book"><svg viewBox="0 0 24 24" class="estate-symbol" data-icon-variant="outline-regular-medium" aria-hidden="true"><path d="M5 4.5h11a3 3 0 0 1 3 3V20H8a3 3 0 0 1-3-3V4.5Zm0 0v12a3 3 0 0 0 3 3"/></svg><span>Book</span></a>
+      <a class="estate-icon" data-estate-id="governance" aria-current="page" href="https://governance.fountain.coach/" aria-label="Governance"><svg viewBox="0 0 24 24" class="estate-symbol" data-icon-variant="outline-regular-medium" aria-hidden="true"><path d="M12 3 4.5 6v5c0 5 3 8 7.5 10 4.5-2 7.5-5 7.5-10V6L12 3Z"/></svg><span>Governance</span></a>
+      <a class="estate-icon" data-estate-id="midi2" href="https://midi2.fountain.coach/" aria-label="MIDI2"><svg viewBox="0 0 24 24" class="estate-symbol" data-icon-variant="outline-regular-medium" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16M7 4v4m5 2v4m5 2v4"/></svg><span>MIDI2</span></a>
+      <a class="estate-icon" data-estate-id="instruments" href="https://instruments.fountain.coach/" aria-label="Instruments"><svg viewBox="0 0 24 24" class="estate-symbol" data-icon-variant="outline-regular-medium" aria-hidden="true"><path d="M8 4v10m0 0a3 3 0 1 0 2 2.8M8 7h8m0 0v8a3 3 0 1 0 2 2.8M16 7V4"/></svg><span>Instruments</span></a>
+      <a class="estate-icon" data-estate-id="status" href="https://status.fountain.coach/" aria-label="Status"><svg viewBox="0 0 24 24" class="estate-symbol" data-icon-variant="outline-regular-medium" aria-hidden="true"><path d="M4 17h3v3H4zM10.5 12h3v8h-3zM17 5h3v15h-3z"/></svg><span>Status</span></a>
+      <a class="estate-icon" data-estate-id="teatro" href="https://teatro.fountain.coach/" aria-label="Teatro"><svg viewBox="0 0 24 24" class="estate-symbol" data-icon-variant="outline-regular-medium" aria-hidden="true"><path d="M4 5h16M6 5v14m12-14v14M4 19h16M8 5c0 4 2 6 4 7 2-1 4-3 4-7"/></svg><span>Teatro</span></a>
+      <a class="estate-icon" data-estate-id="pointer" href="https://benedikt-eickhoff.de/" aria-label="Pointer"><svg viewBox="0 0 24 24" class="estate-symbol" data-icon-variant="outline-regular-medium" aria-hidden="true"><path d="m5 4 14 7-6 2-3 7L5 4Z"/></svg><span>Pointer</span></a><a class="estate-icon" data-estate-id="solstice" href="https://works.benedikt-eickhoff.de/solstice/" aria-label="Solstice — writing source"><svg viewBox="0 0 24 24" class="estate-symbol" data-icon-variant="outline-regular-medium" aria-hidden="true"><path d="M4 12h16M12 4v16M6.5 6.5l11 11m0-11-11 11"/><circle cx="12" cy="12" r="4"/></svg><span>Solstice</span></a>
+      <button type="button" class="estate-icon estate-info" aria-label="Info" title="Info" onclick="document.getElementById('footer').scrollIntoView({behavior:'smooth', block:'start'});"><svg viewBox="0 0 24 24" class="estate-symbol" data-icon-variant="outline-regular-medium" aria-hidden="true"><path d="M12 3.5a8.5 8.5 0 1 0 0 17 8.5 8.5 0 0 0 0-17Zm0 5v.1m0 2.4v5"/></svg><span>Info</span></button>
+    </nav>
+  </header>
+  <div class="site-layout"><nav class="chapter-rail" id="chapter-nav" data-chapter-nav aria-label="Governance chapters"><div class="rail-label">READING INDEX</div><a class="rail-home" href="/">Governance overview</a><a class="chapter-link" href="/chapters/00-abstract/"><span>0</span><span>Abstract</span></a><a class="chapter-link" href="/chapters/01-reading-index/"><span>1</span><span>Reading Index</span></a><a class="chapter-link" href="/chapters/02-development-history/"><span>2</span><span>Development History and Retained Lessons</span></a><a class="chapter-link" href="/chapters/03-current-state-and-problem/"><span>3</span><span>Current State and Refactoring Problem</span></a><a class="chapter-link" href="/chapters/04-target-architecture/"><span>4</span><span>Target Architecture</span></a><a class="chapter-link" href="/chapters/05-grounding-contract/"><span>5</span><span>Extended Grounding Contract</span></a><a class="chapter-link" href="/chapters/06-refactoring-program/"><span>6</span><span>Refactoring Program</span></a><a class="chapter-link" href="/chapters/07-agent-operating-guide/"><span>7</span><span>Operating Guide for `.claude` and `.codex`</span></a><a class="chapter-link" href="/chapters/08-validation-and-acceptance/"><span>8</span><span>Validation and Acceptance</span></a><a class="chapter-link" href="/chapters/09-compatibility-and-future-evolution/"><span>9</span><span>Compatibility and Future Evolution</span></a><a class="chapter-link" href="/chapters/10-copilot-implementation-extension/"><span>10</span><span>Copilot Implementation Extension</span></a><a class="chapter-link" href="/chapters/11-grounding-as-a-given/"><span>11</span><span>Grounding as a Given — the Canonical Manifesto and Conversational Authoring</span></a><a class="chapter-link" href="/chapters/12-animating-truth/"><span>12</span><span>Animating Truth — Foreshadowing and Perceived Performance</span></a><a class="chapter-link" href="/chapters/13-storage-and-performance/"><span>13</span><span>Storage and Performance — What Persists Where, and Why Reads Are Fast</span></a><a class="chapter-link" href="/chapters/14-the-beat-and-its-arrangements/"><span>14</span><span>The Beat and Its Arrangements — One Object, Three Views, One Firing</span></a><a class="chapter-link" href="/chapters/15-the-situated-copilot/"><span>15</span><span>The Situated Copilot — One Copilot, Differently Placed</span></a><a class="chapter-link" href="/chapters/16-the-timeline-is-the-machine-room/"><span>16</span><span>The Timeline Is the Machine Room — What You See Is What You Get</span></a><a class="chapter-link" href="/chapters/17-the-score/"><span>17</span><span>The Score — Reframe's Performance Space, and the One Surface That Folds the Others</span></a><a class="chapter-link" href="/chapters/18-the-stage-presents-the-act/"><span>18</span><span>The Stage Presents the Act — Legibility Over Density</span></a><a class="chapter-link" href="/chapters/19-apple-human-interface-guidelines/"><span>19</span><span>Apple's Human Interface Guidelines — the Baseline We Build On</span></a><a class="chapter-link" href="/chapters/20-on-device-first-and-the-writers-key/"><span>20</span><span>Paid-First Copilot, and the Writer's Key — Quality-First Lane Selection</span></a><a class="chapter-link" href="/chapters/21-training-perspectives/"><span>21</span><span>Training Perspectives — Teaching the On-Device Model the Writer's Work</span></a><a class="chapter-link" href="/chapters/22-no-preferences-only-reasoning/"><span>22</span><span>No Preferences, Only Reasoning</span></a><a class="chapter-link" href="/chapters/23-one-reasoning/"><span>23</span><span>One Reasoning — The Single Front Door of a Turn</span></a><a class="chapter-link" href="/chapters/24-the-reasoning-is-an-uncertainty-map/"><span>24</span><span>The Reasoning Is an Uncertainty Map</span></a><a class="chapter-link" href="/chapters/25-the-copilot-is-the-surface/"><span>25</span><span>The CoPilot Is the Surface</span></a><a class="chapter-link" href="/chapters/26-internals-tune-themselves/"><span>26</span><span>Internals Tune Themselves — the Disposition of the Preferences Panel</span></a><a class="chapter-link" href="/chapters/27-parse-before-you-ask/"><span>27</span><span>Parse Before You Ask</span></a><a class="chapter-link" href="/chapters/28-a-beat-is-the-question-it-raises/"><span>28</span><span>A Beat Is the Question It Raises</span></a><a class="chapter-link" href="/chapters/29-natural-language-measures-storify-interprets/"><span>29</span><span>NaturalLanguage Measures, Storify Interprets</span></a><a class="chapter-link" href="/chapters/30-the-living-gazetteer/"><span>30</span><span>The Living Gazetteer</span></a><a class="chapter-link" href="/chapters/31-compiled-knowledge/"><span>31</span><span>Compiled Knowledge — the Cloud Teaches, the Device Remembers</span></a><a class="chapter-link" href="/chapters/32-referenced-knowledge/"><span>32</span><span>Referenced Knowledge — What the World Knows Outside the Book</span></a><a class="chapter-link" href="/chapters/33-a-want-is-a-gap-in-a-ledger/"><span>33</span><span>A Want Is a Gap in a Ledger</span></a><a class="chapter-link" href="/chapters/34-a-question-that-leaves-the-work/"><span>34</span><span>A Question That Leaves the Work</span></a><a class="chapter-link" href="/chapters/35-deep-search/"><span>35</span><span>Deep Search</span></a><a class="chapter-link" href="/chapters/36-every-gap-keeps-its-address/"><span>36</span><span>Every Gap Keeps Its Address</span></a><a class="chapter-link" href="/chapters/37-copilot-capability-governance/"><span>37</span><span>Copilot Capability Governance — From Transport Contract to Trustworthy Action</span></a><a class="chapter-link" href="/chapters/38-copilot-capability-audit-skill/"><span>38</span><span>Copilot Capability Audit Skill — From Boundary to Empowerment</span></a><a class="chapter-link" href="/chapters/39-a-model-cannot-be-told-what-it-cannot-do/"><span>39</span><span>A Model Cannot Be Told What It Cannot Do</span></a><a class="chapter-link" href="/chapters/40-a-citation-is-a-promise-someone-can-check/"><span>40</span><span>A Citation Is a Promise Someone Can Check</span></a><a class="chapter-link" href="/chapters/41-one-retrieval-two-directions/"><span>41</span><span>One Retrieval, Two Directions</span></a><a class="chapter-link" href="/chapters/42-what-is-already-recorded-is-read/"><span>42</span><span>What Is Already Recorded Is Read, Never Re-Derived</span></a><a class="chapter-link" href="/chapters/43-the-released-surface-is-a-named-build/"><span>43</span><span>The Released Surface Is a Named Build</span></a><a class="chapter-link" href="/chapters/44-publication-and-source-policy/"><span>44</span><span>Public Publication and Private Source Policy</span></a><a class="chapter-link" href="/chapters/45-copilot-reading-surface-and-typography/"><span>45</span><span>Copilot Reading Surface and Typography — Situated, Legible, and Reframe-Native</span></a><a class="chapter-link" href="/chapters/46-dynamic-grounding/"><span>46</span><span>Dynamic Grounding: From Default Reading to Writer-Accepted Lens</span></a><a class="chapter-link" href="/chapters/47-situated-mixed-initiative-interaction/"><span>47</span><span>Situated, Mixed-Initiative Interaction</span></a><a class="chapter-link" href="/chapters/48-a-service-is-a-fact-not-a-symptom/"><span>48</span><span>48. A Service Is a Fact, Not a Symptom</span></a><a class="chapter-link" href="/chapters/49-one-definition-two-projections/"><span>49</span><span>49. One Definition, Two Projections</span></a><a class="chapter-link" href="/chapters/50-text-is-stored-so-it-can-be-pointed-at/"><span>50</span><span>50. Text Is Stored So It Can Be Pointed At</span></a><a class="chapter-link" href="/chapters/51-one-decision-decides-the-lane/"><span>51</span><span>51. One Decision Decides the Lane</span></a><a class="chapter-link" href="/chapters/52-the-pencil-belongs-to-the-writer/"><span>52</span><span>52. The Pencil Belongs to the Writer</span></a><a class="chapter-link" href="/chapters/53-a-selection-snaps-to-meaning/"><span>53</span><span>53. A Selection Snaps to Meaning</span></a><a class="chapter-link" href="/chapters/54-the-writer-does-not-manage-the-projection/"><span>54</span><span>The Writer Does Not Manage the Projection</span></a><a class="chapter-link" href="/chapters/55-one-store-authority-across-repositories/"><span>55</span><span>One Store Authority Across Repositories</span></a><a class="chapter-link" href="/chapters/56-the-book-library-is-a-portable-source-provider/"><span>56</span><span>The Book Library Is Reframe's Sole Reading Provider</span></a><a class="chapter-link" href="/chapters/57-the-writer-enters-by-intention/"><span>57</span><span>The Writer Enters by Intention</span></a><a class="chapter-link" href="/chapters/58-open-turn-mediation-protocol/"><span>58</span><span>Open-Turn Mediation Protocol</span></a><a class="chapter-link" href="/chapters/59-copilot-initiated-library-curation/"><span>59</span><span>The Fountain-Coach Git Library and Reframe Project Flow</span></a><a class="chapter-link" href="/chapters/60-the-fountain-editor-is-the-project-surface/"><span>60</span><span>The Fountain Editor Is the Project Surface</span></a><a class="chapter-link" href="/chapters/61-the-fountain-project-round-trip/"><span>61</span><span>The Fountain Project Round Trip</span></a><a class="chapter-link" href="/chapters/62-reframe-maintenance-control-plane/"><span>62</span><span>Reframe Maintenance Control Plane</span></a><a class="chapter-link" href="/chapters/63-fountain-maintenance-kit/"><span>63</span><span>FountainMaintenanceKit — Portable Swift Maintenance Contract</span></a><a class="chapter-link" href="/chapters/64-fountain-project-kit-durable-draft-custody/"><span>64</span><span>FountainProjectKit — Durable Fountain Project Custody</span></a><a class="chapter-link" href="/chapters/65-the-copilot-as-writing-coach/"><span>65</span><span>The Copilot as Writing Coach</span></a><a class="chapter-link" href="/chapters/66-fountain-image-publication-kit/"><span>66</span><span>FountainImagePublicationKit — Reframe Image Cloud and Publication Boundary</span></a><a class="chapter-link" href="/chapters/67-fountain-composer-kit-remote-attachment-custody/"><span>67</span><span>FountainComposerKit — Remote Attachment Custody and the Composer Boundary</span></a><a class="chapter-link" href="/chapters/68-the-reframe-e2e-scenario-is-the-publication-unit/"><span>68</span><span>The Reframe E2E Scenario Is the Publication Unit</span></a><a class="chapter-link" href="/chapters/69-the-book-of-reframe-is-a-dual-projection/"><span>69</span><span>The Book of Reframe Is a Dual Projection</span></a><a class="chapter-link" href="/chapters/70-external-midi2-control-of-reframe/"><span>70</span><span>External MIDI2 Control of Reframe</span></a><a class="chapter-link" href="/chapters/71-reframe-to-reframe-software-peer-acceptance/"><span>71</span><span>Reframe-to-Reframe Software-Peer Acceptance</span></a><a class="chapter-link" href="/chapters/72-midi2-peer-projections-and-capacity-admission/"><span>72</span><span>MIDI2 Peer Projections and Capacity Admission</span></a><a class="chapter-link" href="/chapters/73-reframe-scenario-development-cycle/"><span>73</span><span>The Reframe Scenario Development Cycle</span></a><a class="chapter-link" href="/chapters/74-private-image-prompt-history/"><span>74</span><span>Private Image Prompt History</span></a><a class="chapter-link" href="/chapters/75-scenario-run-ownership-and-non-interference/"><span>75</span><span>Scenario Run Ownership and Non-Interference</span></a><a class="chapter-link" href="/chapters/76-beat-movement-and-uncertainty-overlay/"><span>76</span><span>Beat Movement and the Uncertainty Overlay</span></a><a class="chapter-link" href="/chapters/77-swift-midi2-scenario-runtime/"><span>77</span><span>The Scenario Runtime Is Swift and MIDI2-Native</span></a><a class="chapter-link" href="/chapters/78-scenario-driven-development-as-org-infrastructure/"><span>78</span><span>Scenario-Driven Development Is Org Infrastructure</span></a><a class="chapter-link" href="/chapters/79-default-semantic-manuscript-projection/"><span>79</span><span>The Default Semantic Manuscript Projection</span></a><a class="chapter-link" href="/chapters/80-independent-governance-publication/"><span>80</span><span>Independent Governance Publication</span></a><a class="chapter-link" href="/chapters/81-universal-midi2-command-plane/"><span>81</span><span>The Universal MIDI2 Command Plane</span></a><a class="chapter-link" href="/chapters/82-remote-midi2-reading-room/"><span>82</span><span>Remote MIDI2 Reading Rooms</span></a><a class="chapter-link" href="/chapters/83-conversational-scenario-authoring/"><span>83</span><span>Conversational Scenario Authoring Is the Development Surface</span></a><a class="chapter-link" href="/chapters/84-governed-reframe-design-mock/"><span>84</span><span>The Reframe Design Mock Is a Governed Projection</span></a><a class="chapter-link" href="/chapters/85-storify-source-auto-reads-a-defined-whole/"><span>85</span><span>Storify Source Auto Reads a Defined Whole</span></a><a class="chapter-link" href="/chapters/86-apple-native-semantic-pipeline-is-one-midi2-graph/"><span>86</span><span>The Apple-Native Semantic Pipeline Is One MIDI2 Graph</span></a><a class="chapter-link" href="/chapters/87-midi2-monitor-is-the-live-event-mirror/"><span>87</span><span>The MIDI2 Monitor Is the Live Event Mirror</span></a><a class="chapter-link" href="/chapters/88-codexkit-is-a-governed-codex-app-server-boundary/"><span>88</span><span>CodexKit Is a Governed Codex App-Server Boundary</span></a><a class="chapter-link" href="/chapters/89-codex-auth-instrument-is-the-copilot-login-surface/"><span>89</span><span>The Codex Auth Instrument Is the Copilot Login Surface</span></a><a class="chapter-link" href="/chapters/90-independent-security-review-is-a-separate-acceptance-boundary/"><span>90</span><span>Independent Security Review Is a Separate Acceptance Boundary</span></a><a class="chapter-link" href="/chapters/91-fcis-kit-instrument-store-is-the-capability-plane/"><span>91</span><span>The FCIS-KIT Instrument Store Is the Capability Plane</span></a><a class="chapter-link" href="/chapters/92-fountain-coach-publication-estate/"><span>92</span><span>Fountain Coach Publication Estate: Semantic Domain and CI Governance</span></a><a class="chapter-link" href="/chapters/93-instrument-creation-is-a-governed-promotion-path/"><span>93</span><span>Instrument Creation Is a Governed Promotion Path</span></a><a class="chapter-link" href="/chapters/94-credentialed-infrastructure-operations-and-provider-adapters/"><span>94</span><span>Credentialed Infrastructure Operations and Provider Adapters</span></a><a class="chapter-link" href="/chapters/95-fountainstore-headless-linux-authority/"><span>95</span><span>FountainStore Is the Headless Linux Persistence Authority</span></a><a class="chapter-link" href="/chapters/96-swiftacmekit-is-a-provider-neutral-certificate-automation-boundary/"><span>96</span><span>Chapter SwiftACMEKit Is a Provider-Neutral Certificate Automation Boundary</span></a><a class="chapter-link" href="/chapters/97-provider-neutral-host-bootstrap-and-enrollment/"><span>97</span><span>Provider-Neutral Host Bootstrap and Enrollment</span></a><a class="chapter-link" href="/chapters/98-apple-native-markdown-presentation-and-transferable-engraving-rules/"><span>98</span><span>Apple-Native Markdown Presentation and Transferable Engraving Rules</span></a><a class="chapter-link" href="/chapters/99-decoupled-manuscript-instruments/"><span>99</span><span>Decoupled Manuscript Instruments — Navigation, Source, and Uncertainty</span></a><a class="chapter-link" href="/chapters/100-semantic-scenographer/"><span>100</span><span>Semantic Scenographer — Think with the Work in Space</span></a><a class="chapter-link" href="/chapters/101-teatro-stage-engine-semantic-scenography/"><span>101</span><span>TeatroStageEngine Is the Stage — Semantic Scenography Extends It</span></a><a class="chapter-link" href="/chapters/102-semantic-inference-execution-session-and-latency-governance/"><span>102</span><span>Semantic Inference Execution, Session, and Latency Governance</span></a><a class="chapter-link" href="/chapters/103-fcis-kit-semantic-factory-and-wired-instrument-event-stream/"><span>103</span><span>FCIS-KIT Semantic Factory and the Wired Instrument Event Stream</span></a><a class="chapter-link" href="/chapters/104-midi2-event-time-jitter-and-asynchronous-completion-governance/"><span>104</span><span>MIDI2 Event Time, Jitter, and Asynchronous Completion Governance</span></a><a class="chapter-link" href="/chapters/105-semantic-scenographer-one-spatial-thought/"><span>105</span><span>Semantic Scenographer — One Spatial Thought in Reading Order</span></a><a class="chapter-link" href="/chapters/106-teatro-midi2-monitor-canonical-runtime-projection/"><span>106</span><span>Teatro MIDI2 Monitor — Canonical Runtime Projection</span></a><a class="chapter-link" href="/chapters/107-creating-the-canonical-teatro-stage-composition-layer/"><span>107</span><span>Creating the Canonical Teatro Stage Composition Layer</span></a><a class="chapter-link" href="/chapters/108-reframe-is-a-swift-native-cross-platform-runtime/"><span>108</span><span>Reframe Is a Swift-Native Cross-Platform Runtime</span></a><a class="chapter-link" href="/chapters/109-natural-language-measurement-is-a-midi2-instrument/"><span>109</span><span>NaturalLanguage Measurement Is a MIDI2 Instrument</span></a><a class="chapter-link" href="/chapters/110-three-run-semantic-drift-calculus/"><span>110</span><span>Three-Run Semantic Drift Is a Governed Measurement Principle</span></a><a class="chapter-link" href="/chapters/111-evidence-cohorts-as-publication-units/"><span>111</span><span>Evidence Cohorts Are the Publication Units of the Fountain Coach Estate</span></a><a class="chapter-link" href="/chapters/112-skill-and-maintenance-capabilities-are-kit-owned/"><span>112</span><span>Skill and Maintenance Capabilities Are Kit-Owned</span></a><a class="chapter-link" href="/chapters/113-governance-becomes-an-executable-scenographic-policy/"><span>113</span><span>Governance Becomes an Executable Scenographic Policy</span></a><a class="chapter-link" href="/chapters/114-server-side-semantic-proposals-mac-and-linux-one-runtime/"><span>114</span><span>Server-Side Semantic Proposals — Mac and Linux as One Reframe Runtime</span></a><a class="chapter-link" href="/chapters/115-semantic-browser-is-a-governed-midi2-and-fountainstore-instrument/"><span>115</span><span>Semantic Browser Is a Governed MIDI2 and FountainStore Instrument</span></a><a class="chapter-link" href="/chapters/116-fountainstore-owned-estate-edge-and-acme-promotion/"><span>116</span><span>FountainStore-Owned Estate Edge and ACME Promotion</span></a><a class="chapter-link" href="/chapters/117-fountainstore-snapshot-export-and-git-recovery-projection/"><span>117</span><span>FountainStore Snapshot Export and Git Recovery Projection</span></a><a class="chapter-link" href="/chapters/118-european-cybersecurity-profile/"><span>118</span><span>European Cybersecurity Profile: Authority, Continuity, and Recoverability</span></a><a class="chapter-link" href="/chapters/119-scenario-pipeline-factory/"><span>119</span><span>The Scenario Pipeline Factory</span></a><a class="chapter-link" href="/chapters/120-internal-triadic-peer-dialogue/"><span>120</span><span>The Internal Triadic Peer Dialogue</span></a><a class="chapter-link" href="/chapters/121-dynamic-midi2-instrument-factory/"><span>121</span><span>The Dynamic MIDI2 Instrument Factory</span></a><a class="chapter-link" href="/chapters/122-governed-semantic-transformation-instrument/"><span>122</span><span>The Governed Semantic Transformation Instrument</span></a><a class="chapter-link" href="/chapters/123-commands-must-be-legible-to-reasoning/"><span>123</span><span>Commands Must Be Legible to Reasoning</span></a><a class="chapter-link" href="/chapters/124-midi2-timed-webkit-transitions/"><span>124</span><span>MIDI2-Timed WebKit Transitions</span></a><a class="chapter-link" href="/chapters/125-store-publication-graph-domain-mapping-and-atomic-route-promotion/"><span>125</span><span>The Store Publication Graph — Domain Mapping and Atomic Route Promotion</span></a><a class="chapter-link" href="/chapters/126-fountain-coach-organization-web-projection/"><span>126</span><span>The Fountain Coach Organization Web Projection</span></a><a class="chapter-link" href="/chapters/127-estate-template-publishing-path/"><span>127</span><span>The Estate Template Is the Publishing Path</span></a><a class="chapter-link" href="/chapters/128-deployed-estate-webkit-mirror-authority/"><span>128</span><span>The Deployed Estate Is a Read-Only WebKit Mirror Authority</span></a><a class="chapter-link" href="/chapters/129-native-animated-svg-governed-publication-projection/"><span>129</span><span>Native Animated SVG Is a Governed Publication Projection</span></a><a class="chapter-link" href="/chapters/130-human-machine-scenario-naming-is-a-governed-identity-boundary/"><span>130</span><span>Human–Machine Scenario Naming Is a Governed Identity Boundary</span></a><a class="chapter-link" href="/chapters/131-remote-secretstore-authorization-and-approval-sessions/"><span>131</span><span>Remote SecretStore Authorization and Approval Sessions</span></a><a class="chapter-link" href="/chapters/132-reframe-audiounit-auv3-platform-and-aum-demo-host/"><span>132</span><span>132 — Reframe AudioUnit as an AUv3 Estate Instrument</span></a><a class="chapter-link" href="/chapters/133-csound-auv3-instrument-boundary/"><span>133</span><span>Csound AUv3 Is a Fountain Instrument Boundary</span></a><a class="chapter-link" href="/chapters/134-estatepublisher-publication-authority/"><span>134</span><span>134 — EstatePublisher Is the Publication Authority</span></a><a class="chapter-link" href="/chapters/135-reframe-ipad-scenario-driven-creative-host/"><span>135</span><span>135 — Reframe iPad as a Scenario-Driven Creative Host</span></a><a class="chapter-link" href="/chapters/136-reframe-web-native-headless-audio-runtime/"><span>136</span><span>Reframe Web, Native, Headless, and Audio Runtime Boundary</span></a><a class="chapter-link" href="/chapters/137-teatro-web-reframe-materialization/"><span>137</span><span>Teatro Web Is Reframe's Governed Materialization Surface</span></a><a class="chapter-link" href="/chapters/138-ear-is-the-web-audio-graphs-midi2-listening-boundary/"><span>138</span><span>Ear Is the Web Audio Graph's MIDI2 Listening Boundary</span></a><a class="chapter-link" href="/chapters/139-owner-trust-root-secretstore-custody-and-recovery/"><span>139</span><span>Owner Trust Root, SecretStore Custody, and Recovery</span></a><a class="chapter-link" href="/chapters/140-local-developer-cloud-joining-machine-and-estatepublisher/"><span>140</span><span>EstatePublisher Is Codex's Governed IP-Network Topology Mutator</span></a><a class="chapter-link" href="/chapters/141-each-joining-machine-is-a-governed-midi2-instrument/"><span>141</span><span>Each Joining Machine Is a Governed MIDI2 Instrument</span></a><a class="chapter-link" href="/chapters/142-fountainauthkit-governed-authorization-authority/"><span>142</span><span>FountainAuthKit: Fountain Coach Is Its Own Governed OAuth/OIDC Authority</span></a><a class="chapter-link" href="/chapters/143-simplicity-is-key-one-bootstrap-one-trusted-session/"><span>143</span><span>Simplicity Is Key: One Bootstrap, One Trusted Session</span></a><a class="chapter-link" href="/chapters/144-fountain-media-service-governed-media-plane/"><span>144</span><span>Fountain Media Service Is the Governed Media Plane</span></a><a class="chapter-link" href="/chapters/145-one-estate-one-publication-state-estatepublisher-and-reframe-semantic-browser/"><span>145</span><span>One Estate, One Publication State: EstatePublisher and Reframe as a Governed Semantic Browser</span></a><a class="chapter-link" href="/chapters/146-local-fountainstore-remote-caddy-production-estate/"><span>146</span><span>Local FountainStore, Remote Caddy: The Production Static Estate</span></a><a class="chapter-link" href="/chapters/147-local-route-materialization-estatepublisher-preview/"><span>147</span><span>Local Route Materialization: EstatePublisher Preview Before Check-In</span></a><a class="chapter-link" href="/chapters/148-production-runtime-artifact-only/"><span>148</span><span>Production Runtime Nodes Are Artifact-Only</span></a><a class="chapter-link" href="/chapters/149-remote-codexkit-governed-midi2-peer-instrument/"><span>149</span><span>Remote CodexKit — Reframe and Codex Meet as Governed MIDI2 Peer Instruments</span></a><a class="chapter-link active" href="/chapters/150-one-midi2-instrument-plane-multiple-governed-transports/" aria-current="page"><span>150</span><span>One MIDI2 Instrument Plane, Multiple Governed Transports</span></a><a class="chapter-link" href="/chapters/151-csound-teatro-speaking-sound-in-space/"><span>151</span><span>Csound Teatro: Speaking Sound in Space</span></a><a class="chapter-link" href="/chapters/152-the-host-is-the-instrument/"><span>152</span><span>The Host Is the Instrument</span></a><a class="chapter-link" href="/chapters/153-domain-admission-and-edge-binding-are-separate-governed-capabilities/"><span>153</span><span>Domain Admission and Edge Binding Are Separate Governed Capabilities</span></a><a class="chapter-link" href="/chapters/154-domain-neutral-local-model-reasoning-testing/"><span>154</span><span>Domain-Neutral Local-Model Reasoning Testing</span></a><a class="chapter-link" href="/chapters/155-estatepublisher-rest-projection/"><span>155</span><span>The Matrix and EstatePublisher Are One Governed REST Projection</span></a><a class="chapter-link" href="/chapters/156-fcis-156-writer-workflow/"><span>156</span><span>FCIS 156 — The Writer Never Operates EstatePublisher</span></a><a class="chapter-link" href="/chapters/157-the-writer-owns-the-public-domain/"><span>157</span><span>The Writer Owns the Public Domain</span></a><a class="chapter-link latest-chapter-link" data-latest-chapter-slot href="/chapters/158-publishing-is-not-a-distributed-transaction/"><span>158</span><span>Publishing Is Not a Distributed Transaction</span></a></nav>
+    <main id="main" class="chapter-canvas">
+      <nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="https://fountain.coach/">Fountain Coach</a></li><li><a href="https://governance.fountain.coach/">Governance</a></li><li aria-current="page">149 — Remote CodexKit Peer Instrument</li></ol></nav>
+      <nav class="chapter-pager" data-chapter-pager aria-label="Chapter navigation"><a class="chapter-pager-link chapter-pager-prev" data-chapter-prev rel="prev" href="/chapters/149-remote-codexkit-governed-midi2-peer-instrument/" aria-label="Previous chapter: 149 — Remote CodexKit — Reframe and Codex Meet as Governed MIDI2 Peer Instruments"><span aria-hidden="true">←</span><span><small>PREVIOUS CHAPTER</small>149 — Remote CodexKit — Reframe and Codex Meet as Governed MIDI2 Peer Instruments</span></a><span class="chapter-pager-position">CHAPTER 151 OF 159</span><a class="chapter-pager-link chapter-pager-next" data-chapter-next rel="next" href="/chapters/151-csound-teatro-speaking-sound-in-space/" aria-label="Next chapter: 151 — Csound Teatro: Speaking Sound in Space"><span><small>NEXT CHAPTER</small>151 — Csound Teatro: Speaking Sound in Space</span><span aria-hidden="true">→</span></a></nav>
+      <article class="governance-chapter"><h1>150 — One MIDI2 Instrument Plane, Multiple Governed Transports</h1>
+        <p><img src="/assets/illustrations/150-one-midi2-instrument-plane-multiple-governed-transports.svg" alt="Principal illustration: one governed MIDI2 instrument plane carries the same operation through RTP-MIDI2, Network MIDI 2.0, or a future admitted transport"></p>
+        <h3>Status</h3>
+        <p>Governance proposal.</p>
+        <p>This chapter extends Chapters 81, 88, 108, 141, and 149.</p>
+        <p>It does not replace the universal MIDI2 command plane, the CodexKit boundary, joining-machine admission, or the remote Reframe–CodexKit peer relationship.</p>
+        <p>It clarifies the layer beneath them:</p>
+        <p><strong>the governed MIDI2 instrument plane is transport-neutral.</strong></p>
+        <p>RTP-MIDI2 is the currently implemented and proven Fountain Coach remote transport.</p>
+        <p>It is not the identity of the MIDI2 instrument plane itself.</p>
+        <hr>
+        <h2>Chapter Summary</h2>
+        <p>A Fountain Coach participant is a governed MIDI2 instrument independently of the network transport used to reach it.</p>
+        <p>Identity, MIDI-CI capability negotiation, UMP semantics, operation identity, authorization, lifecycle, durable evidence, and instrument admission belong to the MIDI2 instrument plane.</p>
+        <p>Network transport belongs beneath that plane.</p>
+        <p>The authoritative <code>midi2</code> implementation already exposes this separation through its common <code>MIDITransport</code> boundary.</p>
+        <p>The currently implemented remote network transport is <code>RTPMidiSession</code>, which carries Universal MIDI Packets between explicitly selected software peers over UDP using the Fountain Coach RTP-MIDI2 framing.</p>
+        <p>The estate SHALL preserve that implementation.</p>
+        <p>The estate SHALL NOT treat RTP-MIDI2 as the only admissible transport for MIDI2 instruments.</p>
+        <p>The next standards-facing transport target SHALL be an implementation of <strong>Network MIDI 2.0 over UDP, M2-124-UM</strong>, alongside rather than instead of <code>RTPMidiSession</code>.</p>
+        <p>Future transports MAY be admitted when their semantics, authority boundary, evidence model, and acceptance tests satisfy this chapter.</p>
+        <p>The resulting architecture is:</p>
+        <pre class="text"><code>                 governed MIDI2 instrument
+                           │
+                        MIDI-CI
+                           │
+                  typed UMP operations
+                           │
+                     MIDITransport
+                           │
+          ┌────────────────┼────────────────┐
+          │                │                │
+    RTPMidiSession   NetworkMidi2Session   future
+          │                │             transport
+      RTP / UDP        M2-124-UM            │
+          │                │                │
+          └────────────────┴────────────────┘
+                           │
+                      IP network</code></pre>
+        <p>The instrument remains the same instrument when the transport changes.</p>
+        <hr>
+        <h2>1. The Decision</h2>
+        <p>Fountain Coach SHALL govern distributed participation at the <strong>instrument layer</strong>, not at the transport layer.</p>
+        <p>A participant does not become a different capability merely because it is reached through RTP, Network MIDI 2.0 UDP, an in-process transport, or a future admitted transport.</p>
+        <p>The stable contract is:</p>
+        <pre class="text"><code>identity
+    ↓
+MIDI-CI relationship
+    ↓
+registered MIDI2 capability
+    ↓
+typed UMP operation
+    ↓
+authorization and admission
+    ↓
+execution lifecycle
+    ↓
+durable evidence</code></pre>
+        <p>Transport answers a narrower question:</p>
+        <blockquote>How are the MIDI2 messages moved between these two admitted endpoints?</blockquote>
+        <p>Transport SHALL NOT answer:</p>
+        <blockquote>Who is this participant?</blockquote>
+        <p>Transport SHALL NOT answer:</p>
+        <blockquote>What may this participant do?</blockquote>
+        <p>Transport SHALL NOT grant authority.</p>
+        <p>Transport SHALL NOT redefine the operation vocabulary.</p>
+        <p>Transport SHALL NOT create a parallel lifecycle.</p>
+        <hr>
+        <h2>2. The Instrument Plane Is the Stable Architecture</h2>
+        <p>The estate's architectural object is the <strong>MIDI2 instrument</strong>.</p>
+        <p>A governed MIDI2 instrument has, as applicable:</p>
+        <ul>
+        <li>a stable instrument identity;</li>
+        <li>implementation and source provenance;</li>
+        <li>MIDI-CI discovery and capability facts;</li>
+        <li>registered operation identities;</li>
+        <li>typed request, lifecycle, and result envelopes;</li>
+        <li>authorization and role requirements;</li>
+        <li>Store and evidence obligations;</li>
+        <li>transport capabilities;</li>
+        <li>lifecycle and revocation state.</li>
+        </ul>
+        <p>Its transport capability is one property of the instrument, not its identity.</p>
+        <p>Conceptually:</p>
+        <pre class="text"><code>Instrument
+├── identity
+├── implementation revision
+├── MIDI-CI capabilities
+├── Profiles
+├── Properties
+├── operations
+├── authority requirements
+├── evidence requirements
+└── transports
+    ├── local
+    ├── rtp-ump
+    ├── network-midi2-udp
+    └── future admitted transport</code></pre>
+        <p>An instrument MAY expose more than one transport.</p>
+        <p>No transport acquires authority merely by being advertised.</p>
+        <hr>
+        <h2>3. <code>MIDITransport</code> Is the Implementation Boundary</h2>
+        <p>The authoritative <code>Fountain-Coach/midi2</code> package already contains the correct architectural seam.</p>
+        <p>A transport implementation conforms to the common MIDI transport contract and delivers UMP between peers.</p>
+        <p>The existing implementation is conceptually:</p>
+        <pre class="text"><code>RTPMidiSession : MIDITransport</code></pre>
+        <p>The standards-facing addition SHALL follow the same boundary:</p>
+        <pre class="text"><code>NetworkMidi2Session : MIDITransport</code></pre>
+        <p>A consumer SHALL depend upon the transport contract where transport independence is required.</p>
+        <p>It SHALL NOT encode application semantics directly into a particular UDP or RTP implementation.</p>
+        <p>The intended topology is:</p>
+        <pre class="text"><code>                 MIDI2 / MIDI-CI runtime
+                         │
+                    MIDITransport
+                    ╱          ╲
+                   ╱            ╲
+        RTPMidiSession      NetworkMidi2Session
+               │                  │
+        Fountain RTP/UMP      M2-124-UM
+               │                  │
+              UDP                UDP</code></pre>
+        <p>Estate-specific policy remains above this boundary.</p>
+        <hr>
+        <h2>4. RTP-MIDI2 Remains an Admitted Fountain Transport</h2>
+        <p>This chapter does not deprecate RTP-MIDI2.</p>
+        <p>The estate has an implemented cross-platform <code>RTPMidiSession</code> supporting governed software-peer communication, UMP delivery, explicit peer connection, UDP operation, and peer discovery.</p>
+        <p>That implementation remains a valid transport.</p>
+        <p>Its role is now stated precisely:</p>
+        <blockquote>RTP-MIDI2 is an implemented Fountain Coach transport profile for carrying the governed MIDI2 instrument plane between software peers.</blockquote>
+        <p>It is not declared to be the universal definition of MIDI2 networking.</p>
+        <p>It is not required to masquerade as another transport standard.</p>
+        <p>It is not required to disappear when another transport becomes available.</p>
+        <p>The estate MAY continue to use RTP-MIDI2 where its semantics and deployment characteristics are appropriate.</p>
+        <hr>
+        <h2>5. Network MIDI 2.0 UDP Becomes the Standards-Facing Transport Target</h2>
+        <p>The official MIDI Network transport, <strong>M2-124-UM Network MIDI 2.0 over UDP</strong>, SHALL be implemented as a separate transport adapter.</p>
+        <p>This transport SHALL NOT be introduced by modifying <code>RTPMidiSession</code> until it ceases to be recognizably the existing transport.</p>
+        <p>The implementations SHALL remain distinguishable:</p>
+        <pre class="text"><code>RTPMidiSession
+    Fountain RTP/UMP transport
+
+NetworkMidi2Session
+    M2-124-UM Network MIDI 2.0 transport</code></pre>
+        <p><code>NetworkMidi2Session</code> SHALL implement the normative M2-124-UM wire contract required for its declared conformance, including the applicable:</p>
+        <ul>
+        <li>Network MIDI 2.0 discovery;</li>
+        <li>session establishment;</li>
+        <li>session termination;</li>
+        <li>Network MIDI 2.0 command framing;</li>
+        <li>UMP data transport;</li>
+        <li>packet sequencing;</li>
+        <li>loss detection;</li>
+        <li>retransmission behavior where implemented by the standard profile;</li>
+        <li>error handling;</li>
+        <li>interoperability behavior; and</li>
+        <li>conformance evidence.</li>
+        </ul>
+        <p>The implementation SHALL make no M2-124-UM conformance claim until independent tests demonstrate the required behavior.</p>
+        <p>Existing UMP and MIDI-CI correctness SHALL be reused rather than reimplemented inside the transport.</p>
+        <hr>
+        <h2>6. Transport Discovery Is Not Instrument Admission</h2>
+        <p>Network discovery and MIDI-CI discovery have distinct meanings.</p>
+        <p>Bonjour, DNS-SD, a host address, a UDP listener, an RTP peer, or a Network MIDI 2.0 session MAY make a transport endpoint visible.</p>
+        <p>That visibility SHALL NOT constitute estate admission.</p>
+        <p>Chapter 141 remains authoritative.</p>
+        <p>The sequence is:</p>
+        <pre class="text"><code>transport endpoint visible
+          │
+          ▼
+candidate peer reachable
+          │
+          ▼
+instrument identity established
+          │
+          ▼
+MIDI-CI capability relationship
+          │
+          ▼
+Fountain admission / authorization
+          │
+          ▼
+registered operation available</code></pre>
+        <p>A network session being open is transport evidence.</p>
+        <p>It is not authority evidence.</p>
+        <hr>
+        <h2>7. MIDI-CI Remains Above Transport Selection</h2>
+        <p>MIDI-CI describes the participant and its MIDI capability relationship.</p>
+        <p>The transport delivers the messages.</p>
+        <p>The two SHALL NOT be conflated.</p>
+        <p>For a remote peer:</p>
+        <pre class="text"><code>transport connectivity
+        ↓
+instrument discovery
+        ↓
+MIDI-CI identity / capability exchange
+        ↓
+operation discovery
+        ↓
+authorization
+        ↓
+typed MIDI2 operation</code></pre>
+        <p>Transport negotiation or selection MAY occur before or during this relationship where required by the relevant transport.</p>
+        <p>It SHALL NOT produce additional application authority.</p>
+        <hr>
+        <h2>8. Transport Capabilities Become Instrument Facts</h2>
+        <p>A joining instrument MAY advertise or expose its supported transport capabilities through the appropriate governed discovery or Property Exchange surface.</p>
+        <p>Conceptually:</p>
+        <pre class="text"><code>instrument:
+  id: fountain.host.ubuntu
+  capabilities:
+    midi2: true
+    midi-ci: true
+
+  transports:
+    rtp-ump:
+      supported: true
+
+    network-midi2-udp:
+      supported: true
+
+    quic:
+      supported: false</code></pre>
+        <p>These declarations are capability facts.</p>
+        <p>They do not determine the selected transport by themselves.</p>
+        <p>Selection SHALL consider:</p>
+        <ul>
+        <li>mutual support;</li>
+        <li>current network scope;</li>
+        <li>security requirements;</li>
+        <li>latency requirements;</li>
+        <li>reliability semantics;</li>
+        <li>interoperability requirements;</li>
+        <li>policy;</li>
+        <li>deployment context; and</li>
+        <li>acceptance status.</li>
+        </ul>
+        <p>A transport that is implemented but not accepted for a particular environment SHALL NOT be selected merely because both endpoints support it.</p>
+        <hr>
+        <h2>9. Transport Selection Must Not Change Operation Semantics</h2>
+        <p>For a given governed operation, transport selection SHALL NOT alter:</p>
+        <ul>
+        <li>the operation identity;</li>
+        <li>request meaning;</li>
+        <li>authorization requirements;</li>
+        <li>correlation identity;</li>
+        <li>idempotency rules;</li>
+        <li>lifecycle vocabulary;</li>
+        <li>completion semantics;</li>
+        <li>cancellation semantics;</li>
+        <li>Store receipt requirements; or</li>
+        <li>terminal evidence.</li>
+        </ul>
+        <p>The desired invariant is:</p>
+        <pre class="text"><code>same instrument
++
+same operation
++
+same authority
++
+different admitted transport
+=
+same governed behavior</code></pre>
+        <p>Transport-specific metrics MAY differ.</p>
+        <p>Transport-specific connection state MAY differ.</p>
+        <p>Application semantics SHALL NOT.</p>
+        <hr>
+        <h2>10. Reliability Is an Operation Requirement, Not a Global Transport Myth</h2>
+        <p>Not every MIDI2 message has the same delivery requirement.</p>
+        <p>The estate SHALL distinguish ephemeral realtime communication from durable state-changing operations.</p>
+        <p>Examples include:</p>
+        <pre class="text"><code>ephemeral
+    controller movement
+    monitoring telemetry
+    transient timing/event traffic
+
+correlated
+    request / response
+    operation lifecycle
+    progress
+
+durable
+    authorization-changing operations
+    Property Exchange state changes
+    deployment mutation
+    terminal receipts</code></pre>
+        <p>A transport MAY provide reliability directly.</p>
+        <p>A higher layer MAY provide correlation, retry, idempotency, or durable settlement.</p>
+        <p>The estate SHALL NOT pretend that every message requires reliable ordered delivery.</p>
+        <p>It SHALL also not pretend that packet delivery alone proves completion of a durable operation.</p>
+        <p>The terminal Store/evidence contract remains authoritative.</p>
+        <hr>
+        <h2>11. CodexKit Demonstrates Why This Separation Matters</h2>
+        <p>Chapter 88 establishes CodexKit as the governed boundary around the Codex app-server.</p>
+        <p>The app-server uses its native protocol behind CodexKit.</p>
+        <p>The governed estate-facing boundary is MIDI2.</p>
+        <p>The relationship remains:</p>
+        <pre class="text"><code>Reframe / MIDI2 peer
+          │
+          ▼
+     CodexKit instrument
+          │
+          ▼
+ JSON-RPC adapter / façade
+          │
+          ▼
+   Codex app-server</code></pre>
+        <p>JSON-RPC is therefore not a competing estate transport architecture.</p>
+        <p>It is the backend protocol spoken by CodexKit to the runtime it governs.</p>
+        <p>CodexKit translates between that runtime protocol and the estate's registered MIDI2 operation plane.</p>
+        <p>The remote path becomes:</p>
+        <pre class="text"><code>Reframe instrument
+       │
+       │ admitted MIDITransport
+       ▼
+CodexKit instrument
+       │
+       │ typed MIDI2 operation
+       ▼
+CodexKit adapter
+       │
+       │ JSON-RPC
+       ▼
+Codex app-server</code></pre>
+        <p>Changing the network transport between Reframe and CodexKit SHALL NOT require changing Codex's JSON-RPC protocol.</p>
+        <p>Changing the Codex app-server protocol SHALL NOT require redefining the network transport.</p>
+        <p>This separation is intentional.</p>
+        <hr>
+        <h2>12. Amendment to Chapter 149</h2>
+        <p>Chapter 149 establishes Reframe and a remote CodexKit execution environment as governed MIDI2 peer instruments.</p>
+        <p>That decision remains in force.</p>
+        <p>Its transport statement is refined by this chapter.</p>
+        <p>Where Chapter 149 describes RTP-MIDI2 as the normal remote transport, the normative interpretation after this chapter SHALL be:</p>
+        <blockquote>RTP-MIDI2 is the current implemented and accepted remote transport for that relationship. The peer relationship itself is defined at the governed MIDI2 instrument plane and MAY operate over another transport admitted under Chapter 150.</blockquote>
+        <p>Thus:</p>
+        <pre class="text"><code>Chapter 149 implementation profile
+
+Reframe
+   │
+   │ RTPMidiSession
+   ▼
+CodexKit</code></pre>
+        <p>becomes a concrete instance of the more general governed relationship:</p>
+        <pre class="text"><code>Chapter 150 architecture
+
+Reframe
+   │
+   │ admitted MIDITransport
+   ▼
+CodexKit</code></pre>
+        <p>No Chapter 149 authority is lost.</p>
+        <p>Transport becomes explicitly replaceable.</p>
+        <hr>
+        <h2>13. Local Transport Remains a Valid Optimization</h2>
+        <p>Transport neutrality applies locally as well as remotely.</p>
+        <p>A process-local or same-host adapter MAY avoid network serialization where useful.</p>
+        <p>It SHALL still converge on the same registered operation executor and lifecycle.</p>
+        <p>A local optimization SHALL NOT establish a privileged hidden command plane.</p>
+        <p>Conceptually:</p>
+        <pre class="text"><code>                MIDITransport
+            ╱        │        ╲
+           ╱         │         ╲
+       local      RTP/UMP    M2-124</code></pre>
+        <p>The observable governed operation remains equivalent.</p>
+        <hr>
+        <h2>14. Future Transports</h2>
+        <p>Future transport adapters MAY include technologies such as QUIC or WebTransport if a governed requirement justifies them.</p>
+        <p>No speculative transport SHALL become architectural authority merely because it is technically attractive.</p>
+        <p>A new transport requires:</p>
+        <p>1. a named transport contract;</p>
+        <p>2. a threat and authority analysis;</p>
+        <p>3. explicit delivery semantics;</p>
+        <p>4. implementation beneath <code>MIDITransport</code>;</p>
+        <p>5. cross-peer tests;</p>
+        <p>6. failure and cancellation tests;</p>
+        <p>7. evidence that operation semantics remain unchanged;</p>
+        <p>8. declared scope;</p>
+        <p>9. acceptance scenarios; and</p>
+        <p>10. governance admission.</p>
+        <p>The transport SHALL solve a demonstrated transport problem.</p>
+        <p>It SHALL NOT create another command vocabulary.</p>
+        <hr>
+        <h2>15. Security Boundary</h2>
+        <p>Transport security and instrument authority are separate but composable concerns.</p>
+        <p>Where a transport provides encryption, authentication, integrity, or peer identity, those properties SHALL be consumed as transport evidence.</p>
+        <p>They SHALL NOT silently replace:</p>
+        <ul>
+        <li>FountainAuthKit;</li>
+        <li>machine admission;</li>
+        <li>instrument admission;</li>
+        <li>MIDI-CI identity;</li>
+        <li>operation authorization;</li>
+        <li>Store receipts; or</li>
+        <li>deployment authority.</li>
+        </ul>
+        <p>Likewise, an authorized instrument SHALL NOT cause an insecure transport to be considered secure.</p>
+        <p>Security claims SHALL name the layer they apply to.</p>
+        <hr>
+        <h2>16. Acceptance Matrix</h2>
+        <p>Transport acceptance SHALL be explicit.</p>
+        <p>At minimum, governance SHALL be able to distinguish:</p>
+        <p>| State | Meaning |</p>
+        <p>|---|---|</p>
+        <p>| declared | transport contract exists |</p>
+        <p>| implemented | code exists |</p>
+        <p>| unit-tested | encoder/decoder and local behavior tested |</p>
+        <p>| peer-tested | two independent endpoints communicate |</p>
+        <p>| cross-platform-tested | required platforms interoperate |</p>
+        <p>| standards-tested | normative standard behavior demonstrated |</p>
+        <p>| instrument-integrated | MIDI-CI and operations cross the transport |</p>
+        <p>| live-accepted | a governed scenario proves terminal behavior |</p>
+        <p>A transport SHALL NOT be described as standards-conformant merely because UMP packets cross UDP.</p>
+        <p>A transport SHALL NOT be described as live-accepted because a socket opened.</p>
+        <hr>
+        <h2>17. Immediate Implementation Work Item</h2>
+        <p>The next implementation work item is:</p>
+        <pre class="text"><code>NetworkMidi2Session : MIDITransport</code></pre>
+        <p>within the authoritative Fountain Coach MIDI2 package.</p>
+        <p>Its first scope SHALL be intentionally narrow:</p>
+        <p>1. represent M2-124-UM session state;</p>
+        <p>2. implement Network MIDI 2.0 discovery;</p>
+        <p>3. establish two software-peer sessions;</p>
+        <p>4. encode and decode the required Network MIDI 2.0 commands;</p>
+        <p>5. transport existing UMP values without changing the MIDI2 core;</p>
+        <p>6. implement the required sequencing and recovery behavior;</p>
+        <p>7. expose received UMP through the existing transport callback boundary;</p>
+        <p>8. add deterministic loopback and two-peer tests;</p>
+        <p>9. add cross-platform tests where supported;</p>
+        <p>10. add M2-124-UM to the conformance ledger without claiming completion prematurely.</p>
+        <p>The existing <code>RTPMidiSession</code> SHALL remain operational throughout this work.</p>
+        <p>The implementation SHALL demonstrate coexistence rather than migration-by-destruction.</p>
+        <hr>
+        <h2>18. Required First Acceptance Scenario</h2>
+        <p>The first governed acceptance scenario SHALL prove that the same MIDI2 operation can cross two different transports without semantic divergence.</p>
+        <p>Conceptually:</p>
+        <pre class="text"><code>Run A
+Reframe peer
+   ↓ RTPMidiSession
+Instrument
+   ↓
+typed terminal result
+
+Run B
+Reframe peer
+   ↓ NetworkMidi2Session
+same Instrument
+   ↓
+same typed terminal result</code></pre>
+        <p>The evidence SHALL compare:</p>
+        <ul>
+        <li>instrument identity;</li>
+        <li>MIDI-CI capability result;</li>
+        <li>operation identity;</li>
+        <li>request payload;</li>
+        <li>correlation identity class;</li>
+        <li>lifecycle sequence;</li>
+        <li>terminal semantic result;</li>
+        <li>Store receipt shape; and</li>
+        <li>transport-specific diagnostics.</li>
+        </ul>
+        <p>The acceptance question is not:</p>
+        <blockquote>Did both transports move bytes?</blockquote>
+        <p>It is:</p>
+        <blockquote>Did the same governed instrument operation remain the same operation across both admitted transports?</blockquote>
+        <hr>
+        <h2>19. What This Chapter Does Not Claim</h2>
+        <p>This chapter does not claim that:</p>
+        <ul>
+        <li>the current <code>midi2</code> repository already implements M2-124-UM;</li>
+        <li>RTP-MIDI2 conforms to M2-124-UM;</li>
+        <li>Network MIDI 2.0 replaces RTP-MIDI2;</li>
+        <li>every MIDI2 transport is equally suitable for every network;</li>
+        <li>MIDI-CI itself selects the correct transport automatically;</li>
+        <li>transport encryption replaces Fountain authorization;</li>
+        <li>UDP delivery proves application completion;</li>
+        <li>QUIC or WebTransport is currently required;</li>
+        <li>physical MIDI2 hardware interoperability follows from software-peer transport tests; or</li>
+        <li>a future transport may bypass the universal MIDI2 command plane.</li>
+        </ul>
+        <hr>
+        <h2>20. Relationship to Existing Governance</h2>
+        <h3>Chapter 81 — The Universal MIDI2 Command Plane</h3>
+        <p>Chapter 81 remains authoritative for operation semantics.</p>
+        <p>This chapter places multiple transports beneath that single plane.</p>
+        <h3>Chapter 88 — CodexKit Is a Governed Codex App-Server Boundary</h3>
+        <p>Chapter 88 remains authoritative for the JSON-RPC boundary.</p>
+        <p>This chapter makes explicit that JSON-RPC translation and network transport selection are independent concerns.</p>
+        <h3>Chapter 91 — The FCIS-KIT Instrument Store Is the Capability Plane</h3>
+        <p>Transport support becomes part of the capability facts exposed by an admitted instrument.</p>
+        <p>It does not become a second capability store.</p>
+        <h3>Chapter 93 — Instrument Creation Is a Governed Promotion Path</h3>
+        <p>A transport implementation requires the same promotion discipline as other reusable infrastructure.</p>
+        <h3>Chapter 104 — MIDI2 Event Time, Jitter, and Asynchronous Completion Governance</h3>
+        <p>Timing, completion, cancellation, and asynchronous lifecycle truth remain operation-level governance and SHALL survive transport substitution.</p>
+        <h3>Chapter 108 — Reframe Is a Swift-Native Cross-Platform Runtime</h3>
+        <p>Transport neutrality makes the cross-host MIDI2 boundary explicit and allows platform-specific transport adapters beneath one portable instrument model.</p>
+        <h3>Chapter 140 — EstatePublisher Is Codex's Governed IP-Network Topology Mutator</h3>
+        <p>EstatePublisher may configure or expose transport topology.</p>
+        <p>It does not define instrument semantics or manufacture authority from reachability.</p>
+        <h3>Chapter 141 — Each Joining Machine Is a Governed MIDI2 Instrument</h3>
+        <p>Machine admission remains the precondition.</p>
+        <p>A reachable transport endpoint is still not an admitted machine.</p>
+        <h3>Chapter 142 — FountainAuthKit</h3>
+        <p>Identity and authorization remain independent of transport.</p>
+        <p>Transport evidence may strengthen authentication but may not replace FountainAuthKit policy.</p>
+        <h3>Chapter 149 — Remote CodexKit: Reframe and Codex Meet as Governed MIDI2 Peer Instruments</h3>
+        <p>The peer relationship remains.</p>
+        <p>RTP-MIDI2 becomes its current transport profile rather than its permanent architectural identity.</p>
+        <hr>
+        <h2>21. Architectural Consequence</h2>
+        <p>The estate no longer needs to decide whether RTP, Network MIDI 2.0 UDP, QUIC, or another technology is <strong>the</strong> network.</p>
+        <p>That is the wrong architectural question.</p>
+        <p>The governed questions are:</p>
+        <pre class="text"><code>Who is the participant?
+    → MIDI2 instrument identity
+
+What can it do?
+    → MIDI-CI + registered capability plane
+
+May it do it?
+    → admission + authorization
+
+What operation is occurring?
+    → typed MIDI2 operation
+
+What became true?
+    → lifecycle + FountainStore evidence
+
+How are the packets moving right now?
+    → selected MIDITransport</code></pre>
+        <p>This ordering SHALL remain stable.</p>
+        <hr>
+        <h2>Governing Sentence</h2>
+        <p><strong>Fountain Coach governs the instrument, not the wire: MIDI2 identity, MIDI-CI capability, typed operations, authority, lifecycle, and evidence form one stable instrument plane, while RTP-MIDI2, Network MIDI 2.0 UDP, local transport, and future admitted transports remain replaceable carriers beneath the common <code>MIDITransport</code> boundary.</strong></p></article>
+      <footer id="footer" role="contentinfo" class="footer"><div class="footer-footnotes"><p class="footer-footnote"><span class="footer-footnote-number">01</span><span><strong>Fountain Coach</strong> · local preview projection · public publication remains separate.</span></p><p class="footer-footnote"><span class="footer-footnote-number">02</span><span><a href="https://fountain.coach/">Estate</a> · <a href="https://book.fountain.coach/">Book</a> · <a href="https://governance.fountain.coach/">Governance</a> · <a href="https://midi2.fountain.coach/">MIDI2</a></span></p><p class="footer-footnote"><span class="footer-footnote-number">03</span><span>Runtime, Store, security, release, and remote publication claims require their own evidence.</span></p></div><a class="footer-mark" href="/" aria-label="Fountain Coach home"><img src="/assets/fountain-coach-logo-transparent.png" alt="Fountain Coach logo"></a></footer>
+    </main>
+  </div>
+</body>
+</html>
+
+
+

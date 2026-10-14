@@ -1,0 +1,17 @@
+{
+  "schema": "fountain.governance.publication-audit.v1",
+  "host": "governance.fountain.coach",
+  "capturedDate": "2026-10-14",
+  "fileCount": 292,
+  "verbatimLiveFiles": 292,
+  "localPublisherFilesThatMatchedLive": 288,
+  "liveCorrectedFiles": [
+    "assets/estate-core.js",
+    "publication-manifest.json",
+    "route-manifest.json",
+    "route-map.yaml"
+  ],
+  "auditMethod": "GET public https each file, compare SHA256, replace only drifted public route bytes",
+  "source": "https://governance.fountain.coach/",
+  "result": "candidate identical to live public 200 responses at capture"
+}

@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>153 — Domain Admission and Edge Binding Are Separate Governed Capabilities — Reframe Governance</title>
+  <meta name="description" content="Governance chapter: 153. This chapter establishes the missing authority boundary between estate domain identity, certificate automation, DNS, and the runtime edge that serves a hostname. It does not claim that every current hostname has already been migrated to this model or that public `auth.fountain.coach` / `mcp.fountain.coach` are already live.">
+  <meta name="fountain:share-feature" content="Governed Animated Share Card">
+  <meta name="fountain:publication-role" content="Rules and authority">
+  <meta name="fountain:publication-state" content="Reviewed local projection">
+  <link rel="canonical" href="https://governance.fountain.coach/chapters/153-domain-admission-and-edge-binding-are-separate-governed-capabilities/">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="153 — Domain Admission and Edge Binding Are Separate Governed Capabilities">
+  <meta property="og:description" content="Governance chapter: 153. This chapter establishes the missing authority boundary between estate domain identity, certificate automation, DNS, and the runtime edge that serves a hostname. It does not claim that every current hostname has already been migrated to this model or that public `auth.fountain.coach` / `mcp.fountain.coach` are already live.">
+  <meta property="og:url" content="https://governance.fountain.coach/chapters/153-domain-admission-and-edge-binding-are-separate-governed-capabilities/">
+  <meta property="og:image" content="https://governance.fountain.coach/assets/illustrations/153-domain-admission-and-edge-binding.svg">
+  <meta property="og:image:alt" content="Domain admission precedes DNS, certificate lifecycle, and edge binding">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="153 — Domain Admission and Edge Binding Are Separate Governed Capabilities">
+<meta name="twitter:description" content="Governance chapter: 153. This chapter establishes the missing authority boundary between estate domain identity, certificate automation, DNS, and the runtime edge that serves a hostname. It does not claim that every current hostname has already been migrated to this model or that public `auth.fountain.coach` / `mcp.fountain.coach` are already live.">
+<meta name="twitter:image" content="https://governance.fountain.coach/assets/illustrations/153-domain-admission-and-edge-binding.svg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"153 — Domain Admission and Edge Binding Are Separate Governed Capabilities","url":"https://governance.fountain.coach/chapters/153-domain-admission-and-edge-binding-are-separate-governed-capabilities/","publisher":{"@type":"Organization","name":"Fountain Coach","url":"https://fountain.coach/"}}</script>
+  <link rel="stylesheet" href="/assets/governance.css">
+  <link rel="stylesheet" href="/assets/estate-core.css">
+  <script src="/assets/estate-core.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to chapter</a>
+  <header class="topbar" role="banner">
+    <a class="wordmark" href="/" aria-label="Fountain Coach home"><img class="wordmark-logo" src="/assets/fountain-coach-logo-transparent.png" alt="Fountain Coach logo"><span>Fountain Coach <small>Governance · rules and authority</small></span></a>
+    <nav class="estate-nav" aria-label="Fountain Coach publication estate">
+      <a class="estate-icon" data-estate-id="estate" href="https://fountain.coach/" aria-label="Estate"><svg viewBox="0 0 24 24" class="estate-symbol" data-icon-variant="outline-regular-medium" aria-hidden="true"><path d="M4 10.5 12 4l8 6.5v8.5h-5v-5H9v5H4z"/></svg><span>Estate</span></a>
+      <a class="estate-icon" data-estate-id="book" href="https://book.fountain.coach/" aria-label="Book"><svg viewBox="0 0 24 24" class="estate-symbol" data-icon-variant="outline-regular-medium" aria-hidden="true"><path d="M5 4.5h11a3 3 0 0 1 3 3V20H8a3 3 0 0 1-3-3V4.5Zm0 0v12a3 3 0 0 0 3 3"/></svg><span>Book</span></a>
+      <a class="estate-icon" data-estate-id="governance" aria-current="page" href="https://governance.fountain.coach/" aria-label="Governance"><svg viewBox="0 0 24 24" class="estate-symbol" data-icon-variant="outline-regular-medium" aria-hidden="true"><path d="M12 3 4.5 6v5c0 5 3 8 7.5 10 4.5-2 7.5-5 7.5-10V6L12 3Z"/></svg><span>Governance</span></a>
+      <a class="estate-icon" data-estate-id="midi2" href="https://midi2.fountain.coach/" aria-label="MIDI2"><svg viewBox="0 0 24 24" class="estate-symbol" data-icon-variant="outline-regular-medium" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16M7 4v4m5 2v4m5 2v4"/></svg><span>MIDI2</span></a>
+      <a class="estate-icon" data-estate-id="instruments" href="https://instruments.fountain.coach/" aria-label="Instruments"><svg viewBox="0 0 24 24" class="estate-symbol" data-icon-variant="outline-regular-medium" aria-hidden="true"><path d="M8 4v10m0 0a3 3 0 1 0 2 2.8M8 7h8m0 0v8a3 3 0 1 0 2 2.8M16 7V4"/></svg><span>Instruments</span></a>
+      <a class="estate-icon" data-estate-id="status" href="https://status.fountain.coach/" aria-label="Status"><svg viewBox="0 0 24 24" class="estate-symbol" data-icon-variant="outline-regular-medium" aria-hidden="true"><path d="M4 17h3v3H4zM10.5 12h3v8h-3zM17 5h3v15h-3z"/></svg><span>Status</span></a>
+      <a class="estate-icon" data-estate-id="teatro" href="https://teatro.fountain.coach/" aria-label="Teatro"><svg viewBox="0 0 24 24" class="estate-symbol" data-icon-variant="outline-regular-medium" aria-hidden="true"><path d="M4 5h16M6 5v14m12-14v14M4 19h16M8 5c0 4 2 6 4 7 2-1 4-3 4-7"/></svg><span>Teatro</span></a>
+      <a class="estate-icon" data-estate-id="pointer" href="https://benedikt-eickhoff.de/" aria-label="Pointer"><svg viewBox="0 0 24 24" class="estate-symbol" data-icon-variant="outline-regular-medium" aria-hidden="true"><path d="m5 4 14 7-6 2-3 7L5 4Z"/></svg><span>Pointer</span></a><a class="estate-icon" data-estate-id="solstice" href="https://works.benedikt-eickhoff.de/solstice/" aria-label="Solstice — writing source"><svg viewBox="0 0 24 24" class="estate-symbol" data-icon-variant="outline-regular-medium" aria-hidden="true"><path d="M4 12h16M12 4v16M6.5 6.5l11 11m0-11-11 11"/><circle cx="12" cy="12" r="4"/></svg><span>Solstice</span></a>
+      <button type="button" class="estate-icon estate-info" aria-label="Info" title="Info" onclick="document.getElementById('footer').scrollIntoView({behavior:'smooth', block:'start'});"><svg viewBox="0 0 24 24" class="estate-symbol" data-icon-variant="outline-regular-medium" aria-hidden="true"><path d="M12 3.5a8.5 8.5 0 1 0 0 17 8.5 8.5 0 0 0 0-17Zm0 5v.1m0 2.4v5"/></svg><span>Info</span></button>
+    </nav>
+  </header>
+  <div class="site-layout"><nav class="chapter-rail" id="chapter-nav" data-chapter-nav aria-label="Governance chapters"><div class="rail-label">READING INDEX</div><a class="rail-home" href="/">Governance overview</a><a class="chapter-link" href="/chapters/00-abstract/"><span>0</span><span>Abstract</span></a><a class="chapter-link" href="/chapters/01-reading-index/"><span>1</span><span>Reading Index</span></a><a class="chapter-link" href="/chapters/02-development-history/"><span>2</span><span>Development History and Retained Lessons</span></a><a class="chapter-link" href="/chapters/03-current-state-and-problem/"><span>3</span><span>Current State and Refactoring Problem</span></a><a class="chapter-link" href="/chapters/04-target-architecture/"><span>4</span><span>Target Architecture</span></a><a class="chapter-link" href="/chapters/05-grounding-contract/"><span>5</span><span>Extended Grounding Contract</span></a><a class="chapter-link" href="/chapters/06-refactoring-program/"><span>6</span><span>Refactoring Program</span></a><a class="chapter-link" href="/chapters/07-agent-operating-guide/"><span>7</span><span>Operating Guide for `.claude` and `.codex`</span></a><a class="chapter-link" href="/chapters/08-validation-and-acceptance/"><span>8</span><span>Validation and Acceptance</span></a><a class="chapter-link" href="/chapters/09-compatibility-and-future-evolution/"><span>9</span><span>Compatibility and Future Evolution</span></a><a class="chapter-link" href="/chapters/10-copilot-implementation-extension/"><span>10</span><span>Copilot Implementation Extension</span></a><a class="chapter-link" href="/chapters/11-grounding-as-a-given/"><span>11</span><span>Grounding as a Given — the Canonical Manifesto and Conversational Authoring</span></a><a class="chapter-link" href="/chapters/12-animating-truth/"><span>12</span><span>Animating Truth — Foreshadowing and Perceived Performance</span></a><a class="chapter-link" href="/chapters/13-storage-and-performance/"><span>13</span><span>Storage and Performance — What Persists Where, and Why Reads Are Fast</span></a><a class="chapter-link" href="/chapters/14-the-beat-and-its-arrangements/"><span>14</span><span>The Beat and Its Arrangements — One Object, Three Views, One Firing</span></a><a class="chapter-link" href="/chapters/15-the-situated-copilot/"><span>15</span><span>The Situated Copilot — One Copilot, Differently Placed</span></a><a class="chapter-link" href="/chapters/16-the-timeline-is-the-machine-room/"><span>16</span><span>The Timeline Is the Machine Room — What You See Is What You Get</span></a><a class="chapter-link" href="/chapters/17-the-score/"><span>17</span><span>The Score — Reframe's Performance Space, and the One Surface That Folds the Others</span></a><a class="chapter-link" href="/chapters/18-the-stage-presents-the-act/"><span>18</span><span>The Stage Presents the Act — Legibility Over Density</span></a><a class="chapter-link" href="/chapters/19-apple-human-interface-guidelines/"><span>19</span><span>Apple's Human Interface Guidelines — the Baseline We Build On</span></a><a class="chapter-link" href="/chapters/20-on-device-first-and-the-writers-key/"><span>20</span><span>Paid-First Copilot, and the Writer's Key — Quality-First Lane Selection</span></a><a class="chapter-link" href="/chapters/21-training-perspectives/"><span>21</span><span>Training Perspectives — Teaching the On-Device Model the Writer's Work</span></a><a class="chapter-link" href="/chapters/22-no-preferences-only-reasoning/"><span>22</span><span>No Preferences, Only Reasoning</span></a><a class="chapter-link" href="/chapters/23-one-reasoning/"><span>23</span><span>One Reasoning — The Single Front Door of a Turn</span></a><a class="chapter-link" href="/chapters/24-the-reasoning-is-an-uncertainty-map/"><span>24</span><span>The Reasoning Is an Uncertainty Map</span></a><a class="chapter-link" href="/chapters/25-the-copilot-is-the-surface/"><span>25</span><span>The CoPilot Is the Surface</span></a><a class="chapter-link" href="/chapters/26-internals-tune-themselves/"><span>26</span><span>Internals Tune Themselves — the Disposition of the Preferences Panel</span></a><a class="chapter-link" href="/chapters/27-parse-before-you-ask/"><span>27</span><span>Parse Before You Ask</span></a><a class="chapter-link" href="/chapters/28-a-beat-is-the-question-it-raises/"><span>28</span><span>A Beat Is the Question It Raises</span></a><a class="chapter-link" href="/chapters/29-natural-language-measures-storify-interprets/"><span>29</span><span>NaturalLanguage Measures, Storify Interprets</span></a><a class="chapter-link" href="/chapters/30-the-living-gazetteer/"><span>30</span><span>The Living Gazetteer</span></a><a class="chapter-link" href="/chapters/31-compiled-knowledge/"><span>31</span><span>Compiled Knowledge — the Cloud Teaches, the Device Remembers</span></a><a class="chapter-link" href="/chapters/32-referenced-knowledge/"><span>32</span><span>Referenced Knowledge — What the World Knows Outside the Book</span></a><a class="chapter-link" href="/chapters/33-a-want-is-a-gap-in-a-ledger/"><span>33</span><span>A Want Is a Gap in a Ledger</span></a><a class="chapter-link" href="/chapters/34-a-question-that-leaves-the-work/"><span>34</span><span>A Question That Leaves the Work</span></a><a class="chapter-link" href="/chapters/35-deep-search/"><span>35</span><span>Deep Search</span></a><a class="chapter-link" href="/chapters/36-every-gap-keeps-its-address/"><span>36</span><span>Every Gap Keeps Its Address</span></a><a class="chapter-link" href="/chapters/37-copilot-capability-governance/"><span>37</span><span>Copilot Capability Governance — From Transport Contract to Trustworthy Action</span></a><a class="chapter-link" href="/chapters/38-copilot-capability-audit-skill/"><span>38</span><span>Copilot Capability Audit Skill — From Boundary to Empowerment</span></a><a class="chapter-link" href="/chapters/39-a-model-cannot-be-told-what-it-cannot-do/"><span>39</span><span>A Model Cannot Be Told What It Cannot Do</span></a><a class="chapter-link" href="/chapters/40-a-citation-is-a-promise-someone-can-check/"><span>40</span><span>A Citation Is a Promise Someone Can Check</span></a><a class="chapter-link" href="/chapters/41-one-retrieval-two-directions/"><span>41</span><span>One Retrieval, Two Directions</span></a><a class="chapter-link" href="/chapters/42-what-is-already-recorded-is-read/"><span>42</span><span>What Is Already Recorded Is Read, Never Re-Derived</span></a><a class="chapter-link" href="/chapters/43-the-released-surface-is-a-named-build/"><span>43</span><span>The Released Surface Is a Named Build</span></a><a class="chapter-link" href="/chapters/44-publication-and-source-policy/"><span>44</span><span>Public Publication and Private Source Policy</span></a><a class="chapter-link" href="/chapters/45-copilot-reading-surface-and-typography/"><span>45</span><span>Copilot Reading Surface and Typography — Situated, Legible, and Reframe-Native</span></a><a class="chapter-link" href="/chapters/46-dynamic-grounding/"><span>46</span><span>Dynamic Grounding: From Default Reading to Writer-Accepted Lens</span></a><a class="chapter-link" href="/chapters/47-situated-mixed-initiative-interaction/"><span>47</span><span>Situated, Mixed-Initiative Interaction</span></a><a class="chapter-link" href="/chapters/48-a-service-is-a-fact-not-a-symptom/"><span>48</span><span>48. A Service Is a Fact, Not a Symptom</span></a><a class="chapter-link" href="/chapters/49-one-definition-two-projections/"><span>49</span><span>49. One Definition, Two Projections</span></a><a class="chapter-link" href="/chapters/50-text-is-stored-so-it-can-be-pointed-at/"><span>50</span><span>50. Text Is Stored So It Can Be Pointed At</span></a><a class="chapter-link" href="/chapters/51-one-decision-decides-the-lane/"><span>51</span><span>51. One Decision Decides the Lane</span></a><a class="chapter-link" href="/chapters/52-the-pencil-belongs-to-the-writer/"><span>52</span><span>52. The Pencil Belongs to the Writer</span></a><a class="chapter-link" href="/chapters/53-a-selection-snaps-to-meaning/"><span>53</span><span>53. A Selection Snaps to Meaning</span></a><a class="chapter-link" href="/chapters/54-the-writer-does-not-manage-the-projection/"><span>54</span><span>The Writer Does Not Manage the Projection</span></a><a class="chapter-link" href="/chapters/55-one-store-authority-across-repositories/"><span>55</span><span>One Store Authority Across Repositories</span></a><a class="chapter-link" href="/chapters/56-the-book-library-is-a-portable-source-provider/"><span>56</span><span>The Book Library Is Reframe's Sole Reading Provider</span></a><a class="chapter-link" href="/chapters/57-the-writer-enters-by-intention/"><span>57</span><span>The Writer Enters by Intention</span></a><a class="chapter-link" href="/chapters/58-open-turn-mediation-protocol/"><span>58</span><span>Open-Turn Mediation Protocol</span></a><a class="chapter-link" href="/chapters/59-copilot-initiated-library-curation/"><span>59</span><span>The Fountain-Coach Git Library and Reframe Project Flow</span></a><a class="chapter-link" href="/chapters/60-the-fountain-editor-is-the-project-surface/"><span>60</span><span>The Fountain Editor Is the Project Surface</span></a><a class="chapter-link" href="/chapters/61-the-fountain-project-round-trip/"><span>61</span><span>The Fountain Project Round Trip</span></a><a class="chapter-link" href="/chapters/62-reframe-maintenance-control-plane/"><span>62</span><span>Reframe Maintenance Control Plane</span></a><a class="chapter-link" href="/chapters/63-fountain-maintenance-kit/"><span>63</span><span>FountainMaintenanceKit — Portable Swift Maintenance Contract</span></a><a class="chapter-link" href="/chapters/64-fountain-project-kit-durable-draft-custody/"><span>64</span><span>FountainProjectKit — Durable Fountain Project Custody</span></a><a class="chapter-link" href="/chapters/65-the-copilot-as-writing-coach/"><span>65</span><span>The Copilot as Writing Coach</span></a><a class="chapter-link" href="/chapters/66-fountain-image-publication-kit/"><span>66</span><span>FountainImagePublicationKit — Reframe Image Cloud and Publication Boundary</span></a><a class="chapter-link" href="/chapters/67-fountain-composer-kit-remote-attachment-custody/"><span>67</span><span>FountainComposerKit — Remote Attachment Custody and the Composer Boundary</span></a><a class="chapter-link" href="/chapters/68-the-reframe-e2e-scenario-is-the-publication-unit/"><span>68</span><span>The Reframe E2E Scenario Is the Publication Unit</span></a><a class="chapter-link" href="/chapters/69-the-book-of-reframe-is-a-dual-projection/"><span>69</span><span>The Book of Reframe Is a Dual Projection</span></a><a class="chapter-link" href="/chapters/70-external-midi2-control-of-reframe/"><span>70</span><span>External MIDI2 Control of Reframe</span></a><a class="chapter-link" href="/chapters/71-reframe-to-reframe-software-peer-acceptance/"><span>71</span><span>Reframe-to-Reframe Software-Peer Acceptance</span></a><a class="chapter-link" href="/chapters/72-midi2-peer-projections-and-capacity-admission/"><span>72</span><span>MIDI2 Peer Projections and Capacity Admission</span></a><a class="chapter-link" href="/chapters/73-reframe-scenario-development-cycle/"><span>73</span><span>The Reframe Scenario Development Cycle</span></a><a class="chapter-link" href="/chapters/74-private-image-prompt-history/"><span>74</span><span>Private Image Prompt History</span></a><a class="chapter-link" href="/chapters/75-scenario-run-ownership-and-non-interference/"><span>75</span><span>Scenario Run Ownership and Non-Interference</span></a><a class="chapter-link" href="/chapters/76-beat-movement-and-uncertainty-overlay/"><span>76</span><span>Beat Movement and the Uncertainty Overlay</span></a><a class="chapter-link" href="/chapters/77-swift-midi2-scenario-runtime/"><span>77</span><span>The Scenario Runtime Is Swift and MIDI2-Native</span></a><a class="chapter-link" href="/chapters/78-scenario-driven-development-as-org-infrastructure/"><span>78</span><span>Scenario-Driven Development Is Org Infrastructure</span></a><a class="chapter-link" href="/chapters/79-default-semantic-manuscript-projection/"><span>79</span><span>The Default Semantic Manuscript Projection</span></a><a class="chapter-link" href="/chapters/80-independent-governance-publication/"><span>80</span><span>Independent Governance Publication</span></a><a class="chapter-link" href="/chapters/81-universal-midi2-command-plane/"><span>81</span><span>The Universal MIDI2 Command Plane</span></a><a class="chapter-link" href="/chapters/82-remote-midi2-reading-room/"><span>82</span><span>Remote MIDI2 Reading Rooms</span></a><a class="chapter-link" href="/chapters/83-conversational-scenario-authoring/"><span>83</span><span>Conversational Scenario Authoring Is the Development Surface</span></a><a class="chapter-link" href="/chapters/84-governed-reframe-design-mock/"><span>84</span><span>The Reframe Design Mock Is a Governed Projection</span></a><a class="chapter-link" href="/chapters/85-storify-source-auto-reads-a-defined-whole/"><span>85</span><span>Storify Source Auto Reads a Defined Whole</span></a><a class="chapter-link" href="/chapters/86-apple-native-semantic-pipeline-is-one-midi2-graph/"><span>86</span><span>The Apple-Native Semantic Pipeline Is One MIDI2 Graph</span></a><a class="chapter-link" href="/chapters/87-midi2-monitor-is-the-live-event-mirror/"><span>87</span><span>The MIDI2 Monitor Is the Live Event Mirror</span></a><a class="chapter-link" href="/chapters/88-codexkit-is-a-governed-codex-app-server-boundary/"><span>88</span><span>CodexKit Is a Governed Codex App-Server Boundary</span></a><a class="chapter-link" href="/chapters/89-codex-auth-instrument-is-the-copilot-login-surface/"><span>89</span><span>The Codex Auth Instrument Is the Copilot Login Surface</span></a><a class="chapter-link" href="/chapters/90-independent-security-review-is-a-separate-acceptance-boundary/"><span>90</span><span>Independent Security Review Is a Separate Acceptance Boundary</span></a><a class="chapter-link" href="/chapters/91-fcis-kit-instrument-store-is-the-capability-plane/"><span>91</span><span>The FCIS-KIT Instrument Store Is the Capability Plane</span></a><a class="chapter-link" href="/chapters/92-fountain-coach-publication-estate/"><span>92</span><span>Fountain Coach Publication Estate: Semantic Domain and CI Governance</span></a><a class="chapter-link" href="/chapters/93-instrument-creation-is-a-governed-promotion-path/"><span>93</span><span>Instrument Creation Is a Governed Promotion Path</span></a><a class="chapter-link" href="/chapters/94-credentialed-infrastructure-operations-and-provider-adapters/"><span>94</span><span>Credentialed Infrastructure Operations and Provider Adapters</span></a><a class="chapter-link" href="/chapters/95-fountainstore-headless-linux-authority/"><span>95</span><span>FountainStore Is the Headless Linux Persistence Authority</span></a><a class="chapter-link" href="/chapters/96-swiftacmekit-is-a-provider-neutral-certificate-automation-boundary/"><span>96</span><span>Chapter SwiftACMEKit Is a Provider-Neutral Certificate Automation Boundary</span></a><a class="chapter-link" href="/chapters/97-provider-neutral-host-bootstrap-and-enrollment/"><span>97</span><span>Provider-Neutral Host Bootstrap and Enrollment</span></a><a class="chapter-link" href="/chapters/98-apple-native-markdown-presentation-and-transferable-engraving-rules/"><span>98</span><span>Apple-Native Markdown Presentation and Transferable Engraving Rules</span></a><a class="chapter-link" href="/chapters/99-decoupled-manuscript-instruments/"><span>99</span><span>Decoupled Manuscript Instruments — Navigation, Source, and Uncertainty</span></a><a class="chapter-link" href="/chapters/100-semantic-scenographer/"><span>100</span><span>Semantic Scenographer — Think with the Work in Space</span></a><a class="chapter-link" href="/chapters/101-teatro-stage-engine-semantic-scenography/"><span>101</span><span>TeatroStageEngine Is the Stage — Semantic Scenography Extends It</span></a><a class="chapter-link" href="/chapters/102-semantic-inference-execution-session-and-latency-governance/"><span>102</span><span>Semantic Inference Execution, Session, and Latency Governance</span></a><a class="chapter-link" href="/chapters/103-fcis-kit-semantic-factory-and-wired-instrument-event-stream/"><span>103</span><span>FCIS-KIT Semantic Factory and the Wired Instrument Event Stream</span></a><a class="chapter-link" href="/chapters/104-midi2-event-time-jitter-and-asynchronous-completion-governance/"><span>104</span><span>MIDI2 Event Time, Jitter, and Asynchronous Completion Governance</span></a><a class="chapter-link" href="/chapters/105-semantic-scenographer-one-spatial-thought/"><span>105</span><span>Semantic Scenographer — One Spatial Thought in Reading Order</span></a><a class="chapter-link" href="/chapters/106-teatro-midi2-monitor-canonical-runtime-projection/"><span>106</span><span>Teatro MIDI2 Monitor — Canonical Runtime Projection</span></a><a class="chapter-link" href="/chapters/107-creating-the-canonical-teatro-stage-composition-layer/"><span>107</span><span>Creating the Canonical Teatro Stage Composition Layer</span></a><a class="chapter-link" href="/chapters/108-reframe-is-a-swift-native-cross-platform-runtime/"><span>108</span><span>Reframe Is a Swift-Native Cross-Platform Runtime</span></a><a class="chapter-link" href="/chapters/109-natural-language-measurement-is-a-midi2-instrument/"><span>109</span><span>NaturalLanguage Measurement Is a MIDI2 Instrument</span></a><a class="chapter-link" href="/chapters/110-three-run-semantic-drift-calculus/"><span>110</span><span>Three-Run Semantic Drift Is a Governed Measurement Principle</span></a><a class="chapter-link" href="/chapters/111-evidence-cohorts-as-publication-units/"><span>111</span><span>Evidence Cohorts Are the Publication Units of the Fountain Coach Estate</span></a><a class="chapter-link" href="/chapters/112-skill-and-maintenance-capabilities-are-kit-owned/"><span>112</span><span>Skill and Maintenance Capabilities Are Kit-Owned</span></a><a class="chapter-link" href="/chapters/113-governance-becomes-an-executable-scenographic-policy/"><span>113</span><span>Governance Becomes an Executable Scenographic Policy</span></a><a class="chapter-link" href="/chapters/114-server-side-semantic-proposals-mac-and-linux-one-runtime/"><span>114</span><span>Server-Side Semantic Proposals — Mac and Linux as One Reframe Runtime</span></a><a class="chapter-link" href="/chapters/115-semantic-browser-is-a-governed-midi2-and-fountainstore-instrument/"><span>115</span><span>Semantic Browser Is a Governed MIDI2 and FountainStore Instrument</span></a><a class="chapter-link" href="/chapters/116-fountainstore-owned-estate-edge-and-acme-promotion/"><span>116</span><span>FountainStore-Owned Estate Edge and ACME Promotion</span></a><a class="chapter-link" href="/chapters/117-fountainstore-snapshot-export-and-git-recovery-projection/"><span>117</span><span>FountainStore Snapshot Export and Git Recovery Projection</span></a><a class="chapter-link" href="/chapters/118-european-cybersecurity-profile/"><span>118</span><span>European Cybersecurity Profile: Authority, Continuity, and Recoverability</span></a><a class="chapter-link" href="/chapters/119-scenario-pipeline-factory/"><span>119</span><span>The Scenario Pipeline Factory</span></a><a class="chapter-link" href="/chapters/120-internal-triadic-peer-dialogue/"><span>120</span><span>The Internal Triadic Peer Dialogue</span></a><a class="chapter-link" href="/chapters/121-dynamic-midi2-instrument-factory/"><span>121</span><span>The Dynamic MIDI2 Instrument Factory</span></a><a class="chapter-link" href="/chapters/122-governed-semantic-transformation-instrument/"><span>122</span><span>The Governed Semantic Transformation Instrument</span></a><a class="chapter-link" href="/chapters/123-commands-must-be-legible-to-reasoning/"><span>123</span><span>Commands Must Be Legible to Reasoning</span></a><a class="chapter-link" href="/chapters/124-midi2-timed-webkit-transitions/"><span>124</span><span>MIDI2-Timed WebKit Transitions</span></a><a class="chapter-link" href="/chapters/125-store-publication-graph-domain-mapping-and-atomic-route-promotion/"><span>125</span><span>The Store Publication Graph — Domain Mapping and Atomic Route Promotion</span></a><a class="chapter-link" href="/chapters/126-fountain-coach-organization-web-projection/"><span>126</span><span>The Fountain Coach Organization Web Projection</span></a><a class="chapter-link" href="/chapters/127-estate-template-publishing-path/"><span>127</span><span>The Estate Template Is the Publishing Path</span></a><a class="chapter-link" href="/chapters/128-deployed-estate-webkit-mirror-authority/"><span>128</span><span>The Deployed Estate Is a Read-Only WebKit Mirror Authority</span></a><a class="chapter-link" href="/chapters/129-native-animated-svg-governed-publication-projection/"><span>129</span><span>Native Animated SVG Is a Governed Publication Projection</span></a><a class="chapter-link" href="/chapters/130-human-machine-scenario-naming-is-a-governed-identity-boundary/"><span>130</span><span>Human–Machine Scenario Naming Is a Governed Identity Boundary</span></a><a class="chapter-link" href="/chapters/131-remote-secretstore-authorization-and-approval-sessions/"><span>131</span><span>Remote SecretStore Authorization and Approval Sessions</span></a><a class="chapter-link" href="/chapters/132-reframe-audiounit-auv3-platform-and-aum-demo-host/"><span>132</span><span>132 — Reframe AudioUnit as an AUv3 Estate Instrument</span></a><a class="chapter-link" href="/chapters/133-csound-auv3-instrument-boundary/"><span>133</span><span>Csound AUv3 Is a Fountain Instrument Boundary</span></a><a class="chapter-link" href="/chapters/134-estatepublisher-publication-authority/"><span>134</span><span>134 — EstatePublisher Is the Publication Authority</span></a><a class="chapter-link" href="/chapters/135-reframe-ipad-scenario-driven-creative-host/"><span>135</span><span>135 — Reframe iPad as a Scenario-Driven Creative Host</span></a><a class="chapter-link" href="/chapters/136-reframe-web-native-headless-audio-runtime/"><span>136</span><span>Reframe Web, Native, Headless, and Audio Runtime Boundary</span></a><a class="chapter-link" href="/chapters/137-teatro-web-reframe-materialization/"><span>137</span><span>Teatro Web Is Reframe's Governed Materialization Surface</span></a><a class="chapter-link" href="/chapters/138-ear-is-the-web-audio-graphs-midi2-listening-boundary/"><span>138</span><span>Ear Is the Web Audio Graph's MIDI2 Listening Boundary</span></a><a class="chapter-link" href="/chapters/139-owner-trust-root-secretstore-custody-and-recovery/"><span>139</span><span>Owner Trust Root, SecretStore Custody, and Recovery</span></a><a class="chapter-link" href="/chapters/140-local-developer-cloud-joining-machine-and-estatepublisher/"><span>140</span><span>EstatePublisher Is Codex's Governed IP-Network Topology Mutator</span></a><a class="chapter-link" href="/chapters/141-each-joining-machine-is-a-governed-midi2-instrument/"><span>141</span><span>Each Joining Machine Is a Governed MIDI2 Instrument</span></a><a class="chapter-link" href="/chapters/142-fountainauthkit-governed-authorization-authority/"><span>142</span><span>FountainAuthKit: Fountain Coach Is Its Own Governed OAuth/OIDC Authority</span></a><a class="chapter-link" href="/chapters/143-simplicity-is-key-one-bootstrap-one-trusted-session/"><span>143</span><span>Simplicity Is Key: One Bootstrap, One Trusted Session</span></a><a class="chapter-link" href="/chapters/144-fountain-media-service-governed-media-plane/"><span>144</span><span>Fountain Media Service Is the Governed Media Plane</span></a><a class="chapter-link" href="/chapters/145-one-estate-one-publication-state-estatepublisher-and-reframe-semantic-browser/"><span>145</span><span>One Estate, One Publication State: EstatePublisher and Reframe as a Governed Semantic Browser</span></a><a class="chapter-link" href="/chapters/146-local-fountainstore-remote-caddy-production-estate/"><span>146</span><span>Local FountainStore, Remote Caddy: The Production Static Estate</span></a><a class="chapter-link" href="/chapters/147-local-route-materialization-estatepublisher-preview/"><span>147</span><span>Local Route Materialization: EstatePublisher Preview Before Check-In</span></a><a class="chapter-link" href="/chapters/148-production-runtime-artifact-only/"><span>148</span><span>Production Runtime Nodes Are Artifact-Only</span></a><a class="chapter-link" href="/chapters/149-remote-codexkit-governed-midi2-peer-instrument/"><span>149</span><span>Remote CodexKit — Reframe and Codex Meet as Governed MIDI2 Peer Instruments</span></a><a class="chapter-link" href="/chapters/150-one-midi2-instrument-plane-multiple-governed-transports/"><span>150</span><span>One MIDI2 Instrument Plane, Multiple Governed Transports</span></a><a class="chapter-link" href="/chapters/151-csound-teatro-speaking-sound-in-space/"><span>151</span><span>Csound Teatro: Speaking Sound in Space</span></a><a class="chapter-link" href="/chapters/152-the-host-is-the-instrument/"><span>152</span><span>The Host Is the Instrument</span></a><a class="chapter-link active" href="/chapters/153-domain-admission-and-edge-binding-are-separate-governed-capabilities/" aria-current="page"><span>153</span><span>Domain Admission and Edge Binding Are Separate Governed Capabilities</span></a><a class="chapter-link" href="/chapters/154-domain-neutral-local-model-reasoning-testing/"><span>154</span><span>Domain-Neutral Local-Model Reasoning Testing</span></a><a class="chapter-link" href="/chapters/155-estatepublisher-rest-projection/"><span>155</span><span>The Matrix and EstatePublisher Are One Governed REST Projection</span></a><a class="chapter-link" href="/chapters/156-fcis-156-writer-workflow/"><span>156</span><span>FCIS 156 — The Writer Never Operates EstatePublisher</span></a><a class="chapter-link" href="/chapters/157-the-writer-owns-the-public-domain/"><span>157</span><span>The Writer Owns the Public Domain</span></a><a class="chapter-link latest-chapter-link" data-latest-chapter-slot href="/chapters/158-publishing-is-not-a-distributed-transaction/"><span>158</span><span>Publishing Is Not a Distributed Transaction</span></a></nav>
+    <main id="main" class="chapter-canvas">
+      <nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="https://fountain.coach/">Fountain Coach</a></li><li><a href="https://governance.fountain.coach/">Governance</a></li><li aria-current="page">153 — Domain Admission and Edge Binding Are Separate Governed Capabilities</li></ol></nav>
+      <nav class="chapter-pager" data-chapter-pager aria-label="Chapter navigation"><a class="chapter-pager-link chapter-pager-prev" data-chapter-prev rel="prev" href="/chapters/152-the-host-is-the-instrument/" aria-label="Previous chapter: 152 — The Host Is the Instrument"><span aria-hidden="true">←</span><span><small>PREVIOUS CHAPTER</small>152 — The Host Is the Instrument</span></a><span class="chapter-pager-position">CHAPTER 154 OF 159</span><a class="chapter-pager-link chapter-pager-next" data-chapter-next rel="next" href="/chapters/154-domain-neutral-local-model-reasoning-testing/" aria-label="Next chapter: 154 — Domain-Neutral Local-Model Reasoning Testing"><span><small>NEXT CHAPTER</small>154 — Domain-Neutral Local-Model Reasoning Testing</span><span aria-hidden="true">→</span></a></nav>
+      <article class="governance-chapter">
+<h1 id="153--domain-admission-and-edge-binding-are-separate-governed-capabilities">153 — Domain Admission and Edge Binding Are Separate Governed Capabilities</h1>
+<blockquote>
+<p>Governance chapter: 153. This chapter establishes the missing authority boundary between estate domain identity, certificate automation, DNS, and the runtime edge that serves a hostname. It does not claim that every current hostname has already been migrated to this model or that public <code>auth.fountain.coach</code> / <code>mcp.fountain.coach</code> are already live.</p>
+</blockquote>
+<p><img src="/assets/illustrations/153-domain-admission-and-edge-binding.svg" alt="Domain admission precedes DNS, certificate lifecycle, and edge binding" /></p>
+<p><em>Principal illustration — the admitted hostname is the semantic identity. DNS, ACME, and edge binding remain separate governed capabilities that converge only in public read-back; none of their side effects may manufacture authority for another layer.</em></p>
+<h2 id="the-problem">The problem</h2>
+<p>The estate already has governance for adjacent concerns:</p>
+<ul>
+<li>Chapter 92 defines the Fountain Coach publication estate.</li>
+<li>Chapter 94 governs infrastructure authorization and provider adapters.</li>
+<li>Chapter 96 governs provider-neutral ACME certificate automation.</li>
+<li>Chapter 116 governs the Store-native estate edge and ACME promotion.</li>
+<li>Chapter 125 governs domain/route mapping in the Store publication graph.</li>
+<li>Chapter 146 governs the static Caddy production profile.</li>
+<li>Chapter 152 governs the Fountain Host capability plane.</li>
+</ul>
+<p>But no chapter currently answers two more primitive questions:</p>
+<ol type="1">
+<li><strong>When is a hostname itself admitted as a Fountain Coach domain identity?</strong></li>
+<li><strong>Which runtime edge is authorized to answer for that hostname?</strong></li>
+</ol>
+<p>Without those boundaries, certificate code is tempted to decide host admission, and edge configuration is tempted to decide domain identity. That is exactly the ambiguity now visible in <code>EstatePublisherPublicACMEHostAdapter</code>.</p>
+<p>The current adapter hard-codes a small domain list, owns certificate paths, mutates the production TLS-route registry, restarts the serving runtime, and performs HTTPS read-back in one operation. Those concerns must be separated before additional services such as <code>auth.fountain.coach</code> and <code>mcp.fountain.coach</code> are admitted.</p>
+<h2 id="the-decision">The decision</h2>
+<p>Fountain Coach SHALL treat <strong>domain admission</strong> and <strong>edge binding</strong> as separate governed capabilities.</p>
+<pre class="text"><code>estate/domain intent
+        ↓
+domain admission
+        ↓
+admitted hostname identity
+        ├── DNS binding
+        ├── certificate lifecycle
+        └── edge binding
+                ↓
+          runtime listener
+                ↓
+          HTTPS read-back</code></pre>
+<p>A hostname is not admitted because:</p>
+<ul>
+<li>DNS happens to resolve;</li>
+<li>a certificate was successfully issued;</li>
+<li>Caddy or FountainStoreHTTP has a matching route;</li>
+<li>a directory exists on a server;</li>
+<li>an HTTP request returns 200;</li>
+<li>an ACME adapter contains the hostname in a Swift array.</li>
+</ul>
+<p>Likewise, an edge is not authorized to serve a hostname merely because it can bind port 443.</p>
+<h2 id="capability-1--domain-admission">Capability 1 — domain admission</h2>
+<p>The canonical capability identity is:</p>
+<pre class="text"><code>estate.domain.admit</code></pre>
+<p>Domain admission establishes that a hostname is an intentional member of the Fountain Coach estate or an explicitly governed service namespace.</p>
+<p>An admission record SHALL contain at least:</p>
+<ul>
+<li>canonical hostname;</li>
+<li>declared role;</li>
+<li>owning service or publication surface;</li>
+<li>environment;</li>
+<li>public/private exposure class;</li>
+<li>required protocol class;</li>
+<li>certificate requirement;</li>
+<li>DNS requirement;</li>
+<li>intended edge profile;</li>
+<li>source governance chapter;</li>
+<li>authorization identity;</li>
+<li>idempotency key;</li>
+<li>predecessor or retirement state where applicable;</li>
+<li>terminal admission receipt.</li>
+</ul>
+<p>Example roles include:</p>
+<pre class="text"><code>static-estate
+authorization-server
+protected-resource
+store-service
+instrument-service
+media-service
+approval-service
+preview-only
+internal-service</code></pre>
+<p>The role is semantic authority. It is not inferred from hostname spelling.</p>
+<p>For example:</p>
+<pre class="text"><code>auth.fountain.coach
+  role = authorization-server
+
+mcp.fountain.coach
+  role = protected-resource</code></pre>
+<p>Those identities become legal inputs to downstream DNS, ACME, and edge operations only after domain admission succeeds.</p>
+<h2 id="capability-2--edge-binding">Capability 2 — edge binding</h2>
+<p>The canonical capability identity is:</p>
+<pre class="text"><code>estate.edge.bind</code></pre>
+<p>Edge binding connects one already-admitted hostname to one already-admitted runtime edge.</p>
+<p>The binding SHALL name:</p>
+<ul>
+<li>admitted hostname identity;</li>
+<li>target host identity;</li>
+<li>edge implementation;</li>
+<li>listener/protocol;</li>
+<li>upstream service identity where applicable;</li>
+<li>certificate identity;</li>
+<li>route or upstream binding;</li>
+<li>health/read-back path;</li>
+<li>rollback predecessor;</li>
+<li>activation correlation;</li>
+<li>terminal receipt.</li>
+</ul>
+<p>Examples of edge implementations include:</p>
+<pre class="text"><code>FountainStoreHTTP native edge
+Caddy static edge
+Caddy reverse proxy
+future Swift-native edge
+local preview edge</code></pre>
+<p>The edge implementation is a projection choice. It does not own the domain identity.</p>
+<h2 id="domain-admission-is-not-dns">Domain admission is not DNS</h2>
+<p>DNS is an infrastructure witness.</p>
+<p>A DNS adapter may create or update records only for an already-admitted hostname and only under an explicit infrastructure operation governed by Chapter 94.</p>
+<p>DNS proves:</p>
+<pre class="text"><code>hostname → network target</code></pre>
+<p>DNS does not prove:</p>
+<pre class="text"><code>hostname is admitted
+hostname is authorized for a service
+certificate is valid
+edge binding is active
+application semantics are correct</code></pre>
+<h2 id="domain-admission-is-not-certificate-issuance">Domain admission is not certificate issuance</h2>
+<p>Chapter 96 remains authoritative for ACME.</p>
+<p>SwiftACMEKit receives an already-admitted certificate request:</p>
+<pre class="text"><code>admitted hostname
+  + admitted ACME directory/account
+  + admitted challenge method
+  + admitted custody target
+  → certificate lifecycle</code></pre>
+<p>ACME SHALL NOT maintain its own application-specific hostname allowlist.</p>
+<p>The certificate capability MAY refuse a request because the requested hostname lacks a valid domain-admission receipt. That refusal is correct. The certificate layer SHALL NOT decide to admit the hostname itself.</p>
+<p>Certificate issuance establishes only the certificate lifecycle result:</p>
+<pre class="text"><code>identifier validated
+certificate issued / renewed / rotated / revoked
+certificate custody established</code></pre>
+<p>It does not activate an edge.</p>
+<h2 id="certificate-custody-is-not-edge-binding">Certificate custody is not edge binding</h2>
+<p>A certificate and private key may exist before any public runtime is changed.</p>
+<p>The certificate operation SHALL NOT implicitly:</p>
+<ul>
+<li>edit Caddy configuration;</li>
+<li>edit FountainStoreHTTP host routing;</li>
+<li>restart or reload an application service;</li>
+<li>create DNS;</li>
+<li>publish application content;</li>
+<li>bind a hostname to an upstream service.</li>
+</ul>
+<p>Those are separate operations.</p>
+<p>A renewal that changes no domain identity or edge topology should normally require no topology mutation at all. The selected edge may reload or atomically adopt renewed certificate material through its own bounded certificate-refresh operation, but that effect belongs to edge lifecycle, not to ACME issuance semantics.</p>
+<h2 id="edge-binding-profiles">Edge binding profiles</h2>
+<p>Each binding declares one profile.</p>
+<h3 id="native-fountainstorehttp-edge">Native FountainStoreHTTP edge</h3>
+<pre class="text"><code>admitted domain
+  → certificate identity
+  → FountainStoreHTTP host binding
+  → Store/publication or service handler</code></pre>
+<p>This profile is appropriate where FountainStoreHTTP itself owns the serving contract.</p>
+<h3 id="static-caddy-edge">Static Caddy edge</h3>
+<pre class="text"><code>admitted domain
+  → certificate identity
+  → immutable active release root
+  → Caddy static serving</code></pre>
+<p>Chapter 146 remains authoritative for static production releases.</p>
+<h3 id="reverse-proxy-service-edge">Reverse-proxy service edge</h3>
+<pre class="text"><code>admitted domain
+  → certificate identity
+  → public TLS edge
+  → fixed loopback/upstream service</code></pre>
+<p>This profile is appropriate for services such as:</p>
+<pre class="text"><code>auth.fountain.coach → FountainHostMCPOAuthHTTP
+mcp.fountain.coach  → FountainHostMCPHTTP</code></pre>
+<p>The upstream service remains separately governed. The edge does not acquire authorization-server or MCP authority merely because it forwards HTTP.</p>
+<h2 id="fountainstore-publication-graph-relationship">FountainStore publication graph relationship</h2>
+<p>Chapter 125 already requires that a destination domain be admitted before route mapping. Chapter 153 defines the missing admission operation that Chapter 125 assumes.</p>
+<p>The relationship becomes:</p>
+<pre class="text"><code>estate.domain.admit
+        ↓
+Store publication graph may reference domain
+        ↓
+route mapping / publication
+        ↓
+estate.edge.bind
+        ↓
+DNS / TLS / HTTPS witnesses</code></pre>
+<p>For non-static services, the same domain admission record may exist without a Store publication route. Domain identity therefore belongs to the estate control plane, not exclusively to the static publication graph.</p>
+<h2 id="authority-separation">Authority separation</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Concern</th>
+<th>Authority</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>hostname exists as an admitted Fountain identity</td>
+<td>domain admission</td>
+</tr>
+<tr class="even">
+<td>provider DNS mutation</td>
+<td>Chapter 94 provider adapter</td>
+</tr>
+<tr class="odd">
+<td>certificate lifecycle</td>
+<td>Chapter 96 / SwiftACMEKit</td>
+</tr>
+<tr class="even">
+<td>certificate secret custody</td>
+<td>SecretStore / host custody boundary</td>
+</tr>
+<tr class="odd">
+<td>runtime serving target</td>
+<td>edge binding</td>
+</tr>
+<tr class="even">
+<td>static publication meaning and bytes</td>
+<td>EstatePublisher + FountainStore publication state</td>
+</tr>
+<tr class="odd">
+<td>service runtime capability</td>
+<td>owning service / FCIS-KIT boundary</td>
+</tr>
+<tr class="even">
+<td>public reachability witness</td>
+<td>DNS + TLS + HTTPS read-back</td>
+</tr>
+</tbody>
+</table>
+<p>No row inherits authority from another.</p>
+<h2 id="required-state-machines">Required state machines</h2>
+<p>Domain admission SHALL have explicit states such as:</p>
+<pre class="text"><code>proposed
+→ validated
+→ admitted
+→ suspended
+→ retired</code></pre>
+<p>Edge binding SHALL have explicit states such as:</p>
+<pre class="text"><code>planned
+→ prerequisites-valid
+→ staged
+→ active
+→ failed
+→ rolled-back
+→ retired</code></pre>
+<p>A failed edge binding SHALL NOT revoke the domain identity. A retired edge SHALL NOT silently retire the domain. A certificate failure SHALL NOT erase either.</p>
+<h2 id="exact-prerequisites-for-edge-activation">Exact prerequisites for edge activation</h2>
+<p>Before <code>estate.edge.bind</code> may activate a public HTTPS hostname, all of the following SHALL be established:</p>
+<ol type="1">
+<li>domain admission receipt exists and is current;</li>
+<li>target host is admitted;</li>
+<li>DNS target is declared or already verified;</li>
+<li>certificate identity matches the exact hostname;</li>
+<li>certificate custody is available to the selected edge without exposing private material;</li>
+<li>owning runtime service is installed and healthy;</li>
+<li>requested edge profile is allowed for the domain role;</li>
+<li>listener/upstream binding is exact and bounded;</li>
+<li>predecessor configuration is recoverable;</li>
+<li>activation authorization is current.</li>
+</ol>
+<p>If any prerequisite is absent, stop before public mutation.</p>
+<h2 id="activation-and-rollback">Activation and rollback</h2>
+<p>Edge activation SHALL be atomic from the point of view of the public hostname.</p>
+<p>The operation MUST:</p>
+<ul>
+<li>prepare candidate configuration separately from active configuration;</li>
+<li>validate syntax and references;</li>
+<li>verify certificate identity;</li>
+<li>verify upstream health where applicable;</li>
+<li>activate or reload through the edge's native lifecycle;</li>
+<li>perform HTTPS read-back using the public hostname;</li>
+<li>persist the terminal receipt;</li>
+<li>preserve a rollback predecessor.</li>
+</ul>
+<p>Rollback restores the previous edge binding. It does not reissue certificates, delete DNS, or erase domain admission.</p>
+<h2 id="dynamic-service-hostnames">Dynamic service hostnames</h2>
+<p>Service hostnames such as <code>auth.fountain.coach</code> and <code>mcp.fountain.coach</code> are first-class estate identities even though they are not static publication roots.</p>
+<p>This avoids the false assumption that every Fountain hostname must correspond to a checked-in static site.</p>
+<p>A dynamic service hostname SHALL declare:</p>
+<ul>
+<li>role;</li>
+<li>owning service;</li>
+<li>protocol;</li>
+<li>health/discovery surface;</li>
+<li>edge profile;</li>
+<li>authorization requirements;</li>
+<li>whether browser access is expected;</li>
+<li>whether the root path has a human-readable representation.</li>
+</ul>
+<p>For Slice N:</p>
+<pre class="text"><code>auth.fountain.coach
+  role = authorization-server
+  edge = reverse-proxy service edge
+  upstream = FountainHostMCPOAuthHTTP
+  browser = yes
+
+mcp.fountain.coach
+  role = protected-resource
+  edge = reverse-proxy service edge
+  upstream = FountainHostMCPHTTP
+  browser = metadata only / machine-first</code></pre>
+<h2 id="domain-retirement">Domain retirement</h2>
+<p>Retirement is explicit and ordered.</p>
+<p>A normal retirement sequence is:</p>
+<pre class="text"><code>stop new publication/service admission
+→ remove or replace edge binding
+→ verify no public dependency
+→ retire DNS
+→ revoke/retire certificate as policy requires
+→ mark domain retired</code></pre>
+<p>Certificate expiry or DNS deletion alone SHALL NOT constitute domain retirement.</p>
+<h2 id="evidence">Evidence</h2>
+<p>A complete live domain-service proof may contain:</p>
+<ul>
+<li>domain-admission receipt;</li>
+<li>infrastructure authorization receipt;</li>
+<li>DNS read-back;</li>
+<li>certificate issuance/renewal receipt;</li>
+<li>certificate SAN/fingerprint witness;</li>
+<li>edge-binding receipt;</li>
+<li>upstream health witness;</li>
+<li>HTTPS hostname read-back;</li>
+<li>application-level protocol read-back;</li>
+<li>rollback evidence;</li>
+<li>correlated FountainStore evidence where durable recording is required.</li>
+</ul>
+<p>Private keys, bearer tokens, provider credentials, session secrets, and equivalent secret material never belong in the receipt.</p>
+<h2 id="migration-of-the-current-acme-adapter">Migration of the current ACME adapter</h2>
+<p><code>EstatePublisherPublicACMEHostAdapter</code> is legacy composite behavior under this chapter.</p>
+<p>Its existing behavior combines:</p>
+<pre class="text"><code>domain allowlisting
++ certificate issuance
++ certificate custody assumptions
++ FountainStore TLS-route mutation
++ service restart
++ HTTPS read-back</code></pre>
+<p>The migration SHALL separate those concerns without breaking already accepted production hosts.</p>
+<p>The migration order is:</p>
+<ol type="1">
+<li>introduce domain-admission records for the currently hard-coded hosts;</li>
+<li>introduce typed edge-binding records for their current serving profile;</li>
+<li>make ACME consume domain admission instead of owning a hostname allowlist;</li>
+<li>move edge-route mutation and runtime reload into the edge-binding capability;</li>
+<li>preserve existing certificate custody and live routes during migration;</li>
+<li>prove renewal no longer implies unrelated route mutation;</li>
+<li>only then admit additional domains such as <code>auth.fountain.coach</code> and <code>mcp.fountain.coach</code>.</li>
+</ol>
+<p>Do not begin by deleting the old adapter. First make its hidden decisions explicit as typed governed state.</p>
+<h2 id="first-acceptance-scenario">First acceptance scenario</h2>
+<p>The first Chapter 153 scenario SHALL use one existing hostname before introducing a new one.</p>
+<pre class="text"><code>GIVEN
+  one currently live admitted Fountain hostname
+  its current DNS
+  its current certificate
+  its current serving edge
+
+WHEN
+  the hidden legacy state is reconstructed
+  as a domain-admission record
+  and an edge-binding record
+
+THEN
+  no DNS changes
+  no certificate reissue
+  no public route changes
+  no service outage
+  the current HTTPS response remains unchanged
+  and the new records exactly describe the live state</code></pre>
+<p>A second scenario may then admit <code>auth.fountain.coach</code> and <code>mcp.fountain.coach</code> through the newly separated capabilities.</p>
+<h2 id="nonclaims">Nonclaims</h2>
+<p>This chapter does not select a universal public edge implementation.</p>
+<p>It does not require Caddy, FountainStoreHTTP, or any other single server.</p>
+<p>It does not claim that DNS APIs, ACME renewal, or reverse-proxy deployment are already generalized.</p>
+<p>It does not authorize an arbitrary hostname merely because it ends in <code>.fountain.coach</code>.</p>
+<p>It does not weaken Chapter 96 certificate custody or Chapter 94 infrastructure authorization.</p>
+<h2 id="governing-rules">Governing rules</h2>
+<ol type="1">
+<li>A hostname becomes a Fountain identity only through domain admission.</li>
+<li>DNS resolution is an infrastructure witness, not domain admission.</li>
+<li>ACME consumes admitted identifiers; it does not decide which Fountain domains exist.</li>
+<li>Certificate custody and certificate lifecycle do not imply edge activation.</li>
+<li>Edge binding connects one admitted domain to one admitted runtime target.</li>
+<li>Static publication and dynamic services may use different edge profiles under the same domain-admission model.</li>
+<li>Every public edge activation is exact, typed, evidenced, and rollback-capable.</li>
+<li>Renewal must not silently mutate unrelated routing or publication state.</li>
+<li>Domain retirement, DNS removal, certificate revocation, and edge retirement are separate transitions.</li>
+<li>Existing composite adapters must be decomposed by first reconstructing their hidden state, not by deleting working production behavior.</li>
+</ol>
+<h2 id="governing-sentence">Governing sentence</h2>
+<p><strong>A Fountain hostname is admitted before it is resolved, certified, or served: domain admission establishes the identity, SwiftACMEKit establishes certificate lifecycle, provider adapters establish DNS, edge binding establishes which runtime may answer, and no successful side effect is allowed to manufacture authority for another layer.</strong></p>
+
+      </article>
+      <footer id="footer" role="contentinfo" class="footer"><div class="footer-footnotes"><p class="footer-footnote"><span class="footer-footnote-number">01</span><span><strong>Fountain Coach</strong> · local preview projection · public publication remains separate.</span></p><p class="footer-footnote"><span class="footer-footnote-number">02</span><span><a href="https://fountain.coach/">Estate</a> · <a href="https://book.fountain.coach/">Book</a> · <a href="https://governance.fountain.coach/">Governance</a> · <a href="https://midi2.fountain.coach/">MIDI2</a></span></p><p class="footer-footnote"><span class="footer-footnote-number">03</span><span>Runtime, Store, security, release, and remote publication claims require their own evidence.</span></p></div><a class="footer-mark" href="/" aria-label="Fountain Coach home"><img src="/assets/fountain-coach-logo-transparent.png" alt="Fountain Coach logo"></a></footer>
+    </main>
+  </div>
+</body>
+</html>

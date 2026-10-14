@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">EstatePublisher publication authority</title>
+  <desc id="desc">A reviewed route crosses EstatePublisher from a local FountainStore through approval into a remote Store and public read-back.</desc>
+  <rect width="1200" height="630" rx="28" fill="#f1eee6"/>
+  <path d="M90 470H1110" stroke="#d8d0c0" stroke-width="3"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="#26231f">
+    <text x="90" y="104" font-size="22" letter-spacing="5" fill="#8b6250">FOUNTAIN COACH · PUBLICATION BOUNDARY</text>
+    <text x="90" y="160" font-size="48" font-weight="700">One route. One authority.</text>
+    <text x="90" y="198" font-size="22" fill="#6d665c">Review → authorize → synchronize → read back</text>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" text-anchor="middle">
+    <!-- Titles stay inside a 20px horizontal inset; the reduced title size preserves that inset on narrow cards. -->
+    <g transform="translate(110 270)"><rect width="190" height="128" rx="18" fill="#fffaf0" stroke="#b9ad98" stroke-width="3"/><text x="95" y="48" font-size="17" fill="#8b6250">LOCAL</text><text x="95" y="82" font-size="17" font-weight="700" fill="#26231f">FountainStore</text><text x="95" y="108" font-size="15" fill="#6d665c">reviewed bytes</text></g>
+    <g transform="translate(360 270)"><rect width="190" height="128" rx="18" fill="#26243b"/><text x="95" y="48" font-size="17" fill="#e4bda7">NATIVE CLI</text><text x="95" y="82" font-size="17" font-weight="700" fill="#fffaf0">EstatePublisher</text><text x="95" y="108" font-size="15" fill="#d4cdbf">typed operation</text></g>
+    <g transform="translate(610 270)"><rect width="190" height="128" rx="18" fill="#fffaf0" stroke="#b9ad98" stroke-width="3"/><text x="95" y="48" font-size="17" fill="#8b6250">TRUST</text><text x="95" y="82" font-size="17" font-weight="700" fill="#26231f">Approval</text><text x="95" y="108" font-size="12" fill="#6d665c">scope · expiry · replay</text></g>
+    <g transform="translate(860 270)"><rect width="190" height="128" rx="18" fill="#e5ded0" stroke="#a5967c" stroke-width="3"/><text x="95" y="48" font-size="17" fill="#8b6250">REMOTE</text><text x="95" y="82" font-size="17" font-weight="700" fill="#26231f">Store + HTTPS</text><text x="95" y="108" font-size="15" fill="#6d665c">read-back proof</text></g>
+  </g>
+  <g stroke="#a56751" stroke-width="5" fill="none" stroke-linecap="round"><path d="M310 334h42"/><path d="M560 334h42"/><path d="M810 334h42"/></g>
+  <g fill="#a56751"><path d="m348 324 16 10-16 10z"/><path d="m598 324 16 10-16 10z"/><path d="m848 324 16 10-16 10z"/></g>
+  <text x="600" y="530" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19" fill="#6d665c">A green preview is not a promotion receipt.</text>
+</svg>

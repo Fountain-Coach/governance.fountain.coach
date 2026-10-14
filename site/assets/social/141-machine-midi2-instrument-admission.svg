@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">A machine becomes a governed MIDI2 instrument before it joins the estate</title>
+  <desc id="desc">A machine silhouette moves through signed instrument identity, MIDI2 and MIDI-CI readiness, FountainStore proof, and then EstatePublisher admission.</desc>
+  <rect width="1200" height="630" fill="#f4efe7"/>
+  <path d="M90 500H1110" stroke="#191817" stroke-width="2" opacity=".22"/>
+  <g fill="none" stroke="#191817" stroke-width="3">
+    <rect x="85" y="195" width="205" height="210" rx="18" fill="#fffaf2"/>
+    <path d="M125 245h125M125 285h125M125 325h80"/>
+    <circle cx="235" cy="365" r="12" fill="#a65b36" stroke="none"/>
+    <rect x="360" y="225" width="185" height="150" rx="16" fill="#fffaf2"/>
+    <path d="M390 270h125M390 310h90"/>
+    <path d="M385 415h135"/>
+    <rect x="620" y="190" width="205" height="220" rx="18" fill="#fffaf2"/>
+    <path d="M660 250h125M660 295h125M660 340h90"/>
+    <path d="M925 220h150v185H925z" fill="#fffaf2"/>
+    <path d="M955 270h90M955 315h90M955 360h65"/>
+  </g>
+  <g fill="#191817" font-family="Georgia, serif">
+    <text x="85" y="155" font-size="30">MACHINE</text>
+    <text x="360" y="185" font-size="30">SIGNED</text>
+    <text x="620" y="150" font-size="30">MIDI2 / MIDI-CI</text>
+    <text x="925" y="180" font-size="30">ESTATE</text>
+  </g>
+  <g fill="none" stroke="#a65b36" stroke-width="5" stroke-linecap="round">
+    <path d="M305 300h42"/><path d="M560 300h42"/><path d="M840 300h62"/>
+  </g>
+  <g fill="#a65b36">
+    <path d="m340 288 18 12-18 12z"/><path d="m595 288 18 12-18 12z"/><path d="m895 288 18 12-18 12z"/>
+  </g>
+  <text x="600" y="565" text-anchor="middle" fill="#191817" font-family="Arial, sans-serif" font-size="21" letter-spacing="2">PRESENCE IS NOT ADMISSION · READINESS IS A RECEIPT</text>
+</svg>

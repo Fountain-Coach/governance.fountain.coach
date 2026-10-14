@@ -1,0 +1,1119 @@
+{
+  "schemaVersion": 1,
+  "host": "governance.fountain.coach",
+  "routes": [
+    {
+      "pathPrefix": "",
+      "sourceRoot": ".",
+      "publicPaths": [
+        "/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/00-abstract",
+      "sourceRoot": "chapters/00-abstract",
+      "publicPaths": [
+        "/chapters/00-abstract/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/01-reading-index",
+      "sourceRoot": "chapters/01-reading-index",
+      "publicPaths": [
+        "/chapters/01-reading-index/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/02-development-history",
+      "sourceRoot": "chapters/02-development-history",
+      "publicPaths": [
+        "/chapters/02-development-history/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/03-current-state-and-problem",
+      "sourceRoot": "chapters/03-current-state-and-problem",
+      "publicPaths": [
+        "/chapters/03-current-state-and-problem/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/04-target-architecture",
+      "sourceRoot": "chapters/04-target-architecture",
+      "publicPaths": [
+        "/chapters/04-target-architecture/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/05-grounding-contract",
+      "sourceRoot": "chapters/05-grounding-contract",
+      "publicPaths": [
+        "/chapters/05-grounding-contract/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/06-refactoring-program",
+      "sourceRoot": "chapters/06-refactoring-program",
+      "publicPaths": [
+        "/chapters/06-refactoring-program/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/07-agent-operating-guide",
+      "sourceRoot": "chapters/07-agent-operating-guide",
+      "publicPaths": [
+        "/chapters/07-agent-operating-guide/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/08-validation-and-acceptance",
+      "sourceRoot": "chapters/08-validation-and-acceptance",
+      "publicPaths": [
+        "/chapters/08-validation-and-acceptance/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/09-compatibility-and-future-evolution",
+      "sourceRoot": "chapters/09-compatibility-and-future-evolution",
+      "publicPaths": [
+        "/chapters/09-compatibility-and-future-evolution/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/10-copilot-implementation-extension",
+      "sourceRoot": "chapters/10-copilot-implementation-extension",
+      "publicPaths": [
+        "/chapters/10-copilot-implementation-extension/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/11-grounding-as-a-given",
+      "sourceRoot": "chapters/11-grounding-as-a-given",
+      "publicPaths": [
+        "/chapters/11-grounding-as-a-given/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/12-animating-truth",
+      "sourceRoot": "chapters/12-animating-truth",
+      "publicPaths": [
+        "/chapters/12-animating-truth/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/13-storage-and-performance",
+      "sourceRoot": "chapters/13-storage-and-performance",
+      "publicPaths": [
+        "/chapters/13-storage-and-performance/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/14-the-beat-and-its-arrangements",
+      "sourceRoot": "chapters/14-the-beat-and-its-arrangements",
+      "publicPaths": [
+        "/chapters/14-the-beat-and-its-arrangements/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/15-the-situated-copilot",
+      "sourceRoot": "chapters/15-the-situated-copilot",
+      "publicPaths": [
+        "/chapters/15-the-situated-copilot/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/16-the-timeline-is-the-machine-room",
+      "sourceRoot": "chapters/16-the-timeline-is-the-machine-room",
+      "publicPaths": [
+        "/chapters/16-the-timeline-is-the-machine-room/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/17-the-score",
+      "sourceRoot": "chapters/17-the-score",
+      "publicPaths": [
+        "/chapters/17-the-score/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/18-the-stage-presents-the-act",
+      "sourceRoot": "chapters/18-the-stage-presents-the-act",
+      "publicPaths": [
+        "/chapters/18-the-stage-presents-the-act/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/19-apple-human-interface-guidelines",
+      "sourceRoot": "chapters/19-apple-human-interface-guidelines",
+      "publicPaths": [
+        "/chapters/19-apple-human-interface-guidelines/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/20-on-device-first-and-the-writers-key",
+      "sourceRoot": "chapters/20-on-device-first-and-the-writers-key",
+      "publicPaths": [
+        "/chapters/20-on-device-first-and-the-writers-key/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/21-training-perspectives",
+      "sourceRoot": "chapters/21-training-perspectives",
+      "publicPaths": [
+        "/chapters/21-training-perspectives/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/22-no-preferences-only-reasoning",
+      "sourceRoot": "chapters/22-no-preferences-only-reasoning",
+      "publicPaths": [
+        "/chapters/22-no-preferences-only-reasoning/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/23-one-reasoning",
+      "sourceRoot": "chapters/23-one-reasoning",
+      "publicPaths": [
+        "/chapters/23-one-reasoning/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/24-the-reasoning-is-an-uncertainty-map",
+      "sourceRoot": "chapters/24-the-reasoning-is-an-uncertainty-map",
+      "publicPaths": [
+        "/chapters/24-the-reasoning-is-an-uncertainty-map/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/25-the-copilot-is-the-surface",
+      "sourceRoot": "chapters/25-the-copilot-is-the-surface",
+      "publicPaths": [
+        "/chapters/25-the-copilot-is-the-surface/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/26-internals-tune-themselves",
+      "sourceRoot": "chapters/26-internals-tune-themselves",
+      "publicPaths": [
+        "/chapters/26-internals-tune-themselves/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/27-parse-before-you-ask",
+      "sourceRoot": "chapters/27-parse-before-you-ask",
+      "publicPaths": [
+        "/chapters/27-parse-before-you-ask/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/28-a-beat-is-the-question-it-raises",
+      "sourceRoot": "chapters/28-a-beat-is-the-question-it-raises",
+      "publicPaths": [
+        "/chapters/28-a-beat-is-the-question-it-raises/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/29-natural-language-measures-storify-interprets",
+      "sourceRoot": "chapters/29-natural-language-measures-storify-interprets",
+      "publicPaths": [
+        "/chapters/29-natural-language-measures-storify-interprets/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/30-the-living-gazetteer",
+      "sourceRoot": "chapters/30-the-living-gazetteer",
+      "publicPaths": [
+        "/chapters/30-the-living-gazetteer/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/31-compiled-knowledge",
+      "sourceRoot": "chapters/31-compiled-knowledge",
+      "publicPaths": [
+        "/chapters/31-compiled-knowledge/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/32-referenced-knowledge",
+      "sourceRoot": "chapters/32-referenced-knowledge",
+      "publicPaths": [
+        "/chapters/32-referenced-knowledge/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/33-a-want-is-a-gap-in-a-ledger",
+      "sourceRoot": "chapters/33-a-want-is-a-gap-in-a-ledger",
+      "publicPaths": [
+        "/chapters/33-a-want-is-a-gap-in-a-ledger/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/34-a-question-that-leaves-the-work",
+      "sourceRoot": "chapters/34-a-question-that-leaves-the-work",
+      "publicPaths": [
+        "/chapters/34-a-question-that-leaves-the-work/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/35-deep-search",
+      "sourceRoot": "chapters/35-deep-search",
+      "publicPaths": [
+        "/chapters/35-deep-search/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/36-every-gap-keeps-its-address",
+      "sourceRoot": "chapters/36-every-gap-keeps-its-address",
+      "publicPaths": [
+        "/chapters/36-every-gap-keeps-its-address/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/37-copilot-capability-governance",
+      "sourceRoot": "chapters/37-copilot-capability-governance",
+      "publicPaths": [
+        "/chapters/37-copilot-capability-governance/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/38-copilot-capability-audit-skill",
+      "sourceRoot": "chapters/38-copilot-capability-audit-skill",
+      "publicPaths": [
+        "/chapters/38-copilot-capability-audit-skill/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/39-a-model-cannot-be-told-what-it-cannot-do",
+      "sourceRoot": "chapters/39-a-model-cannot-be-told-what-it-cannot-do",
+      "publicPaths": [
+        "/chapters/39-a-model-cannot-be-told-what-it-cannot-do/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/40-a-citation-is-a-promise-someone-can-check",
+      "sourceRoot": "chapters/40-a-citation-is-a-promise-someone-can-check",
+      "publicPaths": [
+        "/chapters/40-a-citation-is-a-promise-someone-can-check/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/41-one-retrieval-two-directions",
+      "sourceRoot": "chapters/41-one-retrieval-two-directions",
+      "publicPaths": [
+        "/chapters/41-one-retrieval-two-directions/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/42-what-is-already-recorded-is-read",
+      "sourceRoot": "chapters/42-what-is-already-recorded-is-read",
+      "publicPaths": [
+        "/chapters/42-what-is-already-recorded-is-read/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/43-the-released-surface-is-a-named-build",
+      "sourceRoot": "chapters/43-the-released-surface-is-a-named-build",
+      "publicPaths": [
+        "/chapters/43-the-released-surface-is-a-named-build/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/44-publication-and-source-policy",
+      "sourceRoot": "chapters/44-publication-and-source-policy",
+      "publicPaths": [
+        "/chapters/44-publication-and-source-policy/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/45-copilot-reading-surface-and-typography",
+      "sourceRoot": "chapters/45-copilot-reading-surface-and-typography",
+      "publicPaths": [
+        "/chapters/45-copilot-reading-surface-and-typography/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/46-dynamic-grounding",
+      "sourceRoot": "chapters/46-dynamic-grounding",
+      "publicPaths": [
+        "/chapters/46-dynamic-grounding/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/47-situated-mixed-initiative-interaction",
+      "sourceRoot": "chapters/47-situated-mixed-initiative-interaction",
+      "publicPaths": [
+        "/chapters/47-situated-mixed-initiative-interaction/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/48-a-service-is-a-fact-not-a-symptom",
+      "sourceRoot": "chapters/48-a-service-is-a-fact-not-a-symptom",
+      "publicPaths": [
+        "/chapters/48-a-service-is-a-fact-not-a-symptom/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/49-one-definition-two-projections",
+      "sourceRoot": "chapters/49-one-definition-two-projections",
+      "publicPaths": [
+        "/chapters/49-one-definition-two-projections/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/50-text-is-stored-so-it-can-be-pointed-at",
+      "sourceRoot": "chapters/50-text-is-stored-so-it-can-be-pointed-at",
+      "publicPaths": [
+        "/chapters/50-text-is-stored-so-it-can-be-pointed-at/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/51-one-decision-decides-the-lane",
+      "sourceRoot": "chapters/51-one-decision-decides-the-lane",
+      "publicPaths": [
+        "/chapters/51-one-decision-decides-the-lane/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/52-the-pencil-belongs-to-the-writer",
+      "sourceRoot": "chapters/52-the-pencil-belongs-to-the-writer",
+      "publicPaths": [
+        "/chapters/52-the-pencil-belongs-to-the-writer/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/53-a-selection-snaps-to-meaning",
+      "sourceRoot": "chapters/53-a-selection-snaps-to-meaning",
+      "publicPaths": [
+        "/chapters/53-a-selection-snaps-to-meaning/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/54-the-writer-does-not-manage-the-projection",
+      "sourceRoot": "chapters/54-the-writer-does-not-manage-the-projection",
+      "publicPaths": [
+        "/chapters/54-the-writer-does-not-manage-the-projection/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/55-one-store-authority-across-repositories",
+      "sourceRoot": "chapters/55-one-store-authority-across-repositories",
+      "publicPaths": [
+        "/chapters/55-one-store-authority-across-repositories/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/56-the-book-library-is-a-portable-source-provider",
+      "sourceRoot": "chapters/56-the-book-library-is-a-portable-source-provider",
+      "publicPaths": [
+        "/chapters/56-the-book-library-is-a-portable-source-provider/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/57-the-writer-enters-by-intention",
+      "sourceRoot": "chapters/57-the-writer-enters-by-intention",
+      "publicPaths": [
+        "/chapters/57-the-writer-enters-by-intention/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/58-open-turn-mediation-protocol",
+      "sourceRoot": "chapters/58-open-turn-mediation-protocol",
+      "publicPaths": [
+        "/chapters/58-open-turn-mediation-protocol/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/59-copilot-initiated-library-curation",
+      "sourceRoot": "chapters/59-copilot-initiated-library-curation",
+      "publicPaths": [
+        "/chapters/59-copilot-initiated-library-curation/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/60-the-fountain-editor-is-the-project-surface",
+      "sourceRoot": "chapters/60-the-fountain-editor-is-the-project-surface",
+      "publicPaths": [
+        "/chapters/60-the-fountain-editor-is-the-project-surface/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/61-the-fountain-project-round-trip",
+      "sourceRoot": "chapters/61-the-fountain-project-round-trip",
+      "publicPaths": [
+        "/chapters/61-the-fountain-project-round-trip/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/62-reframe-maintenance-control-plane",
+      "sourceRoot": "chapters/62-reframe-maintenance-control-plane",
+      "publicPaths": [
+        "/chapters/62-reframe-maintenance-control-plane/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/63-fountain-maintenance-kit",
+      "sourceRoot": "chapters/63-fountain-maintenance-kit",
+      "publicPaths": [
+        "/chapters/63-fountain-maintenance-kit/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/64-fountain-project-kit-durable-draft-custody",
+      "sourceRoot": "chapters/64-fountain-project-kit-durable-draft-custody",
+      "publicPaths": [
+        "/chapters/64-fountain-project-kit-durable-draft-custody/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/65-the-copilot-as-writing-coach",
+      "sourceRoot": "chapters/65-the-copilot-as-writing-coach",
+      "publicPaths": [
+        "/chapters/65-the-copilot-as-writing-coach/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/66-fountain-image-publication-kit",
+      "sourceRoot": "chapters/66-fountain-image-publication-kit",
+      "publicPaths": [
+        "/chapters/66-fountain-image-publication-kit/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/67-fountain-composer-kit-remote-attachment-custody",
+      "sourceRoot": "chapters/67-fountain-composer-kit-remote-attachment-custody",
+      "publicPaths": [
+        "/chapters/67-fountain-composer-kit-remote-attachment-custody/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/68-the-reframe-e2e-scenario-is-the-publication-unit",
+      "sourceRoot": "chapters/68-the-reframe-e2e-scenario-is-the-publication-unit",
+      "publicPaths": [
+        "/chapters/68-the-reframe-e2e-scenario-is-the-publication-unit/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/69-the-book-of-reframe-is-a-dual-projection",
+      "sourceRoot": "chapters/69-the-book-of-reframe-is-a-dual-projection",
+      "publicPaths": [
+        "/chapters/69-the-book-of-reframe-is-a-dual-projection/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/70-external-midi2-control-of-reframe",
+      "sourceRoot": "chapters/70-external-midi2-control-of-reframe",
+      "publicPaths": [
+        "/chapters/70-external-midi2-control-of-reframe/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/71-reframe-to-reframe-software-peer-acceptance",
+      "sourceRoot": "chapters/71-reframe-to-reframe-software-peer-acceptance",
+      "publicPaths": [
+        "/chapters/71-reframe-to-reframe-software-peer-acceptance/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/72-midi2-peer-projections-and-capacity-admission",
+      "sourceRoot": "chapters/72-midi2-peer-projections-and-capacity-admission",
+      "publicPaths": [
+        "/chapters/72-midi2-peer-projections-and-capacity-admission/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/73-reframe-scenario-development-cycle",
+      "sourceRoot": "chapters/73-reframe-scenario-development-cycle",
+      "publicPaths": [
+        "/chapters/73-reframe-scenario-development-cycle/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/74-private-image-prompt-history",
+      "sourceRoot": "chapters/74-private-image-prompt-history",
+      "publicPaths": [
+        "/chapters/74-private-image-prompt-history/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/75-scenario-run-ownership-and-non-interference",
+      "sourceRoot": "chapters/75-scenario-run-ownership-and-non-interference",
+      "publicPaths": [
+        "/chapters/75-scenario-run-ownership-and-non-interference/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/76-beat-movement-and-uncertainty-overlay",
+      "sourceRoot": "chapters/76-beat-movement-and-uncertainty-overlay",
+      "publicPaths": [
+        "/chapters/76-beat-movement-and-uncertainty-overlay/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/77-swift-midi2-scenario-runtime",
+      "sourceRoot": "chapters/77-swift-midi2-scenario-runtime",
+      "publicPaths": [
+        "/chapters/77-swift-midi2-scenario-runtime/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/78-scenario-driven-development-as-org-infrastructure",
+      "sourceRoot": "chapters/78-scenario-driven-development-as-org-infrastructure",
+      "publicPaths": [
+        "/chapters/78-scenario-driven-development-as-org-infrastructure/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/79-default-semantic-manuscript-projection",
+      "sourceRoot": "chapters/79-default-semantic-manuscript-projection",
+      "publicPaths": [
+        "/chapters/79-default-semantic-manuscript-projection/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/80-independent-governance-publication",
+      "sourceRoot": "chapters/80-independent-governance-publication",
+      "publicPaths": [
+        "/chapters/80-independent-governance-publication/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/81-universal-midi2-command-plane",
+      "sourceRoot": "chapters/81-universal-midi2-command-plane",
+      "publicPaths": [
+        "/chapters/81-universal-midi2-command-plane/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/82-remote-midi2-reading-room",
+      "sourceRoot": "chapters/82-remote-midi2-reading-room",
+      "publicPaths": [
+        "/chapters/82-remote-midi2-reading-room/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/83-conversational-scenario-authoring",
+      "sourceRoot": "chapters/83-conversational-scenario-authoring",
+      "publicPaths": [
+        "/chapters/83-conversational-scenario-authoring/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/84-governed-reframe-design-mock",
+      "sourceRoot": "chapters/84-governed-reframe-design-mock",
+      "publicPaths": [
+        "/chapters/84-governed-reframe-design-mock/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/85-storify-source-auto-reads-a-defined-whole",
+      "sourceRoot": "chapters/85-storify-source-auto-reads-a-defined-whole",
+      "publicPaths": [
+        "/chapters/85-storify-source-auto-reads-a-defined-whole/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/86-apple-native-semantic-pipeline-is-one-midi2-graph",
+      "sourceRoot": "chapters/86-apple-native-semantic-pipeline-is-one-midi2-graph",
+      "publicPaths": [
+        "/chapters/86-apple-native-semantic-pipeline-is-one-midi2-graph/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/87-midi2-monitor-is-the-live-event-mirror",
+      "sourceRoot": "chapters/87-midi2-monitor-is-the-live-event-mirror",
+      "publicPaths": [
+        "/chapters/87-midi2-monitor-is-the-live-event-mirror/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/88-codexkit-is-a-governed-codex-app-server-boundary",
+      "sourceRoot": "chapters/88-codexkit-is-a-governed-codex-app-server-boundary",
+      "publicPaths": [
+        "/chapters/88-codexkit-is-a-governed-codex-app-server-boundary/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/89-codex-auth-instrument-is-the-copilot-login-surface",
+      "sourceRoot": "chapters/89-codex-auth-instrument-is-the-copilot-login-surface",
+      "publicPaths": [
+        "/chapters/89-codex-auth-instrument-is-the-copilot-login-surface/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/90-independent-security-review-is-a-separate-acceptance-boundary",
+      "sourceRoot": "chapters/90-independent-security-review-is-a-separate-acceptance-boundary",
+      "publicPaths": [
+        "/chapters/90-independent-security-review-is-a-separate-acceptance-boundary/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/91-fcis-kit-instrument-store-is-the-capability-plane",
+      "sourceRoot": "chapters/91-fcis-kit-instrument-store-is-the-capability-plane",
+      "publicPaths": [
+        "/chapters/91-fcis-kit-instrument-store-is-the-capability-plane/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/92-fountain-coach-publication-estate",
+      "sourceRoot": "chapters/92-fountain-coach-publication-estate",
+      "publicPaths": [
+        "/chapters/92-fountain-coach-publication-estate/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/93-instrument-creation-is-a-governed-promotion-path",
+      "sourceRoot": "chapters/93-instrument-creation-is-a-governed-promotion-path",
+      "publicPaths": [
+        "/chapters/93-instrument-creation-is-a-governed-promotion-path/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/94-credentialed-infrastructure-operations-and-provider-adapters",
+      "sourceRoot": "chapters/94-credentialed-infrastructure-operations-and-provider-adapters",
+      "publicPaths": [
+        "/chapters/94-credentialed-infrastructure-operations-and-provider-adapters/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/95-fountainstore-headless-linux-authority",
+      "sourceRoot": "chapters/95-fountainstore-headless-linux-authority",
+      "publicPaths": [
+        "/chapters/95-fountainstore-headless-linux-authority/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/96-swiftacmekit-is-a-provider-neutral-certificate-automation-boundary",
+      "sourceRoot": "chapters/96-swiftacmekit-is-a-provider-neutral-certificate-automation-boundary",
+      "publicPaths": [
+        "/chapters/96-swiftacmekit-is-a-provider-neutral-certificate-automation-boundary/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/97-provider-neutral-host-bootstrap-and-enrollment",
+      "sourceRoot": "chapters/97-provider-neutral-host-bootstrap-and-enrollment",
+      "publicPaths": [
+        "/chapters/97-provider-neutral-host-bootstrap-and-enrollment/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/98-apple-native-markdown-presentation-and-transferable-engraving-rules",
+      "sourceRoot": "chapters/98-apple-native-markdown-presentation-and-transferable-engraving-rules",
+      "publicPaths": [
+        "/chapters/98-apple-native-markdown-presentation-and-transferable-engraving-rules/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/99-decoupled-manuscript-instruments",
+      "sourceRoot": "chapters/99-decoupled-manuscript-instruments",
+      "publicPaths": [
+        "/chapters/99-decoupled-manuscript-instruments/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/100-semantic-scenographer",
+      "sourceRoot": "chapters/100-semantic-scenographer",
+      "publicPaths": [
+        "/chapters/100-semantic-scenographer/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/101-teatro-stage-engine-semantic-scenography",
+      "sourceRoot": "chapters/101-teatro-stage-engine-semantic-scenography",
+      "publicPaths": [
+        "/chapters/101-teatro-stage-engine-semantic-scenography/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/102-semantic-inference-execution-session-and-latency-governance",
+      "sourceRoot": "chapters/102-semantic-inference-execution-session-and-latency-governance",
+      "publicPaths": [
+        "/chapters/102-semantic-inference-execution-session-and-latency-governance/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/103-fcis-kit-semantic-factory-and-wired-instrument-event-stream",
+      "sourceRoot": "chapters/103-fcis-kit-semantic-factory-and-wired-instrument-event-stream",
+      "publicPaths": [
+        "/chapters/103-fcis-kit-semantic-factory-and-wired-instrument-event-stream/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/104-midi2-event-time-jitter-and-asynchronous-completion-governance",
+      "sourceRoot": "chapters/104-midi2-event-time-jitter-and-asynchronous-completion-governance",
+      "publicPaths": [
+        "/chapters/104-midi2-event-time-jitter-and-asynchronous-completion-governance/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/105-semantic-scenographer-one-spatial-thought",
+      "sourceRoot": "chapters/105-semantic-scenographer-one-spatial-thought",
+      "publicPaths": [
+        "/chapters/105-semantic-scenographer-one-spatial-thought/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/106-teatro-midi2-monitor-canonical-runtime-projection",
+      "sourceRoot": "chapters/106-teatro-midi2-monitor-canonical-runtime-projection",
+      "publicPaths": [
+        "/chapters/106-teatro-midi2-monitor-canonical-runtime-projection/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/107-creating-the-canonical-teatro-stage-composition-layer",
+      "sourceRoot": "chapters/107-creating-the-canonical-teatro-stage-composition-layer",
+      "publicPaths": [
+        "/chapters/107-creating-the-canonical-teatro-stage-composition-layer/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/108-reframe-is-a-swift-native-cross-platform-runtime",
+      "sourceRoot": "chapters/108-reframe-is-a-swift-native-cross-platform-runtime",
+      "publicPaths": [
+        "/chapters/108-reframe-is-a-swift-native-cross-platform-runtime/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/109-natural-language-measurement-is-a-midi2-instrument",
+      "sourceRoot": "chapters/109-natural-language-measurement-is-a-midi2-instrument",
+      "publicPaths": [
+        "/chapters/109-natural-language-measurement-is-a-midi2-instrument/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/110-three-run-semantic-drift-calculus",
+      "sourceRoot": "chapters/110-three-run-semantic-drift-calculus",
+      "publicPaths": [
+        "/chapters/110-three-run-semantic-drift-calculus/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/111-evidence-cohorts-as-publication-units",
+      "sourceRoot": "chapters/111-evidence-cohorts-as-publication-units",
+      "publicPaths": [
+        "/chapters/111-evidence-cohorts-as-publication-units/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/112-skill-and-maintenance-capabilities-are-kit-owned",
+      "sourceRoot": "chapters/112-skill-and-maintenance-capabilities-are-kit-owned",
+      "publicPaths": [
+        "/chapters/112-skill-and-maintenance-capabilities-are-kit-owned/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/113-governance-becomes-an-executable-scenographic-policy",
+      "sourceRoot": "chapters/113-governance-becomes-an-executable-scenographic-policy",
+      "publicPaths": [
+        "/chapters/113-governance-becomes-an-executable-scenographic-policy/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/114-server-side-semantic-proposals-mac-and-linux-one-runtime",
+      "sourceRoot": "chapters/114-server-side-semantic-proposals-mac-and-linux-one-runtime",
+      "publicPaths": [
+        "/chapters/114-server-side-semantic-proposals-mac-and-linux-one-runtime/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/115-semantic-browser-is-a-governed-midi2-and-fountainstore-instrument",
+      "sourceRoot": "chapters/115-semantic-browser-is-a-governed-midi2-and-fountainstore-instrument",
+      "publicPaths": [
+        "/chapters/115-semantic-browser-is-a-governed-midi2-and-fountainstore-instrument/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/116-fountainstore-owned-estate-edge-and-acme-promotion",
+      "sourceRoot": "chapters/116-fountainstore-owned-estate-edge-and-acme-promotion",
+      "publicPaths": [
+        "/chapters/116-fountainstore-owned-estate-edge-and-acme-promotion/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/117-fountainstore-snapshot-export-and-git-recovery-projection",
+      "sourceRoot": "chapters/117-fountainstore-snapshot-export-and-git-recovery-projection",
+      "publicPaths": [
+        "/chapters/117-fountainstore-snapshot-export-and-git-recovery-projection/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/118-european-cybersecurity-profile",
+      "sourceRoot": "chapters/118-european-cybersecurity-profile",
+      "publicPaths": [
+        "/chapters/118-european-cybersecurity-profile/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/119-scenario-pipeline-factory",
+      "sourceRoot": "chapters/119-scenario-pipeline-factory",
+      "publicPaths": [
+        "/chapters/119-scenario-pipeline-factory/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/120-internal-triadic-peer-dialogue",
+      "sourceRoot": "chapters/120-internal-triadic-peer-dialogue",
+      "publicPaths": [
+        "/chapters/120-internal-triadic-peer-dialogue/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/121-dynamic-midi2-instrument-factory",
+      "sourceRoot": "chapters/121-dynamic-midi2-instrument-factory",
+      "publicPaths": [
+        "/chapters/121-dynamic-midi2-instrument-factory/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/122-governed-semantic-transformation-instrument",
+      "sourceRoot": "chapters/122-governed-semantic-transformation-instrument",
+      "publicPaths": [
+        "/chapters/122-governed-semantic-transformation-instrument/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/123-commands-must-be-legible-to-reasoning",
+      "sourceRoot": "chapters/123-commands-must-be-legible-to-reasoning",
+      "publicPaths": [
+        "/chapters/123-commands-must-be-legible-to-reasoning/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/124-midi2-timed-webkit-transitions",
+      "sourceRoot": "chapters/124-midi2-timed-webkit-transitions",
+      "publicPaths": [
+        "/chapters/124-midi2-timed-webkit-transitions/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/125-store-publication-graph-domain-mapping-and-atomic-route-promotion",
+      "sourceRoot": "chapters/125-store-publication-graph-domain-mapping-and-atomic-route-promotion",
+      "publicPaths": [
+        "/chapters/125-store-publication-graph-domain-mapping-and-atomic-route-promotion/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/126-fountain-coach-organization-web-projection",
+      "sourceRoot": "chapters/126-fountain-coach-organization-web-projection",
+      "publicPaths": [
+        "/chapters/126-fountain-coach-organization-web-projection/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/127-estate-template-publishing-path",
+      "sourceRoot": "chapters/127-estate-template-publishing-path",
+      "publicPaths": [
+        "/chapters/127-estate-template-publishing-path/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/128-deployed-estate-webkit-mirror-authority",
+      "sourceRoot": "chapters/128-deployed-estate-webkit-mirror-authority",
+      "publicPaths": [
+        "/chapters/128-deployed-estate-webkit-mirror-authority/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/129-native-animated-svg-governed-publication-projection",
+      "sourceRoot": "chapters/129-native-animated-svg-governed-publication-projection",
+      "publicPaths": [
+        "/chapters/129-native-animated-svg-governed-publication-projection/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/130-human-machine-scenario-naming-is-a-governed-identity-boundary",
+      "sourceRoot": "chapters/130-human-machine-scenario-naming-is-a-governed-identity-boundary",
+      "publicPaths": [
+        "/chapters/130-human-machine-scenario-naming-is-a-governed-identity-boundary/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/131-remote-secretstore-authorization-and-approval-sessions",
+      "sourceRoot": "chapters/131-remote-secretstore-authorization-and-approval-sessions",
+      "publicPaths": [
+        "/chapters/131-remote-secretstore-authorization-and-approval-sessions/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/132-reframe-audiounit-auv3-platform-and-aum-demo-host",
+      "sourceRoot": "chapters/132-reframe-audiounit-auv3-platform-and-aum-demo-host",
+      "publicPaths": [
+        "/chapters/132-reframe-audiounit-auv3-platform-and-aum-demo-host/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/133-csound-auv3-instrument-boundary",
+      "sourceRoot": "chapters/133-csound-auv3-instrument-boundary",
+      "publicPaths": [
+        "/chapters/133-csound-auv3-instrument-boundary/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/134-estatepublisher-publication-authority",
+      "sourceRoot": "chapters/134-estatepublisher-publication-authority",
+      "publicPaths": [
+        "/chapters/134-estatepublisher-publication-authority/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/135-reframe-ipad-scenario-driven-creative-host",
+      "sourceRoot": "chapters/135-reframe-ipad-scenario-driven-creative-host",
+      "publicPaths": [
+        "/chapters/135-reframe-ipad-scenario-driven-creative-host/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/136-reframe-web-native-headless-audio-runtime",
+      "sourceRoot": "chapters/136-reframe-web-native-headless-audio-runtime",
+      "publicPaths": [
+        "/chapters/136-reframe-web-native-headless-audio-runtime/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/137-teatro-web-reframe-materialization",
+      "sourceRoot": "chapters/137-teatro-web-reframe-materialization",
+      "publicPaths": [
+        "/chapters/137-teatro-web-reframe-materialization/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/138-ear-is-the-web-audio-graphs-midi2-listening-boundary",
+      "sourceRoot": "chapters/138-ear-is-the-web-audio-graphs-midi2-listening-boundary",
+      "publicPaths": [
+        "/chapters/138-ear-is-the-web-audio-graphs-midi2-listening-boundary/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/139-owner-trust-root-secretstore-custody-and-recovery",
+      "sourceRoot": "chapters/139-owner-trust-root-secretstore-custody-and-recovery",
+      "publicPaths": [
+        "/chapters/139-owner-trust-root-secretstore-custody-and-recovery/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/140-local-developer-cloud-joining-machine-and-estatepublisher",
+      "sourceRoot": "chapters/140-local-developer-cloud-joining-machine-and-estatepublisher",
+      "publicPaths": [
+        "/chapters/140-local-developer-cloud-joining-machine-and-estatepublisher/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/141-each-joining-machine-is-a-governed-midi2-instrument",
+      "sourceRoot": "chapters/141-each-joining-machine-is-a-governed-midi2-instrument",
+      "publicPaths": [
+        "/chapters/141-each-joining-machine-is-a-governed-midi2-instrument/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/142-fountainauthkit-governed-authorization-authority",
+      "sourceRoot": "chapters/142-fountainauthkit-governed-authorization-authority",
+      "publicPaths": [
+        "/chapters/142-fountainauthkit-governed-authorization-authority/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/143-simplicity-is-key-one-bootstrap-one-trusted-session",
+      "sourceRoot": "chapters/143-simplicity-is-key-one-bootstrap-one-trusted-session",
+      "publicPaths": [
+        "/chapters/143-simplicity-is-key-one-bootstrap-one-trusted-session/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/144-fountain-media-service-governed-media-plane",
+      "sourceRoot": "chapters/144-fountain-media-service-governed-media-plane",
+      "publicPaths": [
+        "/chapters/144-fountain-media-service-governed-media-plane/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/145-one-estate-one-publication-state-estatepublisher-and-reframe-semantic-browser",
+      "sourceRoot": "chapters/145-one-estate-one-publication-state-estatepublisher-and-reframe-semantic-browser",
+      "publicPaths": [
+        "/chapters/145-one-estate-one-publication-state-estatepublisher-and-reframe-semantic-browser/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/146-local-fountainstore-remote-caddy-production-estate",
+      "sourceRoot": "chapters/146-local-fountainstore-remote-caddy-production-estate",
+      "publicPaths": [
+        "/chapters/146-local-fountainstore-remote-caddy-production-estate/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/147-local-route-materialization-estatepublisher-preview",
+      "sourceRoot": "chapters/147-local-route-materialization-estatepublisher-preview",
+      "publicPaths": [
+        "/chapters/147-local-route-materialization-estatepublisher-preview/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/148-production-runtime-artifact-only",
+      "sourceRoot": "chapters/148-production-runtime-artifact-only",
+      "publicPaths": [
+        "/chapters/148-production-runtime-artifact-only/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/149-remote-codexkit-governed-midi2-peer-instrument",
+      "sourceRoot": "chapters/149-remote-codexkit-governed-midi2-peer-instrument",
+      "publicPaths": [
+        "/chapters/149-remote-codexkit-governed-midi2-peer-instrument/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/150-one-midi2-instrument-plane-multiple-governed-transports",
+      "sourceRoot": "chapters/150-one-midi2-instrument-plane-multiple-governed-transports",
+      "publicPaths": [
+        "/chapters/150-one-midi2-instrument-plane-multiple-governed-transports/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/151-csound-teatro-speaking-sound-in-space",
+      "sourceRoot": "chapters/151-csound-teatro-speaking-sound-in-space",
+      "publicPaths": [
+        "/chapters/151-csound-teatro-speaking-sound-in-space/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/152-the-host-is-the-instrument",
+      "sourceRoot": "chapters/152-the-host-is-the-instrument",
+      "publicPaths": [
+        "/chapters/152-the-host-is-the-instrument/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/153-domain-admission-and-edge-binding-are-separate-governed-capabilities",
+      "sourceRoot": "chapters/153-domain-admission-and-edge-binding-are-separate-governed-capabilities",
+      "publicPaths": [
+        "/chapters/153-domain-admission-and-edge-binding-are-separate-governed-capabilities/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/154-domain-neutral-local-model-reasoning-testing",
+      "sourceRoot": "chapters/154-domain-neutral-local-model-reasoning-testing",
+      "publicPaths": [
+        "/chapters/154-domain-neutral-local-model-reasoning-testing/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/155-estatepublisher-rest-projection",
+      "sourceRoot": "chapters/155-estatepublisher-rest-projection",
+      "publicPaths": [
+        "/chapters/155-estatepublisher-rest-projection/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/156-fcis-156-writer-workflow",
+      "sourceRoot": "chapters/156-fcis-156-writer-workflow",
+      "publicPaths": [
+        "/chapters/156-fcis-156-writer-workflow/index.html"
+      ]
+    },
+    {
+      "pathPrefix": "chapters/157-the-writer-owns-the-public-domain",
+      "sourceRoot": "chapters/157-the-writer-owns-the-public-domain",
+      "publicPaths": [
+        "/chapters/157-the-writer-owns-the-public-domain/index.html"
+      ]
+    }
+  ]
+}

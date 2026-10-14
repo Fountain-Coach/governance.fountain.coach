@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">The writer operates meaning, not EstatePublisher</title>
+  <desc id="desc">A writer states an intention, an authoring surface selects an admitted operation, EstatePublisher executes it, FountainStore records the receipt, and an interpreted result returns to the writer. An unavailable operation is shown as a visible blocker rather than an improvised command.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7f2e8"/><stop offset="1" stop-color="#e8eef2"/></linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#244b63"/><stop offset="1" stop-color="#427c90"/></linearGradient>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0 5 3 0 6" fill="none" stroke="#244b63" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></marker>
+    <style>.ink{fill:#173042;font:600 20px system-ui,-apple-system,BlinkMacSystemFont,sans-serif}.small{fill:#35566a;font:500 15px system-ui,-apple-system,BlinkMacSystemFont,sans-serif}.line{stroke:#244b63;stroke-width:1.4;fill:none;marker-end:url(#arrow)}.box{stroke:#244b63;stroke-width:1.8}</style>
+  </defs>
+  <rect width="1200" height="630" rx="30" fill="url(#paper)"/>
+  <text x="80" y="72" class="small" letter-spacing="4">GOVERNANCE CHAPTER 156</text>
+  <text x="80" y="108" class="ink" font-size="28">The writer operates meaning</text>
+  <rect x="70" y="215" width="180" height="86" rx="15" fill="#fff" class="box"/>
+  <text x="160" y="250" text-anchor="middle" class="ink">WRITER</text><text x="160" y="275" text-anchor="middle" class="small">publish this chapter</text>
+  <rect x="315" y="190" width="205" height="136" rx="15" fill="#fff" class="box"/>
+  <text x="417" y="230" text-anchor="middle" class="ink">AUTHORING</text><text x="417" y="255" text-anchor="middle" class="ink">SURFACE</text><text x="417" y="285" text-anchor="middle" class="small">selects meaning</text>
+  <rect x="585" y="190" width="205" height="136" rx="15" fill="url(#blue)" class="box"/>
+  <text x="687" y="230" text-anchor="middle" fill="#fff" font-family="system-ui" font-size="20" font-weight="700">ESTATEPUBLISHER</text><text x="687" y="260" text-anchor="middle" fill="#e7f2f4" font-family="system-ui" font-size="15">executes admitted operation</text>
+  <rect x="855" y="190" width="265" height="136" rx="15" fill="#d8e7e5" class="box"/>
+  <text x="987" y="230" text-anchor="middle" class="ink">FOUNTAINSTORE</text><text x="987" y="258" text-anchor="middle" class="small">receipt + terminal evidence</text><text x="987" y="284" text-anchor="middle" class="small">what happened is durable</text>
+  <path d="M250 258h65M520 258h65M790 258h65" class="line"/>
+  <path d="M987 326v105H160v-130" class="line"/>
+  <rect x="365" y="450" width="310" height="62" rx="14" fill="#fff" class="box"/>
+  <text x="520" y="488" text-anchor="middle" class="ink">interpreted result</text>
+  <path d="M675 481h170" class="line"/>
+  <rect x="865" y="450" width="255" height="62" rx="14" fill="#f2e4dc" class="box"/>
+  <text x="992" y="475" text-anchor="middle" class="small">unavailable operation</text><text x="992" y="496" text-anchor="middle" class="small">visible blocker · no workaround</text>
+  <text x="80" y="575" class="small">The writer asks what should happen. The governed system determines whether it can happen.</text>
+</svg>

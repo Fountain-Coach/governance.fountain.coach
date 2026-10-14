@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="auth-title auth-desc">
+  <title id="auth-title">FountainAuthKit authorization authority</title>
+  <desc id="auth-desc">Authentication leads to a FountainAuthKit authorization decision, then to a resource-bound protected operation and safe FountainStore evidence. MIDI2 carries the typed operation but does not replace authorization.</desc>
+  <style>
+    @keyframes governed-pulse { 0%, 100% { opacity: .72; } 50% { opacity: 1; } }
+    @keyframes governed-flow { to { stroke-dashoffset: -32; } }
+    .authority-node { animation: governed-pulse 4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .authority-flow { animation: governed-flow 2.8s linear infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      .authority-node, .authority-flow { animation: none; }
+    }
+  </style>
+  <rect width="1200" height="630" fill="#f8f4ec"/><rect x="28" y="28" width="1144" height="574" rx="8" fill="none" stroke="#b9ad9b" stroke-width="2"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="#282521">
+    <rect x="64" y="94" width="250" height="174" rx="18" fill="#e8dfd1" stroke="#282521" stroke-width="2"/><text x="92" y="140" font-size="25">AUTHENTICATION</text><text x="92" y="179" font-size="15" fill="#625b50">passkey / OIDC</text><text x="92" y="209" font-size="15" fill="#625b50">WebAuthn / provider</text><text x="92" y="235" font-size="14" fill="#625b50">not Fountain grant</text><text x="92" y="257" font-size="14" fill="#625b50">or capability</text>
+    <rect class="authority-node" x="362" y="78" width="300" height="190" rx="18" fill="#dce8e2" stroke="#282521" stroke-width="2"/><text x="392" y="126" font-size="25">FOUNTAINAUTHKIT</text><text x="392" y="166" font-size="15" fill="#625b50">issuer + PKCE</text><text x="392" y="196" font-size="15" fill="#625b50">client + resource</text><text x="392" y="226" font-size="15" fill="#625b50">capability + expiry</text><text x="392" y="256" font-size="15" fill="#625b50">signed grant / keys</text>
+    <rect x="710" y="94" width="426" height="158" rx="18" fill="#f3efe7" stroke="#282521" stroke-width="2"/><text x="740" y="140" font-size="25">PROTECTED RESOURCE</text><text x="740" y="179" font-size="15" fill="#625b50">MCP / HTTP / FCIS</text><text x="740" y="209" font-size="15" fill="#625b50">issuer + resource check</text><text x="740" y="239" font-size="15" fill="#625b50">metadata / refusal path</text>
+    <rect x="174" y="374" width="300" height="144" rx="18" fill="#f3efe7" stroke="#282521" stroke-width="2"/><text x="204" y="422" font-size="25">TYPED OPERATION</text><text x="204" y="462" font-size="15" fill="#625b50">MIDI2 lifecycle plane</text><text x="204" y="492" font-size="15" fill="#625b50">human confirmation</text>
+    <rect x="690" y="374" width="334" height="144" rx="18" fill="#e8dfd1" stroke="#282521" stroke-width="2"/><text x="720" y="422" font-size="25">FOUNTAINSTORE</text><text x="720" y="462" font-size="15" fill="#625b50">safe facts only</text><text x="720" y="492" font-size="15" fill="#625b50">effect receipt</text>
+    <g class="authority-flow" fill="none" stroke="#282521" stroke-width="2" stroke-dasharray="16 16" marker-end="url(#arrow)"><path d="M314 173 H362"/><path d="M662 173 H710"/><path d="M846 252 V315 H324 V374"/><path d="M474 446 H690"/></g>
+    <g fill="none" stroke="#625b50" stroke-width="2" stroke-dasharray="8 8" marker-end="url(#arrow)"><path d="M512 268 V326 H850 V374"/></g>
+    <text x="545" y="314" font-size="17" fill="#625b50">authorization ≠ execution</text><text x="64" y="574" font-size="17" fill="#625b50">identity ≠ grant ≠ token possession ≠ durable effect</text>
+  </g>
+  <defs><marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L11 6 L1 11 Z" fill="#282521"/></marker></defs>
+</svg>
