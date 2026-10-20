@@ -98,3 +98,17 @@ edition** and gives the domain one clearly owned, reproducible source.
 ## Footer-legal edition update (unpublished candidate)
 
 The current Git source moves Company Status & Transparency into the mandatory footer legal group and removes Status from header rails. The initial 2026-10-14 exact-live-snapshot audit remains historical evidence for its original Git commit. **This changed source is not the live HTTPS edition until separately published and witnessed.** Six historical HTML fragments without a complete body/footer preserve their fragment structure and require source repair before they can carry a full legal footer.
+
+## Chapter 159 — Userland source candidate (2026-10-20)
+
+The `feature/ch159-userland` branch is an **unpublished candidate** containing
+Chapter 159, `Userland: The Writer's Books Outlive the Device`, plus a
+technical plate, amended sidebar and pager navigation, status metadata,
+edition route maps, and regenerated checksums. The original 14 October
+live-parity snapshot and six known manifest omissions remain historical
+records; the 294-file/160-chapter candidate is not described as live.
+`python3 scripts/verify_publication.py` verifies candidate files locally.
+`--against-live` is appropriate **only after** independently authorized
+publication. Documentation source is retained in
+`docs/chapters/159-userland-the-writers-books-outlive-the-device.md`.
+The chapter specifies desired behavior, not a passed iPad ↔ Userland recovery test.

@@ -480,3 +480,6 @@ routes:
   - sourceRoot: estate/sites/governance.fountain.coach/chapters/157-the-writer-owns-the-public-domain
     pathPrefix: chapters/157-the-writer-owns-the-public-domain
     publicPaths: [/chapters/157-the-writer-owns-the-public-domain/index.html]
+  - sourceRoot: estate/sites/governance.fountain.coach/chapters/159-userland-the-writers-books-outlive-the-device
+    pathPrefix: chapters/159-userland-the-writers-books-outlive-the-device
+    publicPaths: [/chapters/159-userland-the-writers-books-outlive-the-device/index.html]

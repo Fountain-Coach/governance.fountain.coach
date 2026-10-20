@@ -1114,6 +1114,13 @@
       "publicPaths": [
         "/chapters/157-the-writer-owns-the-public-domain/index.html"
       ]
+    },
+    {
+      "pathPrefix": "chapters/159-userland-the-writers-books-outlive-the-device",
+      "sourceRoot": "chapters/159-userland-the-writers-books-outlive-the-device",
+      "publicPaths": [
+        "/chapters/159-userland-the-writers-books-outlive-the-device/index.html"
+      ]
     }
   ]
 }
