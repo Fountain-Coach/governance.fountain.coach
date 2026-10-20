@@ -23,7 +23,8 @@
   "latestSourceChapter": "159 — Userland: The Writer's Books Outlive the Device",
   "publishedAt": "2026-10-20",
   "productionOrigin": "65.109.14.71",
-  "productionRelease": "static-20261020-e6af2bd",
+  "productionRelease": "static-20261020-923d5f9",
   "verifiedPublicFileCount": 294,
-  "publicationWitness": "All 294 public files SHA-256-identical after full edition release activation and Caddy host-root routing"
+  "publicationWitness": "All 294 public files SHA-256-identical after full edition release activation and Caddy host-root routing",
+  "productionWitnessReceipt": "docs/releases/20261020-userland159-production-receipt.md"
 }

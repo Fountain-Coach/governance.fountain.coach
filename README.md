@@ -8,8 +8,8 @@ exact byte-for-byte snapshot of the currently published domain at admission on
 14 October 2026. It is not a new book, curated extract, reconstruction by an
 LLM, or a republication of ten selected chapters.
 
-The entire present publication is represented: **292 publicly served files,
-159 complete numbered chapter routes, the homepage, five legal/accessibility
+The entire present publication is represented: **294 publicly served files,
+160 complete numbered chapter routes, the homepage, five legal/accessibility
 pages, assets, published chapter-status map, and published route/publication
 manifests.** The site is browsable at the canonical HTTPS domain. The
 repository's `site/` subtree is the only eligible input for subsequent
@@ -112,3 +112,7 @@ records; the 294-file/160-chapter release is now live and independently SHA-256 
 publication. Documentation source is retained in
 `docs/chapters/159-userland-the-writers-books-outlive-the-device.md`.
 The chapter specifies desired behavior, not a passed iPad ↔ Userland recovery test.
+
+## FCIS 159 production publication witness
+
+The 20 October 2026 edition is live and full-inventory SHA-256 verified. Read the exact immutable release, scoped Caddy change, recovery and witness evidence in [the production release receipt](docs/releases/20261020-userland159-production-receipt.md). The original 14 October snapshot remains a historical admission record; Userland runtime implementation is still proposed, not claimed.
