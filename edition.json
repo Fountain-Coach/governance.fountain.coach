@@ -4,11 +4,11 @@
   "canonical": "https://governance.fountain.coach/",
   "publicationRoot": "site",
   "authority": "Fountain-Coach/governance.fountain.coach",
-  "editionStatus": "published-https-verified",
+  "editionStatus": "source-candidate-pending-independent-publication",
   "captured": "2026-10-14",
   "fileCount": 294,
   "chapterCount": 160,
-  "sha256Inventory": "f589be32811165a4bfc7c7eea78995cefc2c0626ff8d0a476f571b7d24413c08",
+  "sha256Inventory": "94879a444786ec9dbc4fa13d6f3b870fa63b6edcecee486e2458b4e2211ac247",
   "sourceBoundary": "Only exact publicly served bytes in site/ are the publication source; no public release occurs on push.",
   "publishedManifestKnownOmissions": [
     "chapters/158-publishing-is-not-a-distributed-transaction/index.html",
@@ -18,7 +18,7 @@
     "copyright/index.html",
     "compliance/index.html"
   ],
-  "changeIntent": "Chapter 159 Userland published with illustrations, bidirectional governance links, publication manifests, footer legal improvements and independent production HTTPS read-back",
+  "changeIntent": "FCIS founding conduct: Goal Fidelity and Non-Invention, incorporated into existing Chapter 07 and Governance homepage; source amendment, not yet independently deployed",
   "previousLiveWitnessCommit": "9f48476835a9a1fb525cc9001f8b3e504ae44805",
   "latestSourceChapter": "159 — Userland: The Writer's Books Outlive the Device",
   "publishedAt": "2026-10-20",
@@ -26,5 +26,13 @@
   "productionRelease": "static-20261020-923d5f9",
   "verifiedPublicFileCount": 294,
   "publicationWitness": "All 294 public files SHA-256-identical after full edition release activation and Caddy host-root routing",
-  "productionWitnessReceipt": "docs/releases/20261020-userland159-production-receipt.md"
+  "productionWitnessReceipt": "docs/releases/20261020-userland159-production-receipt.md",
+  "pendingPublication": {
+    "routes": [
+      "/index.html",
+      "/chapters/07-agent-operating-guide/index.html"
+    ],
+    "sourceAmendment": "docs/chapters/07-goal-fidelity-founding-amendment.md",
+    "requiresIndependentHTTPSReadback": true
+  }
 }

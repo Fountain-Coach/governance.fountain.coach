@@ -1,5 +1,6 @@
 # Governance public-edition authority
 
+- Mandatory founding conduct: [FCIS Goal Fidelity and Non-Invention](https://github.com/Fountain-Coach/.github/blob/main/docs/FCIS-Non-Invention-and-Goal-Fidelity.md) and the Chapter 07 amendment. Preserve the writer's outcome; label speculation; refuse invented blockers and moving DoD. A new dependency needs a reproducible failed operation, an applicable existing requirement and the smallest necessary correction.
 - This repository is authoritative for **governance.fountain.coach**, not a
   selected Fountain Press Governance book.
 - Never change prose, chapter ordering, IDs, rights, statuses, route-map or
