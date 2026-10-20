@@ -8,8 +8,8 @@ exact byte-for-byte snapshot of the currently published domain at admission on
 14 October 2026. It is not a new book, curated extract, reconstruction by an
 LLM, or a republication of ten selected chapters.
 
-The entire present publication is represented: **292 publicly served files,
-159 complete numbered chapter routes, the homepage, five legal/accessibility
+The entire present publication is represented: **294 publicly served files,
+160 complete numbered chapter routes, the homepage, five legal/accessibility
 pages, assets, published chapter-status map, and published route/publication
 manifests.** The site is browsable at the canonical HTTPS domain. The
 repository's `site/` subtree is the only eligible input for subsequent
@@ -95,6 +95,24 @@ status for each chapter. Reducing it to an invented book arc made it weaker,
 not clearer. The repository therefore preserves the **complete published
 edition** and gives the domain one clearly owned, reproducible source.
 
-## Footer-legal edition update (unpublished candidate)
+## Footer-legal edition update (included in October 2026 publication)
 
-The current Git source moves Company Status & Transparency into the mandatory footer legal group and removes Status from header rails. The initial 2026-10-14 exact-live-snapshot audit remains historical evidence for its original Git commit. **This changed source is not the live HTTPS edition until separately published and witnessed.** Six historical HTML fragments without a complete body/footer preserve their fragment structure and require source repair before they can carry a full legal footer.
+The current Git source moves Company Status & Transparency into the mandatory footer legal group and removes Status from header rails. The initial 2026-10-14 exact-live-snapshot audit remains historical evidence for its original Git commit. **The revised source has been served from the production release and independently witnessed over HTTPS on 2026-10-20.** Six historical HTML fragments without a complete body/footer preserve their fragment structure and require source repair before they can carry a full legal footer.
+
+## Chapter 159 — Userland production edition (2026-10-20)
+
+The `feature/ch159-userland` branch contains the **published Governance edition** of
+Chapter 159, `Userland: The Writer's Books Outlive the Device`, plus a
+technical plate, amended sidebar and pager navigation, status metadata,
+edition route maps, and regenerated checksums. The original 14 October
+live-parity snapshot and six known manifest omissions remain historical
+records; the 294-file/160-chapter release is now live and independently SHA-256 verified.
+`python3 scripts/verify_publication.py` verifies candidate files locally.
+`--against-live` is appropriate **only after** independently authorized
+publication. Documentation source is retained in
+`docs/chapters/159-userland-the-writers-books-outlive-the-device.md`.
+The chapter specifies desired behavior, not a passed iPad ↔ Userland recovery test.
+
+## FCIS 159 production publication witness
+
+The 20 October 2026 edition is live and full-inventory SHA-256 verified. Read the exact immutable release, scoped Caddy change, recovery and witness evidence in [the production release receipt](docs/releases/20261020-userland159-production-receipt.md). The original 14 October snapshot remains a historical admission record; Userland runtime implementation is still proposed, not claimed.

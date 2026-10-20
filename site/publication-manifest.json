@@ -164,7 +164,8 @@
     "/chapters/154-domain-neutral-local-model-reasoning-testing/index.html",
     "/chapters/155-estatepublisher-rest-projection/index.html",
     "/chapters/156-fcis-156-writer-workflow/index.html",
-    "/chapters/157-the-writer-owns-the-public-domain/index.html"
+    "/chapters/157-the-writer-owns-the-public-domain/index.html",
+    "/chapters/159-userland-the-writers-books-outlive-the-device/index.html"
   ],
-  "claimBoundary": "The Governance overview and Chapters 0 through 157 are reviewed public governance projections. The publication contract describes their coherent reading surface; each chapter retains its own governing scope. Publication of Governance records public doctrine and does not itself establish deployment, provider authorization, or production effects beyond the separately proven publication receipt."
+  "claimBoundary": "Chapters 0 through 159 are served in the publicly verified Governance edition. Chapter 159 governs a proposed Userland storage/recovery product; publication of its text does not imply a deployed Userland service or completed physical-iPad recovery test. Governance publication does not itself prove model authorization, manuscript persistence, provider enrollment or any production runtime operation."
 }

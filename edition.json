@@ -4,11 +4,11 @@
   "canonical": "https://governance.fountain.coach/",
   "publicationRoot": "site",
   "authority": "Fountain-Coach/governance.fountain.coach",
-  "editionStatus": "source-candidate-awaiting-publishing",
+  "editionStatus": "published-https-verified",
   "captured": "2026-10-14",
-  "fileCount": 292,
-  "chapterCount": 159,
-  "sha256Inventory": "6ab8b835c9d0627fbc9f2489e927ca9788d80f804b9fe0c8ba1455a0655b4068",
+  "fileCount": 294,
+  "chapterCount": 160,
+  "sha256Inventory": "f589be32811165a4bfc7c7eea78995cefc2c0626ff8d0a476f571b7d24413c08",
   "sourceBoundary": "Only exact publicly served bytes in site/ are the publication source; no public release occurs on push.",
   "publishedManifestKnownOmissions": [
     "chapters/158-publishing-is-not-a-distributed-transaction/index.html",
@@ -18,6 +18,13 @@
     "copyright/index.html",
     "compliance/index.html"
   ],
-  "changeIntent": "Move Company Status from header rails into mandatory legal footer for every complete Governance page",
-  "previousLiveWitnessCommit": "9f48476835a9a1fb525cc9001f8b3e504ae44805"
+  "changeIntent": "Chapter 159 Userland published with illustrations, bidirectional governance links, publication manifests, footer legal improvements and independent production HTTPS read-back",
+  "previousLiveWitnessCommit": "9f48476835a9a1fb525cc9001f8b3e504ae44805",
+  "latestSourceChapter": "159 — Userland: The Writer's Books Outlive the Device",
+  "publishedAt": "2026-10-20",
+  "productionOrigin": "65.109.14.71",
+  "productionRelease": "static-20261020-923d5f9",
+  "verifiedPublicFileCount": 294,
+  "publicationWitness": "All 294 public files SHA-256-identical after full edition release activation and Caddy host-root routing",
+  "productionWitnessReceipt": "docs/releases/20261020-userland159-production-receipt.md"
 }

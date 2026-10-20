@@ -1,9 +1,9 @@
 {
   "version": 1,
   "latestChapter": {
-    "slug": "158-publishing-is-not-a-distributed-transaction",
-    "number": "158",
-    "title": "Publishing Is Not a Distributed Transaction",
+    "slug": "159-userland-the-writers-books-outlive-the-device",
+    "number": "159",
+    "title": "Userland: The Writer's Books Outlive the Device",
     "label": "Latest chapter"
   },
   "default": {
@@ -384,8 +384,13 @@
     },
     "158-publishing-is-not-a-distributed-transaction": {
       "key": "current",
-      "label": "Latest chapter",
+      "label": "Current chapter",
       "description": "Static publication is a scoped immutable release over authenticated SSH/SFTP and Caddy, verified through public HTTPS without unrelated distributed runtime prerequisites."
+    },
+    "159-userland-the-writers-books-outlive-the-device": {
+      "key": "current",
+      "label": "Latest chapter",
+      "description": "A proposed provider-independent Userland contract for iPad drafts, writer-owned Linux book custody, verified sync, cross-host migration and recovery. Implementation and E2E proof remain separate."
     }
   }
 }

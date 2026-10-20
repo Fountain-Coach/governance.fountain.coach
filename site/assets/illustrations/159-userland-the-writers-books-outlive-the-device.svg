@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">Userland — the writer's books outlive the device</title>
+<desc id="desc">An axonometric Reframe iPad holds an active manuscript on the left. Bidirectional encrypted synchronization joins a Linux Userland containing portable books. A verified recovery copy below and a future replacement host on the right show that source identity is independent of devices and providers.</desc>
+<defs>
+  <pattern id="paperGrain" width="29" height="29" patternUnits="userSpaceOnUse"><circle cx="4" cy="7" r=".42" fill="#c7beb1" opacity=".22"/><circle cx="19" cy="24" r=".35" fill="#c7beb1" opacity=".19"/></pattern>
+  <marker id="point" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M1 1 9 5 1 9" fill="none" stroke="#363731" stroke-width="1.15"/></marker>
+  <style>
+    .fine{stroke:#494b46;stroke-width:1.15;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .hair{stroke:#9a968c;stroke-width:.7;fill:none;stroke-dasharray:3 5}
+    .frame{stroke:#343932;stroke-width:1.05;fill:none}
+    .label{font:15px 'Courier New',monospace;letter-spacing:1.7px;fill:#292d2a}
+    .small{font:11px 'Courier New',monospace;letter-spacing:1.1px;fill:#676963}
+    .micro{font:9px 'Courier New',monospace;letter-spacing:.8px;fill:#676963}
+  </style>
+</defs>
+<rect width="1200" height="630" fill="#f4f0e7"/>
+<rect width="1200" height="630" fill="url(#paperGrain)"/>
+<path class="frame" d="M27 28H1173V602H27Z"/>
+<path class="frame" d="M17 28h20M27 18v20M1163 28h20M1173 18v20M17 602h20M27 592v20M1163 602h20M1173 592v20"/>
+<path class="hair" d="M600 29V603M28 315H1172"/>
+<text x="70" y="82" class="label">REFRAME · IPAD</text>
+<text x="679" y="82" class="label">USERLAND · LINUX</text>
+<text x="40" y="577" class="micro">159 / DEVICE-INDEPENDENT BOOK CUSTODY</text>
+<text x="1160" y="577" text-anchor="end" class="micro">PROPOSED CONTRACT · NOT YET A DEPLOYED SERVICE</text>
+<!-- Axonometric iPad with one working page -->
+<g>
+ <path d="M80 283L342 181Q353 177 366 184L535 254Q547 261 536 269L272 376Q261 382 249 375L81 298Q68 290 80 283Z" fill="#cfcac1" stroke="#363a34" stroke-width="1.4"/>
+ <path d="M81 277L342 172Q352 169 365 174L536 249Q547 254 536 262L271 365Q258 370 248 365L79 289Q71 283 81 277Z" fill="#494b47" stroke="#343a35" stroke-width="1.35"/>
+ <path d="M95 278L342 180L518 254L266 354Z" fill="#fbf7ec" stroke="#4c4e48" stroke-width="1.1"/>
+ <path d="M178 245L349 180L474 234L299 303Z" fill="#f2eadc" stroke="#8c8a82" stroke-width=".7"/>
+ <path d="M179 244L349 181L474 234L299 300Z" fill="#faf7ee"/>
+ <path d="M192 248l153 -58 10 4 -153 59z" fill="#ad6c56"/>
+ <path d="M230 261l156 -58M223 267l153 -58M217 272l153 -58M209 280l153 -58M204 286l153 -58M199 292l153 -58" stroke="#aaa69b" stroke-width=".75" stroke-linecap="round"/>
+ <circle cx="406" cy="283" r="2" fill="#918f86"/>
+ <path class="hair" d="M68 259L346 148M278 393l277 -110"/>
+ <path class="fine" d="M80 284l-18 -12M270 376v18"/>
+ <text class="small" x="91" y="421">LOCAL WORKING COPY</text>
+ <text class="micro" x="91" y="442">OFFLINE DRAFT · REVISION QUEUE</text>
+</g>
+<!-- Secure exchange axis -->
+<path class="fine" d="M550 271H665" marker-start="url(#point)" marker-end="url(#point)"/>
+<circle cx="607" cy="270" r="19" fill="#f4f0e7" stroke="#464a45" stroke-width="1.2"/>
+<rect x="601" y="267" width="12" height="10" rx="2" fill="#343a35"/><path d="M603 267v-5a4 4 0 0 1 8 0v5" fill="none" stroke="#343a35" stroke-width="1.9"/>
+<text class="micro" x="607" y="308" text-anchor="middle">ENCRYPTED SYNC</text>
+<!-- Isometric book server -->
+<g>
+ <path d="M737 174l178 -70 184 77 -181 74z" fill="#e9e5dc" stroke="#454742" stroke-width="1.2"/>
+ <path d="M737 174v192l181 81V255Z" fill="#dad7ce" stroke="#454742" stroke-width="1.2"/>
+ <path d="M918 255l181 -74v190l-181 76Z" fill="#e6e2d8" stroke="#454742" stroke-width="1.2"/>
+ <path d="M764 194l138 59v150l-138 -59z" fill="#363a37" stroke="#454742" stroke-width="1.1"/>
+ <path d="M764 194l138 59-16 6-137 -60z" fill="#81827a"/>
+ <path d="M778 208l13 5v142l-13 -6z" fill="#ae6b55" stroke="#e5d6c9" stroke-width=".5"/>
+ <path d="M793 215l12 5v142l-12 -6z" fill="#ece7dc" stroke="#a5a196" stroke-width=".5"/>
+ <path d="M808 222l12 5v142l-12 -6z" fill="#f7f1e4" stroke="#a5a196" stroke-width=".5"/>
+ <path d="M823 227l13 7v142l-13 -6z" fill="#c4beb4" stroke="#a5a196" stroke-width=".5"/>
+ <path d="M839 234l10 4v141l-10 -5z" fill="#ece8dd" stroke="#a5a196" stroke-width=".5"/>
+ <path d="M852 240l14 5v142l-14 -6z" fill="#eae6db" stroke="#a5a196" stroke-width=".5"/>
+ <path d="M869 247l12 5v141l-12 -6z" fill="#c0b7a9" stroke="#a5a196" stroke-width=".5"/>
+ <path d="M788 216v133M800 218v138M815 225v143M829 230v143M845 238v137M859 246v135M875 249v140" stroke="#9b988e" stroke-width=".6"/>
+ <path d="M949 270v105M963 264v105M977 259v103M991 252v106M1005 246v105M1019 241v104M1033 235v104M1047 229v104M1061 223v104M1075 216v104" stroke="#72746c" stroke-width="2.6"/>
+ <path class="fine" d="M902 345l40 -12"/>
+ <circle cx="937" cy="365" r="3" fill="#ae6b55"/>
+ <text class="small" x="965" y="411">PORTABLE BOOK SOURCES</text>
+ <path class="hair" d="M946 402L910 386"/>
+</g>
+<!-- Independent second copy and alternate host -->
+<path d="M891 455V489" class="fine" marker-end="url(#point)"/>
+<g>
+ <path d="M821 510l71 -28 82 34-72 29z" fill="#ebe5da" stroke="#4c5049" stroke-width="1"/>
+ <path d="M821 510v51l81 35v-51Z" fill="#dfdbd1" stroke="#4c5049" stroke-width="1"/>
+ <path d="M902 545l72 -29v50l-72 30z" fill="#ece6db" stroke="#4c5049" stroke-width="1"/>
+ <path d="M839 520l50 21v30l-50 -21z" fill="#777970" stroke="#4c5049" stroke-width=".65"/>
+ <path d="M845 524v29M851 526v31M857 528v32M863 531v32M869 533v32M875 536v31M881 538v31" stroke="#f0ede4" stroke-width="2"/>
+ <text x="996" y="536" class="small">RECOVERY</text>
+ <text x="996" y="554" class="micro">VERIFIED COPY</text>
+</g>
+<path d="M1099 300q62 34 16 110" stroke="#ad6c56" stroke-width="1.5" stroke-dasharray="7 5" fill="none" marker-end="url(#point)"/>
+<path d="M1060 460l74 -30 45 19 -75 31zM1060 460v41l44 18v-39M1104 480l75 -31v40l-75 30" class="hair"/>
+<text x="1132" y="524" class="micro" text-anchor="middle">NEW HOST</text>
+<text x="495" y="499" class="small">APP INSTALL ≠ BOOK OWNERSHIP</text>
+<text x="495" y="517" class="micro">SYNC RECEIPT ≠ PUBLICATION RECEIPT</text>
+</svg>
