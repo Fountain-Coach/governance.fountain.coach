@@ -167,5 +167,5 @@
     "/chapters/157-the-writer-owns-the-public-domain/index.html",
     "/chapters/159-userland-the-writers-books-outlive-the-device/index.html"
   ],
-  "claimBoundary": "Chapters 0 through 158 retain their established public/source claim boundaries. Chapter 159 is a proposed governance source candidate, not yet a deployed Userland service, and this edited edition is not published until separately verified on public HTTPS. Governance publication does not itself prove storage, recovery, provider authorization or live effects."
+  "claimBoundary": "Chapters 0 through 159 are served in the publicly verified Governance edition. Chapter 159 governs a proposed Userland storage/recovery product; publication of its text does not imply a deployed Userland service or completed physical-iPad recovery test. Governance publication does not itself prove model authorization, manuscript persistence, provider enrollment or any production runtime operation."
 }
