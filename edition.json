@@ -4,11 +4,11 @@
   "canonical": "https://governance.fountain.coach/",
   "publicationRoot": "site",
   "authority": "Fountain-Coach/governance.fountain.coach",
-  "editionStatus": "source-candidate-pending-independent-publication",
+  "editionStatus": "reviewed-authorized-for-publication",
   "captured": "2026-10-14",
-  "fileCount": 294,
-  "chapterCount": 160,
-  "sha256Inventory": "94879a444786ec9dbc4fa13d6f3b870fa63b6edcecee486e2458b4e2211ac247",
+  "fileCount": 296,
+  "chapterCount": 161,
+  "sha256Inventory": "f2c54c7e8adb7acc74ec66217991000afd53d7bee19738140334cd9e91191826",
   "sourceBoundary": "Only exact publicly served bytes in site/ are the publication source; no public release occurs on push.",
   "publishedManifestKnownOmissions": [
     "chapters/158-publishing-is-not-a-distributed-transaction/index.html",
@@ -18,9 +18,9 @@
     "copyright/index.html",
     "compliance/index.html"
   ],
-  "changeIntent": "FCIS founding conduct: Goal Fidelity and Non-Invention, incorporated into existing Chapter 07 and Governance homepage; source amendment, not yet independently deployed",
+  "changeIntent": "Author-approved Chapter 160 public edition; no skill-drift runtime implementation claim",
   "previousLiveWitnessCommit": "9f48476835a9a1fb525cc9001f8b3e504ae44805",
-  "latestSourceChapter": "159 — Userland: The Writer's Books Outlive the Device",
+  "latestSourceChapter": "160 — Skill Sovereignty and Governed Distribution",
   "publishedAt": "2026-10-20",
   "productionOrigin": "65.109.14.71",
   "productionRelease": "static-20261020-923d5f9",
@@ -30,9 +30,8 @@
   "pendingPublication": {
     "routes": [
       "/index.html",
-      "/chapters/07-agent-operating-guide/index.html"
+      "/chapters/160-skill-sovereignty-and-governed-distribution/index.html"
     ],
-    "sourceAmendment": "docs/chapters/07-goal-fidelity-founding-amendment.md",
     "requiresIndependentHTTPSReadback": true
   }
 }
