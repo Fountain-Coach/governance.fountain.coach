@@ -8,7 +8,7 @@
   "captured": "2026-10-14",
   "fileCount": 296,
   "chapterCount": 161,
-  "sha256Inventory": "12b970511e474129da9b575be3f864e047064ead1eac4966630cc0bba4c8481f",
+  "sha256Inventory": "811d1652809086b68ac3f92ef2f4df3e08f2ea8865989504cc1f70980f256e67",
   "sourceBoundary": "Only exact publicly served bytes in site/ are the publication source; no public release occurs on push.",
   "publishedManifestKnownOmissions": [
     "chapters/158-publishing-is-not-a-distributed-transaction/index.html",
@@ -18,7 +18,7 @@
     "copyright/index.html",
     "compliance/index.html"
   ],
-  "changeIntent": "Add proposed Chapter 160 with original editorial plate and thematic staging entrance; no production publication",
+  "changeIntent": "Proposed Chapter 160 revised to enduring source and distribution principles, staging only",
   "previousLiveWitnessCommit": "9f48476835a9a1fb525cc9001f8b3e504ae44805",
   "latestSourceChapter": "160 — Skill Sovereignty and Governed Distribution",
   "publishedAt": "2026-10-20",
