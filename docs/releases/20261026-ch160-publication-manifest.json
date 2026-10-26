@@ -1,0 +1,1218 @@
+{
+  "files" : [
+    {
+      "path" : "\/accessibility\/index.html",
+      "sha256" : "78e9561c23d8e22de793dfafd423066af9805a2710c7829207fd7d321b09cacd"
+    },
+    {
+      "path" : "\/assets\/estate-core.css",
+      "sha256" : "31baf2864046acf1885c49ccff40869d0dfbc9da63a2af674aecf218b8f8dbfe"
+    },
+    {
+      "path" : "\/assets\/estate-core.js",
+      "sha256" : "1c1a47002fa18c66c7ce328ac07db8457bf71aea2e5b878c8f7a3c80e53046a4"
+    },
+    {
+      "path" : "\/assets\/estate-shell-d9a170d82a21d19b.css",
+      "sha256" : "d9a170d82a21d19be5d155c19f3591e670bf8988c230e8c7737493937c40bb8b"
+    },
+    {
+      "path" : "\/assets\/estate-shell-logo-8c5fad1c3db56138.png",
+      "sha256" : "8c5fad1c3db56138d5959da75991dc8034a0be537ce46da6ffcc0d9655e7f729"
+    },
+    {
+      "path" : "\/assets\/estate-shell-logo.png",
+      "sha256" : "8c5fad1c3db56138d5959da75991dc8034a0be537ce46da6ffcc0d9655e7f729"
+    },
+    {
+      "path" : "\/assets\/estate-shell-state-4139f6eec4e0f8d7.js",
+      "sha256" : "4139f6eec4e0f8d737c768d1e4f5572c91430598f6ecf2523d3ea2437d6e1d5b"
+    },
+    {
+      "path" : "\/assets\/estate-shell-state.js",
+      "sha256" : "4139f6eec4e0f8d737c768d1e4f5572c91430598f6ecf2523d3ea2437d6e1d5b"
+    },
+    {
+      "path" : "\/assets\/fountain-coach-logo-transparent.png",
+      "sha256" : "8c5fad1c3db56138d5959da75991dc8034a0be537ce46da6ffcc0d9655e7f729"
+    },
+    {
+      "path" : "\/assets\/governance.css",
+      "sha256" : "5f4a9c504361521d7a12d067720c1e693898ffeca57d77f05a952dcc971af3ad"
+    },
+    {
+      "path" : "\/assets\/governance.js",
+      "sha256" : "1f46a927abd9501cf644fb463de9e2b3a6b7f4b4e1431d2bc3450a2183610a3f"
+    },
+    {
+      "path" : "\/assets\/illustrations\/100-semantic-scenographer.svg",
+      "sha256" : "b02a61985a2a3494238e5cffaf9631637ab34c279d246d5a04383084a49d94ed"
+    },
+    {
+      "path" : "\/assets\/illustrations\/102-semantic-inference-execution-session-and-latency-governance.png",
+      "sha256" : "2886accf5a066d61b35cb5f7e7d4428cc62e1db90f63f81ad7356223329036db"
+    },
+    {
+      "path" : "\/assets\/illustrations\/103-fcis-kit-semantic-factory-and-wired-instrument-event-stream.png",
+      "sha256" : "19b4a8f4c8631f6720a5c99e582c381e1337bbfa39da132cab8ee93ec7b1f23f"
+    },
+    {
+      "path" : "\/assets\/illustrations\/103-fcis-kit-semantic-factory-and-wired-instrument-event-stream.svg",
+      "sha256" : "857b7c090796fff490267b467f4d71711512d3af2e035564211e012900c54e70"
+    },
+    {
+      "path" : "\/assets\/illustrations\/104-midi2-event-time-jitter-and-asynchronous-completion-governance.png",
+      "sha256" : "cbe4a2f66f9c1bc23f463af1a4c4b5b2bc4fc9b08da66a29c06dc0c7543c7de2"
+    },
+    {
+      "path" : "\/assets\/illustrations\/104-midi2-event-time-jitter-and-asynchronous-completion-governance.svg",
+      "sha256" : "d99801f4ea1da524287d3a24119cee4b12aba9babc3656b40afecadc52d81a13"
+    },
+    {
+      "path" : "\/assets\/illustrations\/105-semantic-scenographer-one-spatial-thought.png",
+      "sha256" : "25c2e023ae5ab9ca725d9e85b1a4804f0ce81221b080635667ddbd4e632ff633"
+    },
+    {
+      "path" : "\/assets\/illustrations\/105-semantic-scenographer-one-spatial-thought.svg",
+      "sha256" : "7cd44cdef27ad32dc5935b6d8971f3a6b66d565beedd90e63fa32c08ff2da3b5"
+    },
+    {
+      "path" : "\/assets\/illustrations\/106-teatro-midi2-monitor-canonical-runtime-projection.png",
+      "sha256" : "e11d8b8216018f8018aaf91d7e5f62d36de068952b84dc693f31daa2092775e2"
+    },
+    {
+      "path" : "\/assets\/illustrations\/106-teatro-midi2-monitor-canonical-runtime-projection.svg",
+      "sha256" : "d32f83b8e7014169452bd19f4478848f847f50d15147fb7ef74b13470d7860a6"
+    },
+    {
+      "path" : "\/assets\/illustrations\/107-creating-the-canonical-teatro-stage-composition-layer.svg",
+      "sha256" : "761e4f0710da4a1104c1c7f3d0700b59be02fdd2a0ee5283bae3300fee9e3de1"
+    },
+    {
+      "path" : "\/assets\/illustrations\/108-reframe-is-a-swift-native-cross-platform-runtime.svg",
+      "sha256" : "153f3c966283f78183126388c4b3e3b1825b4f1e254bdb00886a3e881721d740"
+    },
+    {
+      "path" : "\/assets\/illustrations\/109-natural-language-measurement-is-a-midi2-instrument.svg",
+      "sha256" : "89b7fd9f36d0fcde905c0940b0547742adb72193bcca000f69e5befe985271d9"
+    },
+    {
+      "path" : "\/assets\/illustrations\/110-three-run-semantic-drift.svg",
+      "sha256" : "429ea561f234a18300cdd06fa4546a9e04b8e6d4edb74c9307eb92024a439a51"
+    },
+    {
+      "path" : "\/assets\/illustrations\/111-evidence-cohorts-as-publication-units.svg",
+      "sha256" : "0fc1423d991147e0d7665fc682ce6bbe4bbf6ab569b6bcf9dd2aac97f2862847"
+    },
+    {
+      "path" : "\/assets\/illustrations\/112-skill-and-maintenance-capabilities-are-kit-owned.svg",
+      "sha256" : "d65e68a7a701fb83cf7e3ff4760a80c4a6a8158374b2cb52ccb48219b42c0239"
+    },
+    {
+      "path" : "\/assets\/illustrations\/113-governance-becomes-an-executable-scenographic-policy.svg",
+      "sha256" : "36781d9dcd3b12f0d954258ef286f53751dc0f08d44c164b027cadf461a67acf"
+    },
+    {
+      "path" : "\/assets\/illustrations\/114-server-side-semantic-proposals.svg",
+      "sha256" : "34b66292614798322ea12185257cdf81c998b74fea9f56810a90002f45d3123b"
+    },
+    {
+      "path" : "\/assets\/illustrations\/115-semantic-browser-midi2-fountainstore.svg",
+      "sha256" : "b210daa3d7f8edc0781676fce03ad0e89319b7f92febef05d496f76772e7bc15"
+    },
+    {
+      "path" : "\/assets\/illustrations\/116-fountainstore-estate-edge.svg",
+      "sha256" : "37f50051bd55a3f3c7979fe9bd1521e2c8a9a42043137899ceef652f2e4e65eb"
+    },
+    {
+      "path" : "\/assets\/illustrations\/117-fountainstore-snapshot-export-git-recovery.svg",
+      "sha256" : "a6242e1cd4e060bb6cb390e130182497f39101db4987eac20f95a8062fd64ed5"
+    },
+    {
+      "path" : "\/assets\/illustrations\/118-european-cybersecurity-profile.svg",
+      "sha256" : "0a938e902794ba937c5e0d9f59113b51b6e3115bd6931505e3330dcbcb2453c1"
+    },
+    {
+      "path" : "\/assets\/illustrations\/119-scenario-pipeline-factory.svg",
+      "sha256" : "08904fa7bcebe31f2e0b0ec69d254efa80f8e2c5b187690c348ba02c5b7f8832"
+    },
+    {
+      "path" : "\/assets\/illustrations\/120-internal-triadic-peer-dialogue-stage.svg",
+      "sha256" : "90b9a2c1709f097995b1e1cd9078342ae144a65a946752be71b9c55c86c8d563"
+    },
+    {
+      "path" : "\/assets\/illustrations\/120-internal-triadic-peer-dialogue.svg",
+      "sha256" : "8aac691d5e3e32950e95403c1934bd960e20fb46ab1b667ee0c3f583ee6403a0"
+    },
+    {
+      "path" : "\/assets\/illustrations\/121-dynamic-midi2-instrument-factory.svg",
+      "sha256" : "fb34bab779b35d8bb7450a5a1c384ea84a0e3a0d6770de86d2589e456c4261e7"
+    },
+    {
+      "path" : "\/assets\/illustrations\/122-governed-semantic-transformation-instrument.svg",
+      "sha256" : "be9fbde1d8019b42f066333fe6c9b8572901f62b10b818ddde0d7d52cbc4cc3a"
+    },
+    {
+      "path" : "\/assets\/illustrations\/123-commands-must-be-legible-to-reasoning.svg",
+      "sha256" : "b69da93c43ac8c3396a076a4f3c78d5dfef4084f34b08475da333671f0cedca6"
+    },
+    {
+      "path" : "\/assets\/illustrations\/124-state-transition-visual-capabilities.svg",
+      "sha256" : "56374e2ec2ffcc52753ff423ea96bed9b19d5afae505576d3a338b364d5360b6"
+    },
+    {
+      "path" : "\/assets\/illustrations\/125-store-publication-graph-domain-mapping-and-atomic-route-promotion.svg",
+      "sha256" : "97dcd98d12453b7072fe3dfecdd0902cbf86c1d436b3afe1821f2883c792d549"
+    },
+    {
+      "path" : "\/assets\/illustrations\/126-fountain-coach-organization-web-projection.svg",
+      "sha256" : "af4480992de321160895d6acc5eae60e250409743c45725e762d6130c573a806"
+    },
+    {
+      "path" : "\/assets\/illustrations\/127-estate-template-publishing-path.svg",
+      "sha256" : "026ae236e0f395900f7aa6aa305d96bbce90cdc9e3661e99b4afe26415bda2c2"
+    },
+    {
+      "path" : "\/assets\/illustrations\/128-deployed-estate-webkit-mirror.svg",
+      "sha256" : "97393592652cef2cea09238233c3053e34e0034883d1a8e5643bde4488a7179a"
+    },
+    {
+      "path" : "\/assets\/illustrations\/129-native-animated-svg-publication.svg",
+      "sha256" : "c1d222283a27ba4af42b2f18db5032b4808e5ba5cfbbdcf063cc39884e5e95e7"
+    },
+    {
+      "path" : "\/assets\/illustrations\/130-human-machine-scenario-naming.svg",
+      "sha256" : "209efabad6aa80678a7bd2ac8f8a2fc4b41822ab7ce74d4153811674420d4d95"
+    },
+    {
+      "path" : "\/assets\/illustrations\/131-remote-secretstore-authorization.svg",
+      "sha256" : "e91b6212ef68d6603471dfba6ff8ad264f146e365bf38ff42e7ae42790bdb558"
+    },
+    {
+      "path" : "\/assets\/illustrations\/132-reframe-audiounit-auv3-aum.svg",
+      "sha256" : "652b8df73824348867289ba6ca2305e487450601de93a39e1da995d9f66955f9"
+    },
+    {
+      "path" : "\/assets\/illustrations\/133-csound-auv3-instrument-boundary.svg",
+      "sha256" : "5056a1b205d84041626671a55f8e931f0a01989f4d5f5facbf5621ec7ac62547"
+    },
+    {
+      "path" : "\/assets\/illustrations\/134-estatepublisher-publication-authority.svg",
+      "sha256" : "cbcd04fbfb154dbf72b460b45c789c816679d7babcbd8853356124e7429bbbbf"
+    },
+    {
+      "path" : "\/assets\/illustrations\/135-reframe-ipad-scenario-driven-creative-host.svg",
+      "sha256" : "00b15bc88f41a3c4f59ec1f77390dc0d48dc22df248b4325a0de19ad35d9017f"
+    },
+    {
+      "path" : "\/assets\/illustrations\/136-reframe-web-native-headless-audio-runtime.svg",
+      "sha256" : "89db4af9523eb741ca3e2804f5bca65275cc9ec66c81a58262b8ce017cc93100"
+    },
+    {
+      "path" : "\/assets\/illustrations\/137-teatro-web-reframe-materialization.svg",
+      "sha256" : "4b4cbfcf2e98938e8d06851fd758eef73b7f7dd562e26a12264092437a8590b9"
+    },
+    {
+      "path" : "\/assets\/illustrations\/138-ear-web-audio-midi2-boundary.svg",
+      "sha256" : "ee8df21f2d3a0b0edf80900a940b0aa3829e9c5bba2241fae9c3cce20c640666"
+    },
+    {
+      "path" : "\/assets\/illustrations\/139-owner-trust-root-custody.svg",
+      "sha256" : "e5c976b65ed0658edc5e7dece32915149ed1d21e5924e6f1c8b2ab24b520f6e2"
+    },
+    {
+      "path" : "\/assets\/illustrations\/140-estatepublisher-codex-command-boundary.svg",
+      "sha256" : "ebb8e4fff6c578c8adfc73f43f211b3483b03b10fb97121be3593336c863ca7b"
+    },
+    {
+      "path" : "\/assets\/illustrations\/141-machine-midi2-instrument-admission.svg",
+      "sha256" : "5fc2a5572112a31f374185197737c904e4121df42d0f6a08c3428d344c204abb"
+    },
+    {
+      "path" : "\/assets\/illustrations\/143-simplicity-is-key-one-bootstrap-one-trusted-session.svg",
+      "sha256" : "01f1e8836fc4bcd40da3fe2ad20a4583a5f17e5d91fadfb9cf356b172903d62e"
+    },
+    {
+      "path" : "\/assets\/illustrations\/144-fountain-media-service-governed-media-plane.svg",
+      "sha256" : "bc3d95ca3834617091d5a227de09a7a43588ad4e33bffdbb518db5218eb760f1"
+    },
+    {
+      "path" : "\/assets\/illustrations\/145-one-estate-one-publication-state.svg",
+      "sha256" : "2848009443e515ae0ab71db124d4a9550c43e2c36d629ec88224da924d53c292"
+    },
+    {
+      "path" : "\/assets\/illustrations\/145-publication-authority-flow.svg",
+      "sha256" : "5457d5471637907e903977b383c1f71bc643be16abe2e73fa9e388d5734316ea"
+    },
+    {
+      "path" : "\/assets\/illustrations\/146-local-store-remote-caddy-production-estate.svg",
+      "sha256" : "025b6e43896edb11e81aed3b811faa919893b2744b957f6c4a9edb3ec1242fb4"
+    },
+    {
+      "path" : "\/assets\/illustrations\/147-local-route-materialization-estatepublisher-preview.svg",
+      "sha256" : "eacb2da32ce751fbb428ca318532ae4e76c04aed2eeea468cfb2fce6c578e08e"
+    },
+    {
+      "path" : "\/assets\/illustrations\/148-production-runtime-artifact-only.svg",
+      "sha256" : "257f105790710a70c6fe5363170ee52947f4f40763dd15fff8c9b11e9fd295d2"
+    },
+    {
+      "path" : "\/assets\/illustrations\/149-remote-codexkit-governed-midi2-peer-instrument.svg",
+      "sha256" : "d2a68283d9d96be2673da9b3f85bcbc89e3bcbb33db84bc137ce7c0104783038"
+    },
+    {
+      "path" : "\/assets\/illustrations\/150-one-midi2-instrument-plane-multiple-governed-transports.svg",
+      "sha256" : "ad92c5d378dee2822bb60288dcbee017c22023fb1c4318f3b107a54dac3229ce"
+    },
+    {
+      "path" : "\/assets\/illustrations\/151-csound-teatro-speaking-sound-in-space.svg",
+      "sha256" : "39d1d0f9545e0e599951743882298c676b5bc81030b8c09f565e4a4778fe9c31"
+    },
+    {
+      "path" : "\/assets\/illustrations\/152-the-host-is-the-instrument.svg",
+      "sha256" : "1cfc9515bc1438549f5189cff0558fc874e61e9f843d6ec657ad053704c3ea6c"
+    },
+    {
+      "path" : "\/assets\/illustrations\/153-domain-admission-and-edge-binding.svg",
+      "sha256" : "05c145e3e11b4729d3dc73b654a7956a3f29ad75cb854d8d76b40d74a156cda9"
+    },
+    {
+      "path" : "\/assets\/illustrations\/154-domain-neutral-local-model-reasoning-testing.svg",
+      "sha256" : "c1dfdb10c3cb3be8d5399c697b7619918a6537eaec5b55f886215f403ee513f5"
+    },
+    {
+      "path" : "\/assets\/illustrations\/155-estatepublisher-rest-projection.svg",
+      "sha256" : "c25dfece1318e19c3cb78f7820c684a26a8d77ce969da164f2bab16134d52886"
+    },
+    {
+      "path" : "\/assets\/illustrations\/156-writer-workflow.svg",
+      "sha256" : "c4dc6790c52fa9d7571b768bcbc4a81d6fefddf2f5f933958942d552dd0a696d"
+    },
+    {
+      "path" : "\/assets\/illustrations\/157-the-writer-owns-the-public-domain.svg",
+      "sha256" : "17836b71f3dbce8982631934c374967364b0e05598460762039f6e8effa16859"
+    },
+    {
+      "path" : "\/assets\/illustrations\/158-publishing-is-not-a-distributed-transaction.svg",
+      "sha256" : "06f007398467047404ec148def5242729f601b7698f5824b6167ecff5a85c7c0"
+    },
+    {
+      "path" : "\/assets\/illustrations\/159-userland-the-writers-books-outlive-the-device.svg",
+      "sha256" : "87c8934cafe37eb3698ff3c606df6b81707e73fe9074579d217f890127e6fee5"
+    },
+    {
+      "path" : "\/assets\/illustrations\/160-skill-sovereignty-and-governed-distribution.svg",
+      "sha256" : "f8bdee4a46e75a64a8461758fe9e06554d7da1a183dd103d8c2cf1aee28f98bf"
+    },
+    {
+      "path" : "\/assets\/illustrations\/copilot-focused-state.png",
+      "sha256" : "3bcad5c7b65d78a2e58c04b37cbc1dad74b5e234a00e6ad5f0833bc254a5cc58"
+    },
+    {
+      "path" : "\/assets\/illustrations\/copilot-working-state.png",
+      "sha256" : "f26ed767f8bcb52c535fc1860d5876ff34e3342d6aad2c7ba66c7680c58fb1fc"
+    },
+    {
+      "path" : "\/assets\/illustrations\/fountain-coach-publication-estate.svg",
+      "sha256" : "749a44d8877aa3b1e105afdbba6fb98601b13cb54f91f5839d549d243e2ca95b"
+    },
+    {
+      "path" : "\/assets\/illustrations\/reframe-codex-auth-instrument.svg",
+      "sha256" : "beedb21e0aeaefcf8c459b75cb66f61c2b70c676e36b0f6611cc7ba5eac3500b"
+    },
+    {
+      "path" : "\/assets\/illustrations\/reframe-codexkit-midi2-instrument.svg",
+      "sha256" : "735cf3d668af15d689cf200b62eb6d000d8239de96c897488c9149e3ad49c8dc"
+    },
+    {
+      "path" : "\/assets\/illustrations\/reframe-default-semantic-workspace.jpg",
+      "sha256" : "1cb7127910174f2e00a2c31f7830a4a3d7adeef4c741696e88b903fec5ef6512"
+    },
+    {
+      "path" : "\/assets\/illustrations\/reframe-fcis-kit-instrument-store.svg",
+      "sha256" : "3a22b37710d8f3eecf0a874573fcfcf8aeb79a96ed02ebe42fbdb29b1337e39e"
+    },
+    {
+      "path" : "\/assets\/illustrations\/reframe-midi2-monitor-architecture.svg",
+      "sha256" : "7ced80939985fb220dbc60447995eb93f71ead22e0bf5de0124cffb7d06b1bbb"
+    },
+    {
+      "path" : "\/assets\/illustrations\/reframe-reading-room.svg",
+      "sha256" : "916e2fb5aa0c83d362c06809914c6357a81a4f62a93e7519b719e13ca320a040"
+    },
+    {
+      "path" : "\/assets\/illustrations\/reframe-scenario-design-mock.svg",
+      "sha256" : "02858aabdf605c1824c266dd61031decd8637533ee22874b5fb2abaf1c9b3bda"
+    },
+    {
+      "path" : "\/assets\/illustrations\/reframe-security-review-system-top.svg",
+      "sha256" : "763e6f626e2f23e7a2e262ceab0e29bd3ad40fc1dc2ab44aae678edb6cdffc2c"
+    },
+    {
+      "path" : "\/assets\/illustrations\/reframe-storify-defined-whole-mock.svg",
+      "sha256" : "f73de08e7d7bdc04312170d8c1a4e9c367ca76dc06cd7765076ad5273921b6ff"
+    },
+    {
+      "path" : "\/assets\/illustrations\/storify-library-store-drift.svg",
+      "sha256" : "1c977609d462132555e3d4487389f89d6089e1ce99a515e2d28d292eddc29693"
+    },
+    {
+      "path" : "\/assets\/pointer.css",
+      "sha256" : "da276dac6b3dfa2877cb3adb7d4598d0a606541eee5261ffbeb5ff035e047517"
+    },
+    {
+      "path" : "\/assets\/pointer.js",
+      "sha256" : "fc5a1d9c9942e9d6aba7ac907de7e7804049c2c50c747880d6230a58629f5c49"
+    },
+    {
+      "path" : "\/assets\/social\/100-semantic-scenographer-e63cb7c607e3.jpg",
+      "sha256" : "e63cb7c607e3b443847597120eb66f06c67009ab195a7508b9fccb7f0a850b38"
+    },
+    {
+      "path" : "\/assets\/social\/102-semantic-inference-execution-session-and-latency-governance-12a5ee0f0343.jpg",
+      "sha256" : "12a5ee0f0343fc5b9c28057178533072ff32be7179244b71447860e5ceb89300"
+    },
+    {
+      "path" : "\/assets\/social\/103-fcis-kit-semantic-factory-and-wired-instrument-event-stream-ea00aa057ef5.jpg",
+      "sha256" : "ea00aa057ef581d5a705cc30588f449ea5181d46cad576924b62611d3ebf9e6b"
+    },
+    {
+      "path" : "\/assets\/social\/104-midi2-event-time-jitter-and-asynchronous-completion-governance-bb86ff5d4906.jpg",
+      "sha256" : "bb86ff5d49062f0331748e0391c65671f7492068802e28062e1b030928c20fd5"
+    },
+    {
+      "path" : "\/assets\/social\/105-semantic-scenographer-one-spatial-thought-6ab72842b176.jpg",
+      "sha256" : "6ab72842b176e1efa41a32e5eb56732d20b6d509dea809ad87c388650c99fd65"
+    },
+    {
+      "path" : "\/assets\/social\/106-teatro-midi2-monitor-canonical-runtime-projection-4e63b19f8453.jpg",
+      "sha256" : "4e63b19f84535ac62512161a520c91b0e75cdb61374c7d7c14227359378beb72"
+    },
+    {
+      "path" : "\/assets\/social\/107-creating-the-canonical-teatro-stage-composition-layer-26737303e70f.jpg",
+      "sha256" : "26737303e70f3d4c895f1bcb5e1265ce0860478aad0435ad1d4f31f2859d4364"
+    },
+    {
+      "path" : "\/assets\/social\/108-reframe-is-a-swift-native-cross-platform-runtime-7a8c39cf398c.jpg",
+      "sha256" : "7a8c39cf398c3ee4c15e8ac22e3ba1dd35d78590a59175e1bb45282f390bb87d"
+    },
+    {
+      "path" : "\/assets\/social\/109-natural-language-measurement-is-a-midi2-instrument-1ec500198741.jpg",
+      "sha256" : "1ec50019874190af7b733adf0cf0e0de56c8b5bba8756e41addacba91bb6501c"
+    },
+    {
+      "path" : "\/assets\/social\/110-three-run-semantic-drift-calculus-ce2c3993aa2f.jpg",
+      "sha256" : "ce2c3993aa2fbda170c489d34222a06d8e425a9e8f2c5de8457ffb04e00fb996"
+    },
+    {
+      "path" : "\/assets\/social\/111-evidence-cohorts-as-publication-units-0463cd404289.jpg",
+      "sha256" : "0463cd404289f4b603d1ce2fdc2d9f0f40c2adac5356641a3ae7c94ac23ff627"
+    },
+    {
+      "path" : "\/assets\/social\/112-skill-and-maintenance-capabilities-are-kit-owned-fb58e7d6bc56.jpg",
+      "sha256" : "fb58e7d6bc566287585331a5a322e3c55630eaf9bd87bfc3c5b8ebe60c36a6e1"
+    },
+    {
+      "path" : "\/assets\/social\/113-governance-becomes-an-executable-scenographic-policy-afa5318fdd98.jpg",
+      "sha256" : "afa5318fdd986e0dfd79eaa0b7d20f5ab4a66b65d252be88f537b5efa03e411a"
+    },
+    {
+      "path" : "\/assets\/social\/114-server-side-semantic-proposals-mac-and-linux-one-runtime-462f4631ce0d.jpg",
+      "sha256" : "462f4631ce0ddbe91d39020f355cf60457056e507f600295975bafba3ba3ff99"
+    },
+    {
+      "path" : "\/assets\/social\/115-semantic-browser-is-a-governed-midi2-and-fountainstore-instrument-523269e15f52.jpg",
+      "sha256" : "523269e15f5219220b00f88134da1ad7a8181eff565ef6338fe1a36a6d177b14"
+    },
+    {
+      "path" : "\/assets\/social\/116-fountainstore-owned-estate-edge-and-acme-promotion-9aae956137ca.jpg",
+      "sha256" : "9aae956137ca6419fca313abfc726e98848ab9603224f2b5d539963b6b5b4446"
+    },
+    {
+      "path" : "\/assets\/social\/117-fountainstore-snapshot-export-and-git-recovery-projection-0bd862644a92.jpg",
+      "sha256" : "0bd862644a927e80cef4f360ccbfe0764970354619ded0c8fbba6be29b651ea2"
+    },
+    {
+      "path" : "\/assets\/social\/118-european-cybersecurity-profile-198560edc67e.jpg",
+      "sha256" : "198560edc67e1fc7d4625cebc48cad4955d08935f3ca0c71c3adcd966b590178"
+    },
+    {
+      "path" : "\/assets\/social\/119-scenario-pipeline-factory-33656d341c5f.jpg",
+      "sha256" : "33656d341c5fd3103e6d241a0557c0c13dbc98fc842ec8a624c28902fe582cac"
+    },
+    {
+      "path" : "\/assets\/social\/120-internal-triadic-peer-dialogue-921c35e002c3.jpg",
+      "sha256" : "921c35e002c3adfc88f4e62bab181acb27a6b6be02a8f1ac4e2b5a8518eee332"
+    },
+    {
+      "path" : "\/assets\/social\/121-dynamic-midi2-instrument-factory-f63e065aa698.jpg",
+      "sha256" : "f63e065aa698e349b66dbe98d82bf7f87287f8149f32aba5d07a427c55166b26"
+    },
+    {
+      "path" : "\/assets\/social\/122-governed-semantic-transformation-instrument-92f005a1ae0d.jpg",
+      "sha256" : "92f005a1ae0dee41ea0630e4640996cdac15d4e8aab47365429a66e402bbacc2"
+    },
+    {
+      "path" : "\/assets\/social\/133-csound-auv3-instrument-boundary.jpg",
+      "sha256" : "7a428eee6a5c4d5ed7009e0d7fdea3cdf82268d0e7f6f7741d65b3b742ff3b08"
+    },
+    {
+      "path" : "\/assets\/social\/137-teatro-web-reframe-materialization.jpg",
+      "sha256" : "fd1167cc622f38b057ab018312d46bde0e902116be0a5d3ef600800dbce1650c"
+    },
+    {
+      "path" : "\/assets\/social\/140-estatepublisher-ip-network-topology-mutator.jpg",
+      "sha256" : "79b514c382e82687fce33f6fdf72bf750ad2508639775a488b543ada7730193c"
+    },
+    {
+      "path" : "\/assets\/social\/141-machine-midi2-instrument-admission.svg",
+      "sha256" : "5fc2a5572112a31f374185197737c904e4121df42d0f6a08c3428d344c204abb"
+    },
+    {
+      "path" : "\/assets\/social\/142-fountainauthkit-governed-authorization-authority.svg",
+      "sha256" : "f7653ea9cfbba649ce256219eecdb432efb9da7efbb01de35404332688b531a0"
+    },
+    {
+      "path" : "\/assets\/social\/45-copilot-reading-surface-and-typography-343a632ce56d.jpg",
+      "sha256" : "343a632ce56d124104e4d35693ef9045034d639ffc917cc35ae513249776e750"
+    },
+    {
+      "path" : "\/assets\/social\/79-default-semantic-manuscript-projection-4afedbfa98da.jpg",
+      "sha256" : "4afedbfa98da1112de86320b7d2116492cd2f74ced35e78da5dc3bac8ee7fc13"
+    },
+    {
+      "path" : "\/assets\/social\/82-remote-midi2-reading-room-01c002ecb97e.jpg",
+      "sha256" : "01c002ecb97e2563f54eb848a1fabf458e166ec7e911a6a023b2a13a9702d15e"
+    },
+    {
+      "path" : "\/assets\/social\/84-governed-reframe-design-mock-566e56b80e18.jpg",
+      "sha256" : "566e56b80e18847bd80f79c7387ceed09fa7dbea02e566ca0b1bb00256755b00"
+    },
+    {
+      "path" : "\/assets\/social\/85-storify-source-auto-reads-a-defined-whole-e6762a4e127a.jpg",
+      "sha256" : "e6762a4e127a6c13a1d39a74daeb0fdc34a2518e098e4bb2b43a436ee406dd20"
+    },
+    {
+      "path" : "\/assets\/social\/87-midi2-monitor-is-the-live-event-mirror-1e0b3589029d.jpg",
+      "sha256" : "1e0b3589029d568af745326d6ff55f160180a7ab6e979ca1f43645c344811952"
+    },
+    {
+      "path" : "\/assets\/social\/88-codexkit-is-a-governed-codex-app-server-boundary-4f32aa90d3cf.jpg",
+      "sha256" : "4f32aa90d3cf930ceea0068d8d301062d3e2411ba7fdfc2d2a24cfca85f57cf8"
+    },
+    {
+      "path" : "\/assets\/social\/89-codex-auth-instrument-is-the-copilot-login-surface-8883ee98e31f.jpg",
+      "sha256" : "8883ee98e31fd4d085abd318f3500e8c8566e930fbbd634c5c75c46965253fae"
+    },
+    {
+      "path" : "\/assets\/social\/90-independent-security-review-is-a-separate-acceptance-boundary-8d3d0ba94d56.jpg",
+      "sha256" : "8d3d0ba94d56fbaacb48c9f3acc754f342032f4ea9f83408a7d79044cc740d18"
+    },
+    {
+      "path" : "\/assets\/social\/91-fcis-kit-instrument-store-is-the-capability-plane-d3526f91d9be.jpg",
+      "sha256" : "d3526f91d9beb8bec38fda0d2316c732004cbe989c99310e51e10475e21ba487"
+    },
+    {
+      "path" : "\/assets\/social\/92-fountain-coach-publication-estate-5d199dccac29.jpg",
+      "sha256" : "5d199dccac29a3ae95dc1d6c752d8eb5daf12c57c195753a7c9c4f110fcddfe2"
+    },
+    {
+      "path" : "\/assets\/social\/fountain-coach-governance-estate.jpg",
+      "sha256" : "0cf133ecf63ced9ae1fea6564da585cb6139d0cebabe934cab610df5cc8f75c5"
+    },
+    {
+      "path" : "\/chapter-status.json",
+      "sha256" : "e0451e7397ce1ed4af629fcb2ea9bb2f8dcc61af452b3655ebf839841f00696f"
+    },
+    {
+      "path" : "\/chapters\/00-abstract\/index.html",
+      "sha256" : "463ef96e19504f8dd23f80e5ff1edba7c712e3e8b293ca37d81d88c8579e840a"
+    },
+    {
+      "path" : "\/chapters\/01-reading-index\/index.html",
+      "sha256" : "a1ba62ff6e7158fddbdefd3c48432571e4b2d9503680ef05136169605c105185"
+    },
+    {
+      "path" : "\/chapters\/02-development-history\/index.html",
+      "sha256" : "6c47f3928cf18579fd39a0be6bb5c391bda767f77eed3b4189712e52d9e6acda"
+    },
+    {
+      "path" : "\/chapters\/03-current-state-and-problem\/index.html",
+      "sha256" : "8afb0b032996ff3cd16affabf0fb4ced0bb9259d1546b362b63c33cada14758b"
+    },
+    {
+      "path" : "\/chapters\/04-target-architecture\/index.html",
+      "sha256" : "81ba9c8fc0391af648b7bbb2d948125701a521a1634b2677040a0ae76e4c14bd"
+    },
+    {
+      "path" : "\/chapters\/05-grounding-contract\/index.html",
+      "sha256" : "ba946d8de9c5a24664fc27f6a029aea17eabc80922b9c9d9615ac4cd58811e9b"
+    },
+    {
+      "path" : "\/chapters\/06-refactoring-program\/index.html",
+      "sha256" : "ca62ae5a0799a936114ad44f7f22cd9966a5af0fe3ed9a28a13c561dd51eb12c"
+    },
+    {
+      "path" : "\/chapters\/07-agent-operating-guide\/index.html",
+      "sha256" : "e6f1da8655654950a919936445ebc98b2dcc7cbbc2e957761d0c2d8000ea1b88"
+    },
+    {
+      "path" : "\/chapters\/08-validation-and-acceptance\/index.html",
+      "sha256" : "4aa5318d6cc4f8922754c586115cdf2abd1cd41d47bb6bb828365c4e82f23c4d"
+    },
+    {
+      "path" : "\/chapters\/09-compatibility-and-future-evolution\/index.html",
+      "sha256" : "68e05fcde0e376729e256c65ca27aa17a90815c72b880d8094e5b973a313f4a8"
+    },
+    {
+      "path" : "\/chapters\/10-copilot-implementation-extension\/index.html",
+      "sha256" : "27706775d50a9ad3336d8a6bb6f75cc66ea5a08b8d87060b792fe96ae8ca9878"
+    },
+    {
+      "path" : "\/chapters\/100-semantic-scenographer\/index.html",
+      "sha256" : "0fcdd4e5e4411b8dd694496fea0bbe5da173033b7e9b249738cf9a4bf16416ac"
+    },
+    {
+      "path" : "\/chapters\/101-teatro-stage-engine-semantic-scenography\/index.html",
+      "sha256" : "e03c4d0ebc5096f5aed4cc59786dc788b2a4bf4e37245d0039512f49ae12bf29"
+    },
+    {
+      "path" : "\/chapters\/102-semantic-inference-execution-session-and-latency-governance\/index.html",
+      "sha256" : "0ec07ae94ecc914d3cb3c6ff41ac05842eea67ee377eb040fd84a6209b62b5a0"
+    },
+    {
+      "path" : "\/chapters\/103-fcis-kit-semantic-factory-and-wired-instrument-event-stream\/index.html",
+      "sha256" : "7e2e51ed8aca3a3174fd9cb427fa8b4cf52ee0e25563c3927476c6c0fa2273d6"
+    },
+    {
+      "path" : "\/chapters\/104-midi2-event-time-jitter-and-asynchronous-completion-governance\/index.html",
+      "sha256" : "44be7818bda3c116c552cfc466b1c4466e9538efb680975c93851a822cb7dba3"
+    },
+    {
+      "path" : "\/chapters\/105-semantic-scenographer-one-spatial-thought\/index.html",
+      "sha256" : "9a6f7c7b54fffa1d932d4dac1ff7de488bcb3f89f58d74031e6b5b93d598ae40"
+    },
+    {
+      "path" : "\/chapters\/106-teatro-midi2-monitor-canonical-runtime-projection\/index.html",
+      "sha256" : "de9b66b152912f6f8ea3397df0c95e96fb9c4ef3083ab003772c71c5755aa7eb"
+    },
+    {
+      "path" : "\/chapters\/107-creating-the-canonical-teatro-stage-composition-layer\/index.html",
+      "sha256" : "83904488dd5b5143fa07c2f5a2652b821d27557ec8072a08f20191980ba688c7"
+    },
+    {
+      "path" : "\/chapters\/108-reframe-is-a-swift-native-cross-platform-runtime\/index.html",
+      "sha256" : "969a89ba669f8feed9c714b7ae0872dc83d41c7b1c4b227a3d58a65169117795"
+    },
+    {
+      "path" : "\/chapters\/109-natural-language-measurement-is-a-midi2-instrument\/index.html",
+      "sha256" : "9def53d7b8937d33b7304c5a07107bc771f9ac3b276c62be8a6964e4aa5f940e"
+    },
+    {
+      "path" : "\/chapters\/11-grounding-as-a-given\/index.html",
+      "sha256" : "1af0a4c91afb628c19bdff211eff4d8fa3fdfcd16811e00a26906323b64e8d98"
+    },
+    {
+      "path" : "\/chapters\/110-three-run-semantic-drift-calculus\/index.html",
+      "sha256" : "cb5ebe661b70e972fb0e1ed754efb5d54a4eeb24518915cfe186e15851bdc571"
+    },
+    {
+      "path" : "\/chapters\/111-evidence-cohorts-as-publication-units\/index.html",
+      "sha256" : "d1b57bf675dcfa99214c79528f6f2eee53ff80db034d9c8757709486cf888e32"
+    },
+    {
+      "path" : "\/chapters\/112-skill-and-maintenance-capabilities-are-kit-owned\/index.html",
+      "sha256" : "662f799d422d3ce251efbca526c2e98c6b38d193a2e43ecb12a35c2e5d97211f"
+    },
+    {
+      "path" : "\/chapters\/113-governance-becomes-an-executable-scenographic-policy\/index.html",
+      "sha256" : "8a56f33add3522dd8ecb7da90fdd4b938f1ba0f27881a555f12766097a1fc35e"
+    },
+    {
+      "path" : "\/chapters\/114-server-side-semantic-proposals-mac-and-linux-one-runtime\/index.html",
+      "sha256" : "a996f2079219374791f8e0125d11f886864d86044f0fc8f262c0cef8f8106ce1"
+    },
+    {
+      "path" : "\/chapters\/115-semantic-browser-is-a-governed-midi2-and-fountainstore-instrument\/index.html",
+      "sha256" : "827474c4fde90e53d57e71576fc79213bb97ec1789cddf3b356d017b4142112d"
+    },
+    {
+      "path" : "\/chapters\/116-fountainstore-owned-estate-edge-and-acme-promotion\/index.html",
+      "sha256" : "b09088c122a4956eda7028574eada622dfa66af36a250ae80c7df7c21f041675"
+    },
+    {
+      "path" : "\/chapters\/117-fountainstore-snapshot-export-and-git-recovery-projection\/index.html",
+      "sha256" : "6e9db7c243f566f57471f472f23afbb94b813374f3af818c527aeeda9f1ef5cc"
+    },
+    {
+      "path" : "\/chapters\/118-european-cybersecurity-profile\/index.html",
+      "sha256" : "88bfe30f1eefce9edbf519d41643b09846dbbb7fdf2bb1ff07840006aa728442"
+    },
+    {
+      "path" : "\/chapters\/119-scenario-pipeline-factory\/index.html",
+      "sha256" : "e5b5eaf05f3a74019de185b5a7183dfaa173230a03fb8411c3f393f21949c3e0"
+    },
+    {
+      "path" : "\/chapters\/12-animating-truth\/index.html",
+      "sha256" : "0d2361a17eb6d1f89d032dc6e7a174709b1c5608e407b3867479b108159bcaea"
+    },
+    {
+      "path" : "\/chapters\/120-internal-triadic-peer-dialogue\/index.html",
+      "sha256" : "eb2cea966cc5d27c019ac1007b9f67a8129b0394c59a076bc9fca53f00381ddc"
+    },
+    {
+      "path" : "\/chapters\/121-dynamic-midi2-instrument-factory\/index.html",
+      "sha256" : "48152c578d843001fbdd3d7301e7866125ffa8035f33f71a2a31cdda1ba3964d"
+    },
+    {
+      "path" : "\/chapters\/122-governed-semantic-transformation-instrument\/index.html",
+      "sha256" : "8825e120a56fa5242a1314bdc192eb8d4d8310d69c8580fac5a9c00e02158b25"
+    },
+    {
+      "path" : "\/chapters\/123-commands-must-be-legible-to-reasoning\/index.html",
+      "sha256" : "a4fc27c8e72a631d4d8653dd2208fe94c4b7be02b142e03285b4a8b46522b9e2"
+    },
+    {
+      "path" : "\/chapters\/124-midi2-timed-webkit-transitions\/index.html",
+      "sha256" : "9a2615a49a7fba0f6adf76200691f4a8083683be904ea52426125e7651d56a13"
+    },
+    {
+      "path" : "\/chapters\/125-store-publication-graph-domain-mapping-and-atomic-route-promotion\/index.html",
+      "sha256" : "35f667c49de6c17cb77821a350940ef5d1c3d780b63d854208d067c36b3db58b"
+    },
+    {
+      "path" : "\/chapters\/126-fountain-coach-organization-web-projection\/index.html",
+      "sha256" : "a90b5a1d07a038122affe8745b3316185c35201cd46b3ad1b1be597cf1a8893b"
+    },
+    {
+      "path" : "\/chapters\/127-estate-template-publishing-path\/index.html",
+      "sha256" : "766358203a62b4d8a7545f8f7bc3cb414b4536dfbdd983985c805ecc689a0db0"
+    },
+    {
+      "path" : "\/chapters\/128-deployed-estate-webkit-mirror-authority\/index.html",
+      "sha256" : "0c38f50811a13647f398f278f82aa65adcb97e41745d7d4f3d0a9905854c1320"
+    },
+    {
+      "path" : "\/chapters\/129-native-animated-svg-governed-publication-projection\/index.html",
+      "sha256" : "c2ecda9d26a45c91d81d06deaee29f2e12032260954c8cb659341f7c63a1c258"
+    },
+    {
+      "path" : "\/chapters\/13-storage-and-performance\/index.html",
+      "sha256" : "59c28ce5535114fafed4209c561901ef1a9c8392adb4abc1212c7052e50b0d00"
+    },
+    {
+      "path" : "\/chapters\/130-human-machine-scenario-naming-is-a-governed-identity-boundary\/index.html",
+      "sha256" : "9c7e346ba9b2f71ed7f5a0685da6530b9b1545c9e9e219611c500687b4757171"
+    },
+    {
+      "path" : "\/chapters\/131-remote-secretstore-authorization-and-approval-sessions\/index.html",
+      "sha256" : "feb2c2401f6cb2bfa70abe57df5a966e9602245a860125aaedd298ad88aa6acb"
+    },
+    {
+      "path" : "\/chapters\/132-reframe-audiounit-auv3-platform-and-aum-demo-host\/index.html",
+      "sha256" : "898fdfb95a6237f9556acc2b341d284c0250828ebcb084c4952035e1dc5ad4ea"
+    },
+    {
+      "path" : "\/chapters\/133-csound-auv3-instrument-boundary\/index.html",
+      "sha256" : "0c453fd45df2895fcd44ce69521e75adbd799dd88e1c055e5bf56038a74c26e6"
+    },
+    {
+      "path" : "\/chapters\/134-estatepublisher-publication-authority\/index.html",
+      "sha256" : "d1d110e6948a699db3659d04b21bf61c9622335ce0ba2ffc6238b227ec8bc746"
+    },
+    {
+      "path" : "\/chapters\/135-reframe-ipad-scenario-driven-creative-host\/index.html",
+      "sha256" : "3f19884aee18de52c5fffe33410dd20bbc0ad307aa41b12451194e40ee079272"
+    },
+    {
+      "path" : "\/chapters\/136-reframe-web-native-headless-audio-runtime\/index.html",
+      "sha256" : "8a7bd2e67a07f32f74d74922423ab2c5a2ba085019ae160576a65d5ac44c1785"
+    },
+    {
+      "path" : "\/chapters\/137-teatro-web-reframe-materialization\/index.html",
+      "sha256" : "b1e8a5e7f9f58e4b5c97b7cc34022a15fcf08298c7f4f6865a3c9ab71a1eecde"
+    },
+    {
+      "path" : "\/chapters\/138-ear-is-the-web-audio-graphs-midi2-listening-boundary\/index.html",
+      "sha256" : "b1927851ef16ebdff97e1a79ca4000948c1f9f8a951008bff548ccd1556e88aa"
+    },
+    {
+      "path" : "\/chapters\/139-owner-trust-root-secretstore-custody-and-recovery\/index.html",
+      "sha256" : "af41f22dd37be63620b4e48b5325e2e6dd0bae49f40efb2f014bc07763f978f0"
+    },
+    {
+      "path" : "\/chapters\/14-the-beat-and-its-arrangements\/index.html",
+      "sha256" : "e4a92399a5e2567485ee23964ad780850a8aced26a4c4f7fd5b6a21400b97e15"
+    },
+    {
+      "path" : "\/chapters\/140-local-developer-cloud-joining-machine-and-estatepublisher\/index.html",
+      "sha256" : "098148f93d3f385f8fefb0e3fc2cca0feac02b064c312dc4b2842497636b7a09"
+    },
+    {
+      "path" : "\/chapters\/141-each-joining-machine-is-a-governed-midi2-instrument\/index.html",
+      "sha256" : "ea6d32a9058c7982cc5c1e135eb5831189fc1e5d24eef5304df7c1ced467ef86"
+    },
+    {
+      "path" : "\/chapters\/142-fountainauthkit-governed-authorization-authority\/index.html",
+      "sha256" : "81aa6ba0b8bc287023a89bffa61af8e17e97c57050c37bd24a385e3dde7a8a82"
+    },
+    {
+      "path" : "\/chapters\/143-simplicity-is-key-one-bootstrap-one-trusted-session\/index.html",
+      "sha256" : "85ba1f0b7458cae432d6cb303b2ceb0a788ad6f8f8c7e13ac4441b21a8a2eaf5"
+    },
+    {
+      "path" : "\/chapters\/144-fountain-media-service-governed-media-plane\/index.html",
+      "sha256" : "2a365081d5fb2d6b99a27507714252c832d2287f4f640bf4de4d049311db174d"
+    },
+    {
+      "path" : "\/chapters\/145-one-estate-one-publication-state-estatepublisher-and-reframe-semantic-browser\/index.html",
+      "sha256" : "61320e01dd8fb5457deaa06b029ed736717956e33dd741441ec8f5b362948fd8"
+    },
+    {
+      "path" : "\/chapters\/146-local-fountainstore-remote-caddy-production-estate\/index.html",
+      "sha256" : "c5aa81d50656c1f347f351e59e4c9142fb10cc51b7ef374f531da2fb98020ec2"
+    },
+    {
+      "path" : "\/chapters\/147-local-route-materialization-estatepublisher-preview\/index.html",
+      "sha256" : "3ef43f9e00462b6f3e75a5469bcd5c8dd4b897ded38254e6a6da84453a1baee4"
+    },
+    {
+      "path" : "\/chapters\/148-production-runtime-artifact-only\/index.html",
+      "sha256" : "1e8d82d8e3c31dd60aaad00c64de618ad7b079e26a57a4ce861e956a23543e05"
+    },
+    {
+      "path" : "\/chapters\/149-remote-codexkit-governed-midi2-peer-instrument\/index.html",
+      "sha256" : "9aff733961177c117d663c0fbae780e198e2a06833ef9fcb14ca2c045b57b5de"
+    },
+    {
+      "path" : "\/chapters\/15-the-situated-copilot\/index.html",
+      "sha256" : "41ec565f025e70a23b4cd23637bd7dcb85f969b445233124170e8f0e039737db"
+    },
+    {
+      "path" : "\/chapters\/150-one-midi2-instrument-plane-multiple-governed-transports\/index.html",
+      "sha256" : "74cfd3d6e65632403ac696a1a465a60c122e2f0a57aebc6244cd47a3debfd7a9"
+    },
+    {
+      "path" : "\/chapters\/151-csound-teatro-speaking-sound-in-space\/index.html",
+      "sha256" : "25f7519a7a84df984092bc2b987407e019dfb61420cba332a8823990d50d5988"
+    },
+    {
+      "path" : "\/chapters\/152-the-host-is-the-instrument\/index.html",
+      "sha256" : "9fe568be64cd48da3081fed393b372e3b9b40952334b6fa118ef6c6dcc9ecae6"
+    },
+    {
+      "path" : "\/chapters\/153-domain-admission-and-edge-binding-are-separate-governed-capabilities\/index.html",
+      "sha256" : "98fa0a4a3ac7da6cf9a9ecff78520f0781d6edf18ee627a4207aa6f0b5eec000"
+    },
+    {
+      "path" : "\/chapters\/154-domain-neutral-local-model-reasoning-testing\/index.html",
+      "sha256" : "b6cd2cd0db84ad6478780ab60e99909e4554c1ebae0255bd05a84871c5cbeeb8"
+    },
+    {
+      "path" : "\/chapters\/155-estatepublisher-rest-projection\/index.html",
+      "sha256" : "913d8756edb09a25269dde19bddf27c87447ae5327326ada72fd42b39dedb2c1"
+    },
+    {
+      "path" : "\/chapters\/156-fcis-156-writer-workflow\/index.html",
+      "sha256" : "c8fbb442a9cf778283c7ad0f39737ce485e341a7489fe6098abacf7b92d50e75"
+    },
+    {
+      "path" : "\/chapters\/157-the-writer-owns-the-public-domain\/index.html",
+      "sha256" : "3a29962b1936eeaedc225259d466b314637369d253f88631383d14d468572a9c"
+    },
+    {
+      "path" : "\/chapters\/158-publishing-is-not-a-distributed-transaction\/index.html",
+      "sha256" : "1242fdcd266f8272c6dcbdc3d62903376350741f4e8e5bd6bc0878c241207ab3"
+    },
+    {
+      "path" : "\/chapters\/159-userland-the-writers-books-outlive-the-device\/index.html",
+      "sha256" : "2a793b4859038219ba53cc2a4866beb37efb6712ae945e9aea7d0a6a7e58af41"
+    },
+    {
+      "path" : "\/chapters\/16-the-timeline-is-the-machine-room\/index.html",
+      "sha256" : "1596a76567251fb057d8e9f047d4d6846f1e7043bef9eb3aca6ea3cddb69cdc5"
+    },
+    {
+      "path" : "\/chapters\/160-skill-sovereignty-and-governed-distribution\/index.html",
+      "sha256" : "ec1770bd852dbdfbb8368569a16ea2b70d6d0330bdba3393d6db0e86bfcfb1dc"
+    },
+    {
+      "path" : "\/chapters\/17-the-score\/index.html",
+      "sha256" : "9cbff333324357b992edd8c3304730bc9320b0cc42bbc4804d64d10a0c3f6638"
+    },
+    {
+      "path" : "\/chapters\/18-the-stage-presents-the-act\/index.html",
+      "sha256" : "211ce8e2f2b0d523131ecbc0133c4b75cb4ea79039e0dcf3102d501c0a6fd3be"
+    },
+    {
+      "path" : "\/chapters\/19-apple-human-interface-guidelines\/index.html",
+      "sha256" : "d504fd012dcf101c086403ca26fa02ae3b9cd668bdd426f43c9a0d3546ce8c27"
+    },
+    {
+      "path" : "\/chapters\/20-on-device-first-and-the-writers-key\/index.html",
+      "sha256" : "2369a7094d6156d2f7370107d4f816855b6cface9a9c7f6abd20c47a34a9841d"
+    },
+    {
+      "path" : "\/chapters\/21-training-perspectives\/index.html",
+      "sha256" : "31d0dc6df5a32460c5e0425d491d6c98f8672317115f5e864a60d7acdda9f2df"
+    },
+    {
+      "path" : "\/chapters\/22-no-preferences-only-reasoning\/index.html",
+      "sha256" : "b68b0d3bf75458581ae8b7cd613267aefb6d80da216f90fb2c0eb8ea0f78fce1"
+    },
+    {
+      "path" : "\/chapters\/23-one-reasoning\/index.html",
+      "sha256" : "c575087a20b0542b9cdbe102f548316214fec7ef119b221e930688355c582ec6"
+    },
+    {
+      "path" : "\/chapters\/24-the-reasoning-is-an-uncertainty-map\/index.html",
+      "sha256" : "2be34f3d2efda39e3ca084776a688cc1feea039e10f96528cc3e6811a6ad5b40"
+    },
+    {
+      "path" : "\/chapters\/25-the-copilot-is-the-surface\/index.html",
+      "sha256" : "b85add0226319dd850db7a30939010888596641f7940ec38709da3be2a476e9c"
+    },
+    {
+      "path" : "\/chapters\/26-internals-tune-themselves\/index.html",
+      "sha256" : "745475f52c327312f407e3978e7e18007ddd5e87c3ba5099a99a1bca74d55dd8"
+    },
+    {
+      "path" : "\/chapters\/27-parse-before-you-ask\/index.html",
+      "sha256" : "b60c116f96bef7d5b3602dfcebdce2fc59065216f9cfd88dc0d187a669fed938"
+    },
+    {
+      "path" : "\/chapters\/28-a-beat-is-the-question-it-raises\/index.html",
+      "sha256" : "02c7b3cba960025f98d41986416713aeb76b7b17b847cc1d872fb659cbcafa5f"
+    },
+    {
+      "path" : "\/chapters\/29-natural-language-measures-storify-interprets\/index.html",
+      "sha256" : "7c4dd401ff879f631f5698a1546e7eacde8d0af89f12d37ad0d913bc20dc3990"
+    },
+    {
+      "path" : "\/chapters\/30-the-living-gazetteer\/index.html",
+      "sha256" : "97cc8bdc104a1bade45ccaf9f242c35f7beeec7f7ecc0f819da44601b9068386"
+    },
+    {
+      "path" : "\/chapters\/31-compiled-knowledge\/index.html",
+      "sha256" : "a8d40f167a6d4e385a6843b18a93bf3d5863879d9c96cdba304aeb273f2b7705"
+    },
+    {
+      "path" : "\/chapters\/32-referenced-knowledge\/index.html",
+      "sha256" : "11b4b80ebeff121e43cd98d02d57544e39414746e2b3582d6b2a54d3e12d763d"
+    },
+    {
+      "path" : "\/chapters\/33-a-want-is-a-gap-in-a-ledger\/index.html",
+      "sha256" : "83934c14c05db085e8b0a8ae8a2720cda45274b65685b8998c7b1e0007b30685"
+    },
+    {
+      "path" : "\/chapters\/34-a-question-that-leaves-the-work\/index.html",
+      "sha256" : "58af32fc82651a3136aefeaac2a634bb021fb7156ca1c6138e41045b1d4894b1"
+    },
+    {
+      "path" : "\/chapters\/35-deep-search\/index.html",
+      "sha256" : "ddb91a5864d2d5155be719c8b9cbe3d6165d4094d9f088dbd2dc0978c3be323b"
+    },
+    {
+      "path" : "\/chapters\/36-every-gap-keeps-its-address\/index.html",
+      "sha256" : "93f0426f527fcfc9d0c8eb2c6e4fb8955e3bbb07be12932eba44a04e17c1695b"
+    },
+    {
+      "path" : "\/chapters\/37-copilot-capability-governance\/index.html",
+      "sha256" : "722189424ff9d2ebf9dca6a38c9501a3c2a4756dc28d2da2e34882f9950a251e"
+    },
+    {
+      "path" : "\/chapters\/38-copilot-capability-audit-skill\/index.html",
+      "sha256" : "da2a3c7c5b61bff8d9250a8fe3a8301a90fe07a3205ff63611e3c94e00663d02"
+    },
+    {
+      "path" : "\/chapters\/39-a-model-cannot-be-told-what-it-cannot-do\/index.html",
+      "sha256" : "1480a56acbf5bec8dbe0c3372e04b5a3a3288b53b2d3471442284cc99bc78d5d"
+    },
+    {
+      "path" : "\/chapters\/40-a-citation-is-a-promise-someone-can-check\/index.html",
+      "sha256" : "95a0d0a1bdb2ef946d5eb9389dc9854bfb641a6a010ceb9101abb87036efb0f1"
+    },
+    {
+      "path" : "\/chapters\/41-one-retrieval-two-directions\/index.html",
+      "sha256" : "8e8981522e929acc12b310cbe2b49988a4b08d4d0a21e386906951a3b4aae40a"
+    },
+    {
+      "path" : "\/chapters\/42-what-is-already-recorded-is-read\/index.html",
+      "sha256" : "a691a36982d7d6dfaae4848028dea27ceee38441e5a964f7a5ef4d143540f16d"
+    },
+    {
+      "path" : "\/chapters\/43-the-released-surface-is-a-named-build\/index.html",
+      "sha256" : "1ae2e925a1b292663f7031dc8bd6cdb699d6fb64de8732e0ced0bc700f06efe6"
+    },
+    {
+      "path" : "\/chapters\/44-publication-and-source-policy\/index.html",
+      "sha256" : "2e9adad25a4ea93e2c310a976f38ff5a078890798a0eea8fa315fbb3a1a0d5bc"
+    },
+    {
+      "path" : "\/chapters\/45-copilot-reading-surface-and-typography\/index.html",
+      "sha256" : "a22f156a5ecb1e1f30e7214a05b0f2ad256e51c70586a5af193f05f7763aafca"
+    },
+    {
+      "path" : "\/chapters\/46-dynamic-grounding\/index.html",
+      "sha256" : "ae7fab2cac5ab1df45ebffd4e5fb69bb06a2f180ad9e31ffb7cbd0127bdf96b9"
+    },
+    {
+      "path" : "\/chapters\/47-situated-mixed-initiative-interaction\/index.html",
+      "sha256" : "1161958eff4550ce6508fd8a63d5da86b0dec32ac97cc39369800bdd542de6d6"
+    },
+    {
+      "path" : "\/chapters\/48-a-service-is-a-fact-not-a-symptom\/index.html",
+      "sha256" : "70ab0ae4bb8c4df49724c24484b09af0746ff759550cb12ab8458f3131ab2745"
+    },
+    {
+      "path" : "\/chapters\/49-one-definition-two-projections\/index.html",
+      "sha256" : "a5a1348e37bb4de4cd21d9b2335ca0f9c70c4989e991e2ee4e313bfcb100e8a5"
+    },
+    {
+      "path" : "\/chapters\/50-text-is-stored-so-it-can-be-pointed-at\/index.html",
+      "sha256" : "c792b4540a4193f3b778573cb5884e1bf6d47149443ae85697321af5dd23bb6c"
+    },
+    {
+      "path" : "\/chapters\/51-one-decision-decides-the-lane\/index.html",
+      "sha256" : "1b0553ba06becf6352b25edd28e43592411310f3f0de6b7d75fdb442ec2b2b30"
+    },
+    {
+      "path" : "\/chapters\/52-the-pencil-belongs-to-the-writer\/index.html",
+      "sha256" : "1f90cc64cff42e8e777966b1e7069698096d0cd7369232e75d95165b719f2e6c"
+    },
+    {
+      "path" : "\/chapters\/53-a-selection-snaps-to-meaning\/index.html",
+      "sha256" : "bbd0b47c23790125bf8aa0a6b63e29a7422d7811864027365ebc1a6511b1f027"
+    },
+    {
+      "path" : "\/chapters\/54-the-writer-does-not-manage-the-projection\/index.html",
+      "sha256" : "a58f731939c30794e00d6d200daa2d48a74c15d3636d95b899c7842dbe7d8343"
+    },
+    {
+      "path" : "\/chapters\/55-one-store-authority-across-repositories\/index.html",
+      "sha256" : "a3e25f31dffb5570cbbb409e0e829486b97d7d62af927077e31e13d519cdced5"
+    },
+    {
+      "path" : "\/chapters\/56-the-book-library-is-a-portable-source-provider\/index.html",
+      "sha256" : "4012972ce26278f9d8f555f4f0e7730271afe5efd022799084f67313651d8b18"
+    },
+    {
+      "path" : "\/chapters\/57-the-writer-enters-by-intention\/index.html",
+      "sha256" : "6466062fcc4b7eda2532e0e3457763427eb8a48dcc4796ef1071973c2a379446"
+    },
+    {
+      "path" : "\/chapters\/58-open-turn-mediation-protocol\/index.html",
+      "sha256" : "653b820d48e6587d52f5b8302d58831380633ee55b03d4841b346f3fc9b79524"
+    },
+    {
+      "path" : "\/chapters\/59-copilot-initiated-library-curation\/index.html",
+      "sha256" : "b577d63e412ddf1941d3ba481b2dcb5b8f4e391ea5720cb0a1b821af28821a10"
+    },
+    {
+      "path" : "\/chapters\/60-the-fountain-editor-is-the-project-surface\/index.html",
+      "sha256" : "9006bc77308d9f71ff23b748e65046a6d7eb3fa1c2ea393e7e8c84a32c1aa5c1"
+    },
+    {
+      "path" : "\/chapters\/61-the-fountain-project-round-trip\/index.html",
+      "sha256" : "c1db84d971e9972fa263a04308e19053dc3db3a9d34fc4ddac81a33a0b4221b9"
+    },
+    {
+      "path" : "\/chapters\/62-reframe-maintenance-control-plane\/index.html",
+      "sha256" : "f5b78205e2e6a761603f8417e98d928ea546726308b75a526d01e22ed932c227"
+    },
+    {
+      "path" : "\/chapters\/63-fountain-maintenance-kit\/index.html",
+      "sha256" : "5e30406e711e12d834b7f9fdca5d74ae45f69ce2dd26173ec4f6a43f89675a39"
+    },
+    {
+      "path" : "\/chapters\/64-fountain-project-kit-durable-draft-custody\/index.html",
+      "sha256" : "dbbc2f9cdbcc516d216643c8b3df60f055393c6d59cb68fd3fb0fe684081a537"
+    },
+    {
+      "path" : "\/chapters\/65-the-copilot-as-writing-coach\/index.html",
+      "sha256" : "0c2cb0f5d2de4d7c58ad3c7bb500972e0b7e345560f13b4a2606e25a82312c9c"
+    },
+    {
+      "path" : "\/chapters\/66-fountain-image-publication-kit\/index.html",
+      "sha256" : "d6a937dfee8cafe7bc441ad82aab60fee7ba64097d12f9e1155b1bb514d9507e"
+    },
+    {
+      "path" : "\/chapters\/67-fountain-composer-kit-remote-attachment-custody\/index.html",
+      "sha256" : "cbd65e468a9fdf6366e38635d90667c66e58bc640cff0215faac573dacb9377d"
+    },
+    {
+      "path" : "\/chapters\/68-the-reframe-e2e-scenario-is-the-publication-unit\/index.html",
+      "sha256" : "8ce555b795b1c1cffed8e652e93c425530e0a3326dc03b4543caffc42a24134b"
+    },
+    {
+      "path" : "\/chapters\/69-the-book-of-reframe-is-a-dual-projection\/index.html",
+      "sha256" : "ac9ecd09a219b7a2a0a06eda400de59a568918ca267b93a03773547bbff34af7"
+    },
+    {
+      "path" : "\/chapters\/70-external-midi2-control-of-reframe\/index.html",
+      "sha256" : "d591337c26b364720e1531714a689ca62796cfb2f7f189f9f836dd52375d7d18"
+    },
+    {
+      "path" : "\/chapters\/71-reframe-to-reframe-software-peer-acceptance\/index.html",
+      "sha256" : "97630ba1f1ad44ea80e783dafacfbd9df93e32471ae73938100323b924d2b065"
+    },
+    {
+      "path" : "\/chapters\/72-midi2-peer-projections-and-capacity-admission\/index.html",
+      "sha256" : "add86e3eafbbc26608afd206621efa301a920845add2c0d5237605cb2596a8a5"
+    },
+    {
+      "path" : "\/chapters\/73-reframe-scenario-development-cycle\/index.html",
+      "sha256" : "0694d5d286a5323b9d38d0b2ac5f3fe7a8fa903926148607407f796d2b1a478e"
+    },
+    {
+      "path" : "\/chapters\/74-private-image-prompt-history\/index.html",
+      "sha256" : "ab8ae3500b75aeab18978f987b1a9cd1f349b12d41da3d27ab43069498d9073b"
+    },
+    {
+      "path" : "\/chapters\/75-scenario-run-ownership-and-non-interference\/index.html",
+      "sha256" : "322aa6c293c9c51e0fab075df2b1d38773154dba44d5139fc74bb812f97d27d2"
+    },
+    {
+      "path" : "\/chapters\/76-beat-movement-and-uncertainty-overlay\/index.html",
+      "sha256" : "485bccd890f1ac5b6c1cf1eb07baf131a0de6277cd75900bacfd5c3fdc47f5f0"
+    },
+    {
+      "path" : "\/chapters\/77-swift-midi2-scenario-runtime\/index.html",
+      "sha256" : "b4b9cb0ce10f3909b60354cc429c8b087b9bf5ab4169a375c40f2f01a0d84ee4"
+    },
+    {
+      "path" : "\/chapters\/78-scenario-driven-development-as-org-infrastructure\/index.html",
+      "sha256" : "393fed1bec38ead23c8ea78a9d0e683adaad37be28cfd843303ceb0d1c90132e"
+    },
+    {
+      "path" : "\/chapters\/79-default-semantic-manuscript-projection\/index.html",
+      "sha256" : "37215a445ce9a670b1456aba393293579da7f652259454794d36316c4af0de84"
+    },
+    {
+      "path" : "\/chapters\/80-independent-governance-publication\/index.html",
+      "sha256" : "571afb62efb88bc960fbc560e0d9c3171b5d3cbe5861d7817e53d53fca8e863a"
+    },
+    {
+      "path" : "\/chapters\/81-universal-midi2-command-plane\/index.html",
+      "sha256" : "4549869e7ad4d7e321a4e43d5c971a42079bf8f5d6144037b6d1b3625a8d352d"
+    },
+    {
+      "path" : "\/chapters\/82-remote-midi2-reading-room\/index.html",
+      "sha256" : "10a181734ba99aa8d6cd4c853711927ac03c45ba82ce7e632f89e6ed23c58c1b"
+    },
+    {
+      "path" : "\/chapters\/83-conversational-scenario-authoring\/index.html",
+      "sha256" : "9e897b8530235a9a7de028a10853dd7ea9991db4cc59310956a105d9219bc472"
+    },
+    {
+      "path" : "\/chapters\/84-governed-reframe-design-mock\/index.html",
+      "sha256" : "62439a430e29ac5a6645fda684374b873839c36c171213ae4f0ca1b96231b275"
+    },
+    {
+      "path" : "\/chapters\/85-storify-source-auto-reads-a-defined-whole\/index.html",
+      "sha256" : "84289d6f6aaf4e42e69dffb28d890a9737c32a077f0515859e7f1fdae0b019bb"
+    },
+    {
+      "path" : "\/chapters\/86-apple-native-semantic-pipeline-is-one-midi2-graph\/index.html",
+      "sha256" : "487e46abe217b96047fc5ffa25ce83b9fbca10b675c9ba1f1cbbe62af845e880"
+    },
+    {
+      "path" : "\/chapters\/87-midi2-monitor-is-the-live-event-mirror\/index.html",
+      "sha256" : "c16e0436514c020330b121ac7bcf190fc7a567450a511d6f7a56da2dedda7fbd"
+    },
+    {
+      "path" : "\/chapters\/88-codexkit-is-a-governed-codex-app-server-boundary\/index.html",
+      "sha256" : "8457b1316920a107bc01534da07b4998fa592d86c3118fd11ba87a80bb454729"
+    },
+    {
+      "path" : "\/chapters\/89-codex-auth-instrument-is-the-copilot-login-surface\/index.html",
+      "sha256" : "abdb525dcf6e8e07130fe3846f6c924b3e6b6258f4a14d3395142a105fdb8db5"
+    },
+    {
+      "path" : "\/chapters\/90-independent-security-review-is-a-separate-acceptance-boundary\/index.html",
+      "sha256" : "ef914febb29167b00486b209b079b74f3da49aa2f0c55d204d1e8fc4f7dc789f"
+    },
+    {
+      "path" : "\/chapters\/91-fcis-kit-instrument-store-is-the-capability-plane\/index.html",
+      "sha256" : "8dd44abfd4ccf5a86997d7210bfd6db9336a38ea972c8117609db8c9c08a527c"
+    },
+    {
+      "path" : "\/chapters\/92-fountain-coach-publication-estate\/index.html",
+      "sha256" : "08e4b793d070684c5cfd25ac1a90a6ebd4808fe1cf812540b7ecde0975f4b709"
+    },
+    {
+      "path" : "\/chapters\/93-instrument-creation-is-a-governed-promotion-path\/index.html",
+      "sha256" : "6e0a5451135e895f739cc505b52ac79e8a953db4240ec54dcaedbfb73f3835a0"
+    },
+    {
+      "path" : "\/chapters\/94-credentialed-infrastructure-operations-and-provider-adapters\/index.html",
+      "sha256" : "4d8191a444c50b0af9449838b092ca87147ebfb3c7ed045212ab725d33e64a7a"
+    },
+    {
+      "path" : "\/chapters\/95-fountainstore-headless-linux-authority\/index.html",
+      "sha256" : "0dd96adc4842ccd71222f92b92d90bc2ef64a57a5b070e10bd7cd2b5fd53f144"
+    },
+    {
+      "path" : "\/chapters\/96-swiftacmekit-is-a-provider-neutral-certificate-automation-boundary\/index.html",
+      "sha256" : "980111e256e86509e293cc3f96e7ef02bd4f1c256b28f4fb0123980d178dd457"
+    },
+    {
+      "path" : "\/chapters\/97-provider-neutral-host-bootstrap-and-enrollment\/index.html",
+      "sha256" : "1368dc8b12cbb654d250365a7dfbd30b028bb8038ef32df4fe961bde4da174a2"
+    },
+    {
+      "path" : "\/chapters\/98-apple-native-markdown-presentation-and-transferable-engraving-rules\/index.html",
+      "sha256" : "426336c4e77734ee7dd8329f5f63875f067ca360c8b6d20786222d3d64b4950b"
+    },
+    {
+      "path" : "\/chapters\/99-decoupled-manuscript-instruments\/index.html",
+      "sha256" : "b9265c615f15534272035e39575d5f0e0f30c91e9dd8203e158966b3a50adb89"
+    },
+    {
+      "path" : "\/compliance\/index.html",
+      "sha256" : "212879225d4cb3cdde1cb3ab09aab0db9d75527d86237a3325f5cd5578f362b6"
+    },
+    {
+      "path" : "\/copyright\/index.html",
+      "sha256" : "038681ea3949be7c5be57d48c96a12339a9bde677bbff4c1fbc304289976889d"
+    },
+    {
+      "path" : "\/estate-route-map.json",
+      "sha256" : "a48f0420d48f4c4a3492d2f58f25ddb42fc62b669fa41e8971b7cb399fc3e0df"
+    },
+    {
+      "path" : "\/index.html",
+      "sha256" : "0339af4bc1cdef57556169b423818496ab1af009ebf8ad2dd37f609c1dc595cd"
+    },
+    {
+      "path" : "\/legal\/index.html",
+      "sha256" : "69db8100711749d16873c0fd387a0e90ecec05560031938f9383c900cb74e655"
+    },
+    {
+      "path" : "\/privacy\/index.html",
+      "sha256" : "5bc49ddd7b77ff88f3fa65fe5c3a4ef11e1075bc88b65a46b03e0c6db4b6d10f"
+    },
+    {
+      "path" : "\/publication-manifest.json",
+      "sha256" : "777c7c34f0f4499476a918627f2487b1cb813490e9f9694dc300d960344b8e8e"
+    },
+    {
+      "path" : "\/route-manifest.json",
+      "sha256" : "228075d701fc47bd615a0e0e2fe039c052b24b97aebbff53e6235ed68781c850"
+    },
+    {
+      "path" : "\/route-map.yaml",
+      "sha256" : "4be5b00c26a25e34c5293ada76ed6c87e7ccef63a4b6e214512d720f510eb3c5"
+    }
+  ],
+  "previousReleaseID" : "estate-20261024-v14-satzfunk-reel-governance",
+  "publicHost" : "governance.fountain.coach",
+  "publicWitnessPaths" : [
+    "\/index.html",
+    "\/chapters\/160-skill-sovereignty-and-governed-distribution\/index.html",
+    "\/assets\/illustrations\/160-skill-sovereignty-and-governed-distribution.svg",
+    "\/chapters\/159-userland-the-writers-books-outlive-the-device\/index.html"
+  ],
+  "releaseID" : "static-20261026-ch160-f3d388c",
+  "sourceRevision" : "f3d388ccf55fecfab00dc6cfe546f397f542e360"
+}

@@ -4,7 +4,7 @@
   "canonical": "https://governance.fountain.coach/",
   "publicationRoot": "site",
   "authority": "Fountain-Coach/governance.fountain.coach",
-  "editionStatus": "reviewed-authorized-for-publication",
+  "editionStatus": "published-production-with-explicit-estate-shell-projection",
   "captured": "2026-10-14",
   "fileCount": 296,
   "chapterCount": 161,
@@ -18,20 +18,14 @@
     "copyright/index.html",
     "compliance/index.html"
   ],
-  "changeIntent": "Author-approved Chapter 160 public edition; no skill-drift runtime implementation claim",
+  "changeIntent": "Chapter 160 publicly released from canonical Governance source combined with verified October 24 live estate-shell predecessor; deployment materialization recorded separately",
   "previousLiveWitnessCommit": "9f48476835a9a1fb525cc9001f8b3e504ae44805",
   "latestSourceChapter": "160 — Skill Sovereignty and Governed Distribution",
-  "publishedAt": "2026-10-20",
+  "publishedAt": "2026-10-26",
   "productionOrigin": "65.109.14.71",
-  "productionRelease": "static-20261020-923d5f9",
-  "verifiedPublicFileCount": 294,
-  "publicationWitness": "All 294 public files SHA-256-identical after full edition release activation and Caddy host-root routing",
-  "productionWitnessReceipt": "docs/releases/20261020-userland159-production-receipt.md",
-  "pendingPublication": {
-    "routes": [
-      "/index.html",
-      "/chapters/160-skill-sovereignty-and-governed-distribution/index.html"
-    ],
-    "requiresIndependentHTTPSReadback": true
-  }
+  "productionRelease": "static-20261026-ch160-f3d388c",
+  "verifiedPublicFileCount": 301,
+  "publicationWitness": "All 301 files in the production-composed release manifest independently matched public HTTPS SHA-256 values",
+  "productionWitnessReceipt": "docs/releases/20261026-ch160-production-receipt.md",
+  "pendingPublication": null
 }

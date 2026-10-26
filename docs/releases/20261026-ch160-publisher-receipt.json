@@ -1,0 +1,29 @@
+{
+  "activated" : true,
+  "detail" : "Exact published bytes verified independently via HTTPS",
+  "previousReleaseID" : "estate-20261024-v14-satzfunk-reel-governance",
+  "publicHost" : "governance.fountain.coach",
+  "recordedAt" : 814721636.912094,
+  "releaseID" : "static-20261026-ch160-f3d388c",
+  "sourceInventorySHA256" : "faa825ceab8b792d4ab2f1952996b1723d3c52822f26d2012a41abc95434948e",
+  "sourceRevision" : "f3d388ccf55fecfab00dc6cfe546f397f542e360",
+  "state" : "active",
+  "verifiedPublicFiles" : [
+    {
+      "path" : "\/index.html",
+      "sha256" : "0339af4bc1cdef57556169b423818496ab1af009ebf8ad2dd37f609c1dc595cd"
+    },
+    {
+      "path" : "\/chapters\/160-skill-sovereignty-and-governed-distribution\/index.html",
+      "sha256" : "ec1770bd852dbdfbb8368569a16ea2b70d6d0330bdba3393d6db0e86bfcfb1dc"
+    },
+    {
+      "path" : "\/assets\/illustrations\/160-skill-sovereignty-and-governed-distribution.svg",
+      "sha256" : "f8bdee4a46e75a64a8461758fe9e06554d7da1a183dd103d8c2cf1aee28f98bf"
+    },
+    {
+      "path" : "\/chapters\/159-userland-the-writers-books-outlive-the-device\/index.html",
+      "sha256" : "2a793b4859038219ba53cc2a4866beb37efb6712ae945e9aea7d0a6a7e58af41"
+    }
+  ]
+}
