@@ -4,11 +4,11 @@
   "canonical": "https://governance.fountain.coach/",
   "publicationRoot": "site",
   "authority": "Fountain-Coach/governance.fountain.coach",
-  "editionStatus": "proposed-chapter-160-staging-candidate",
+  "editionStatus": "reviewed-authorized-for-publication",
   "captured": "2026-10-14",
   "fileCount": 296,
   "chapterCount": 161,
-  "sha256Inventory": "811d1652809086b68ac3f92ef2f4df3e08f2ea8865989504cc1f70980f256e67",
+  "sha256Inventory": "f2c54c7e8adb7acc74ec66217991000afd53d7bee19738140334cd9e91191826",
   "sourceBoundary": "Only exact publicly served bytes in site/ are the publication source; no public release occurs on push.",
   "publishedManifestKnownOmissions": [
     "chapters/158-publishing-is-not-a-distributed-transaction/index.html",
@@ -18,7 +18,7 @@
     "copyright/index.html",
     "compliance/index.html"
   ],
-  "changeIntent": "Proposed Chapter 160 revised to enduring source and distribution principles, staging only",
+  "changeIntent": "Author-approved Chapter 160 public edition; no skill-drift runtime implementation claim",
   "previousLiveWitnessCommit": "9f48476835a9a1fb525cc9001f8b3e504ae44805",
   "latestSourceChapter": "160 — Skill Sovereignty and Governed Distribution",
   "publishedAt": "2026-10-20",

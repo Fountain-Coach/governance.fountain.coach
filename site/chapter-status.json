@@ -4,7 +4,7 @@
     "slug": "160-skill-sovereignty-and-governed-distribution",
     "number": "160",
     "title": "Skill Sovereignty and Governed Distribution",
-    "label": "Latest proposed chapter"
+    "label": "Latest chapter"
   },
   "default": {
     "key": "reference",
@@ -393,9 +393,9 @@
       "description": "A proposed provider-independent Userland contract for iPad drafts, writer-owned Linux book custody, verified sync, cross-host migration and recovery. Implementation and E2E proof remain separate."
     },
     "160-skill-sovereignty-and-governed-distribution": {
-      "key": "proposed",
-      "label": "Proposed chapter",
-      "description": "Git-owned skill authority and governed distribution; external drift observation and reconciliation are not live-accepted."
+      "key": "current",
+      "label": "Current governance",
+      "description": "The maintained canonical skill authority, provenance, distribution and reconciliation doctrine."
     }
   }
 }
