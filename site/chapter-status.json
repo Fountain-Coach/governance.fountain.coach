@@ -1,10 +1,10 @@
 {
   "version": 1,
   "latestChapter": {
-    "slug": "159-userland-the-writers-books-outlive-the-device",
-    "number": "159",
-    "title": "Userland: The Writer's Books Outlive the Device",
-    "label": "Latest chapter"
+    "slug": "160-skill-sovereignty-and-governed-distribution",
+    "number": "160",
+    "title": "Skill Sovereignty and Governed Distribution",
+    "label": "Latest proposed chapter"
   },
   "default": {
     "key": "reference",
@@ -391,6 +391,11 @@
       "key": "current",
       "label": "Latest chapter",
       "description": "A proposed provider-independent Userland contract for iPad drafts, writer-owned Linux book custody, verified sync, cross-host migration and recovery. Implementation and E2E proof remain separate."
+    },
+    "160-skill-sovereignty-and-governed-distribution": {
+      "key": "proposed",
+      "label": "Proposed chapter",
+      "description": "Git-owned skill authority and governed distribution; external drift observation and reconciliation are not live-accepted."
     }
   }
 }

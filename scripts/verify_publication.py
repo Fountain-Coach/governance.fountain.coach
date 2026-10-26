@@ -45,7 +45,7 @@ def local_audit():
     routes=json.loads((SITE/"route-manifest.json").read_text())
     assert routes["host"]=="governance.fountain.coach"
     published_routes=routes["routes"]
-    assert len(published_routes)==160, "The candidate route manifest must describe 160 indexed routes"
+    assert len(published_routes)==161, "The candidate route manifest must describe 161 indexed routes"
     route_pages=set()
     for route in published_routes:
         for public_path in route["publicPaths"]:
@@ -53,7 +53,7 @@ def local_audit():
             if clean not in current:raise ValueError("Missing declared public route "+clean)
             route_pages.add(clean)
     all_chapters={x for x in current if x.startswith("chapters/") and x.endswith("/index.html")}
-    if len(all_chapters)!=160:raise ValueError("Candidate chapter inventory must contain 160 chapter pages")
+    if len(all_chapters)!=161:raise ValueError("Candidate chapter inventory must contain 161 chapter pages")
     # This edited edition retains the six already-witnessed historical
     # manifest omissions. Chapter 159 is explicitly added. This is source
     # candidate integrity, NOT a renewed live HTTPS parity claim.
@@ -66,7 +66,7 @@ def local_audit():
     if unmapped!=expected_unmapped:
         raise ValueError("Unexpected live route-manifest omission: "+str(sorted(unmapped)))
     status=json.loads((SITE/"chapter-status.json").read_text())
-    if status["latestChapter"].get("number")!="159":
+    if status["latestChapter"].get("number")!="160":
         raise ValueError("Governance chapter status unexpected")
     print("GOVERNANCE_SOURCE_CANDIDATE_VERIFIED",len(current),"matching files",
         len(all_chapters),"complete chapter routes",len(route_pages),"declared routes",
