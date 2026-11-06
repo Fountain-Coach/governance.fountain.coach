@@ -5,6 +5,12 @@
   selected Fountain Press Governance book.
 - Never change prose, chapter ordering, IDs, rights, statuses, route-map or
   referenced figures merely to improve the appearance of a book.
+- Governance is **text-first semantic authority**, not an illustration programme.
+  No hero, chapter illustration, diagram quota or per-chapter social image is a
+  prerequisite for a valid Governance rule or public release. Follow
+  [Governance Editorial Policy](docs/GOVERNANCE-EDITORIAL-POLICY.md). Retain
+  existing authored figures as optional non-normative source material, and
+  do not automatically generate or promote illustrative derivatives.
 - Every edit that changes a public asset requires source review, a Git commit,
   checksum regeneration, validation, and independently authorized deployment.
 - Site payload lives under site/. Never publish repo scripts, docs or Git files.
