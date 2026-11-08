@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+<title id="title">Owner-managed Host access: identity, consent, execution and evidence</title>
+<desc id="desc">A management interface helps the owner enroll, inspect, approve, revoke and recover, but does not itself grant authority. An authenticated identity requests a client grant from FountainAuthKit; a separately admitted Host checks the grant before executing its finite capability. FountainStore records the authorization and resulting operation evidence.</desc>
+<rect width="1200" height="820" fill="#f7f5ef"/>
+<rect x="28" y="28" width="1144" height="764" rx="2" fill="none" stroke="#9da39f" stroke-width="2"/>
+<g font-family="Georgia, 'Times New Roman', serif" fill="#27313a">
+<text x="70" y="83" font-size="19" letter-spacing="3">FOUNTAIN COACH · GOVERNANCE 161</text>
+<text x="70" y="139" font-size="37">A relationship granted, never inherited.</text>
+<text x="70" y="175" font-size="19" fill="#52636a">Identity → grant → Host capability → evidence</text>
+</g>
+<!-- Management view contains no second source of authorization -->
+<rect x="70" y="210" width="1060" height="131" rx="2" fill="#e9eae4" stroke="#829390" stroke-width="2"/>
+<g font-family="Georgia, 'Times New Roman', serif" fill="#2b3c3f">
+<text x="96" y="249" font-size="25" font-weight="bold">Owner's management interface</text>
+<text x="96" y="286" font-size="20">Enroll · inspect · approve · limit · revoke · recover</text>
+<text x="96" y="315" font-size="17" fill="#536368" font-style="italic">A view of granted authority — not a second authority</text>
+</g>
+<g stroke="#586970" stroke-width="2.5" fill="none" stroke-linejoin="round">
+<path d="M220 341V387"/><path d="M600 341V387"/><path d="M980 341V387"/>
+<path d="M212 377l8 10 8-10"/><path d="M592 377l8 10 8-10"/><path d="M972 377l8 10 8-10"/>
+</g>
+<!-- Three equal, well-padded relationship cards -->
+<g font-family="Georgia, 'Times New Roman', serif">
+<rect x="70" y="390" width="307" height="163" rx="2" fill="#e7ebe8" stroke="#768b86" stroke-width="2"/>
+<text x="94" y="431" font-size="25" font-weight="bold" fill="#243d3b">Identity</text>
+<text x="94" y="467" font-size="19" fill="#314b49">Person and client</text>
+<text x="94" y="502" font-size="16.5" fill="#48635c">Login does not grant</text>
+<text x="94" y="525" font-size="16.5" fill="#48635c">an instrument</text>
+<rect x="447" y="390" width="307" height="163" rx="2" fill="#ebe8f0" stroke="#9285a3" stroke-width="2"/>
+<text x="471" y="431" font-size="25" font-weight="bold" fill="#392d4e">FountainAuthKit</text>
+<text x="471" y="467" font-size="19" fill="#493c5d">Resource-bound grant</text>
+<text x="471" y="502" font-size="16.5" fill="#665875">Client · scope · expiry</text>
+<text x="471" y="525" font-size="16.5" fill="#665875">Explicit owner consent</text>
+<rect x="824" y="390" width="307" height="163" rx="2" fill="#e8ece8" stroke="#7b9182" stroke-width="2"/>
+<text x="848" y="431" font-size="25" font-weight="bold" fill="#293f33">Admitted Host</text>
+<text x="848" y="467" font-size="19" fill="#384e40">Finite typed execution</text>
+<text x="848" y="502" font-size="16.5" fill="#536c5d">Rechecks scope for</text>
+<text x="848" y="525" font-size="16.5" fill="#536c5d">each operation</text>
+</g>
+<!-- The horizontal permissions flow stays outside box text -->
+<g stroke="#536872" stroke-width="2.5" fill="none" stroke-linejoin="round">
+<path d="M377 470H447"/><path d="M437 462l10 8-10 8"/>
+<path d="M754 470H824"/><path d="M814 462l10 8-10 8"/>
+<path d="M975 553V610H600V644"/><path d="M592 632l8 12 8-12"/>
+</g>
+<!-- Shorter label, generously sized box -->
+<rect x="245" y="646" width="710" height="86" rx="2" fill="#f2ece2" stroke="#9f8b76" stroke-width="2"/>
+<g font-family="Georgia, 'Times New Roman', serif" fill="#343b3d">
+<text x="272" y="683" font-size="24" font-weight="bold">FountainStore · evidence</text>
+<text x="272" y="710" font-size="18" fill="#565d5d">Authorization decisions and terminal capability results</text>
+<text x="70" y="778" font-size="16" fill="#626b69">Explanatory only. Chapters 142, 152, 157 and 161 remain authoritative.</text>
+</g>
+</svg>

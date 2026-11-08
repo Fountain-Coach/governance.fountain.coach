@@ -6,9 +6,9 @@
   "authority": "Fountain-Coach/governance.fountain.coach",
   "editionStatus": "published-production-with-explicit-estate-shell-projection",
   "captured": "2026-10-14",
-  "fileCount": 296,
-  "chapterCount": 161,
-  "sha256Inventory": "f2c54c7e8adb7acc74ec66217991000afd53d7bee19738140334cd9e91191826",
+  "fileCount": 298,
+  "chapterCount": 162,
+  "sha256Inventory": "88f3f854e72b5ce3c645ad5e01b5bc69839163128700803c517bda782f2c3231",
   "sourceBoundary": "Only exact publicly served bytes in site/ are the publication source; no public release occurs on push.",
   "publishedManifestKnownOmissions": [
     "chapters/158-publishing-is-not-a-distributed-transaction/index.html",
@@ -18,14 +18,22 @@
     "copyright/index.html",
     "compliance/index.html"
   ],
-  "changeIntent": "Chapter 160 publicly released from canonical Governance source combined with verified October 24 live estate-shell predecessor; deployment materialization recorded separately",
+  "changeIntent": "Approved chapter 161 publication candidate, source authority promoted separately from deployment; preserve previous production receipt until live proof",
   "previousLiveWitnessCommit": "9f48476835a9a1fb525cc9001f8b3e504ae44805",
-  "latestSourceChapter": "160 — Skill Sovereignty and Governed Distribution",
+  "latestSourceChapter": "161 — Host Enrollment, Client Consent, and Access Management",
   "publishedAt": "2026-10-26",
   "productionOrigin": "65.109.14.71",
   "productionRelease": "static-20261026-ch160-f3d388c",
   "verifiedPublicFileCount": 301,
   "publicationWitness": "All 301 files in the production-composed release manifest independently matched public HTTPS SHA-256 values",
   "productionWitnessReceipt": "docs/releases/20261026-ch160-production-receipt.md",
-  "pendingPublication": null
+  "pendingPublication": {
+    "scope": "chapter",
+    "chapter": "161-host-enrollment-client-consent-and-access-management",
+    "destination": "governance.fountain.coach",
+    "status": "approved-for-production-awaiting-native-publication-receipt",
+    "date": "2026-11-08",
+    "productionApproved": true,
+    "approvalEvidence": "Author explicitly completed proofreading and requested promotion using Caddy on 2026-11-08"
+  }
 }

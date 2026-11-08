@@ -1128,6 +1128,13 @@
       "publicPaths": [
         "/chapters/160-skill-sovereignty-and-governed-distribution/index.html"
       ]
+    },
+    {
+      "pathPrefix": "chapters/161-host-enrollment-client-consent-and-access-management",
+      "sourceRoot": "chapters/161-host-enrollment-client-consent-and-access-management",
+      "publicPaths": [
+        "/chapters/161-host-enrollment-client-consent-and-access-management/index.html"
+      ]
     }
   ]
 }

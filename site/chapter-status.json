@@ -1,10 +1,10 @@
 {
   "version": 1,
   "latestChapter": {
-    "slug": "160-skill-sovereignty-and-governed-distribution",
-    "number": "160",
-    "title": "Skill Sovereignty and Governed Distribution",
-    "label": "Latest chapter"
+    "slug": "161-host-enrollment-client-consent-and-access-management",
+    "number": "161",
+    "title": "Host Enrollment, Client Consent, and Access Management",
+    "label": "Current chapter"
   },
   "default": {
     "key": "reference",
@@ -396,6 +396,11 @@
       "key": "current",
       "label": "Current governance",
       "description": "The maintained canonical skill authority, provenance, distribution and reconciliation doctrine."
+    },
+    "161-host-enrollment-client-consent-and-access-management": {
+      "key": "current",
+      "label": "Current governance",
+      "description": "Adopted owner-facing governance for Host enrollment, MCP client consent, bounded grants, inspection, revocation and recovery. Multi-user UI implementation and runtime acceptance remain separate."
     }
   }
 }
