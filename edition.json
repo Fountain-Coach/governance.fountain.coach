@@ -8,7 +8,7 @@
   "captured": "2026-10-14",
   "fileCount": 298,
   "chapterCount": 162,
-  "sha256Inventory": "b7d3a786c3680056c261b641da6e649459741f6173cba18dff0629c39563c754",
+  "sha256Inventory": "94d3b307c5a83865e06747ac239f95920ee9f77786a43703c74c0176f8e4a363",
   "sourceBoundary": "Only exact publicly served bytes in site/ are the publication source; no public release occurs on push.",
   "publishedManifestKnownOmissions": [
     "chapters/158-publishing-is-not-a-distributed-transaction/index.html",
