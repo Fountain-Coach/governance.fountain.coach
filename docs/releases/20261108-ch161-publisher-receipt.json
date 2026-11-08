@@ -1,0 +1,45 @@
+{
+  "activated" : true,
+  "detail" : "Exact published bytes verified independently via HTTPS",
+  "previousReleaseID" : "static-20261026-ch160-f3d388c",
+  "publicHost" : "governance.fountain.coach",
+  "recordedAt" : 815812506.596839,
+  "releaseID" : "static-20261108-ch161-7d42009",
+  "sourceInventorySHA256" : "2fda9926251da5451130af9b20769a8cea54a25809b5b35cfa01272b17688b5f",
+  "sourceRevision" : "7d4200951eb28376238ae72a2f8cddca5c8c25e4",
+  "state" : "active",
+  "verifiedPublicFiles" : [
+    {
+      "path" : "\/index.html",
+      "sha256" : "b00f0d7edd09861491cc538d8f6546438087c2cd9b0bedf73479db5f67d0bccb"
+    },
+    {
+      "path" : "\/chapters\/01-reading-index\/index.html",
+      "sha256" : "814d0d7669d71276eba1ef8d3181eb57b130461f68aac56afca55e4cf10c2948"
+    },
+    {
+      "path" : "\/chapters\/160-skill-sovereignty-and-governed-distribution\/index.html",
+      "sha256" : "daa5ad6b1f3aabf1e8590fd05bc3347c5e3385fdceb2a04039a34f366583a878"
+    },
+    {
+      "path" : "\/chapters\/161-host-enrollment-client-consent-and-access-management\/index.html",
+      "sha256" : "799a5d9a3e972bc8797b93cedac4e9d97678aace688e8440128fef56148b21ff"
+    },
+    {
+      "path" : "\/assets\/illustrations\/161-host-enrollment-client-consent-and-access-management.svg",
+      "sha256" : "caaf0bc54342b39d7ba380b7668784848c2a38aafda67f5e362c94acb19218cc"
+    },
+    {
+      "path" : "\/chapter-status.json",
+      "sha256" : "194a199b66742c7af1c06e2c71cfefc9dad269c8425a0b5e90ccb38795826576"
+    },
+    {
+      "path" : "\/route-manifest.json",
+      "sha256" : "8d4e1047b615fd986b19257d87fe83b748531e20a083b885ce6f18db953b2034"
+    },
+    {
+      "path" : "\/publication-manifest.json",
+      "sha256" : "91aaef7b2d16839da4aeba9e5065a0d926060d6f3abac3d9cdb7a628daeb6bef"
+    }
+  ]
+}

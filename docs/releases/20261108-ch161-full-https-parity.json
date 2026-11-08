@@ -1,0 +1,11 @@
+{
+  "errors": [],
+  "expectedFiles": 303,
+  "host": "governance.fountain.coach",
+  "kind": "fountain-governance-composed-publication-full-https-parity",
+  "releaseID": "static-20261108-ch161-7d42009",
+  "seconds": 12.5,
+  "sourceRevision": "7d4200951eb28376238ae72a2f8cddca5c8c25e4",
+  "totalBytes": 24712562,
+  "verifiedFiles": 303
+}

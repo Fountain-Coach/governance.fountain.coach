@@ -1,0 +1,47 @@
+{
+  "added": {
+    "assets/illustrations/161-host-enrollment-client-consent-and-access-management.svg": "caaf0bc54342b39d7ba380b7668784848c2a38aafda67f5e362c94acb19218cc",
+    "chapters/161-host-enrollment-client-consent-and-access-management/index.html": "799a5d9a3e972bc8797b93cedac4e9d97678aace688e8440128fef56148b21ff"
+  },
+  "candidateFileCount": 303,
+  "candidateStatus": "prepared-unpublished",
+  "canonicalSourceRevision": "7d4200951eb28376238ae72a2f8cddca5c8c25e4",
+  "destination": "governance.fountain.coach",
+  "inheritedIdentically": 294,
+  "kind": "governance-chapter-161-source-owned-composed-publication",
+  "modified": {
+    "chapter-status.json": {
+      "candidate": "194a199b66742c7af1c06e2c71cfefc9dad269c8425a0b5e90ccb38795826576",
+      "prior": "e0451e7397ce1ed4af629fcb2ea9bb2f8dcc61af452b3655ebf839841f00696f"
+    },
+    "chapters/01-reading-index/index.html": {
+      "candidate": "814d0d7669d71276eba1ef8d3181eb57b130461f68aac56afca55e4cf10c2948",
+      "prior": "a1ba62ff6e7158fddbdefd3c48432571e4b2d9503680ef05136169605c105185"
+    },
+    "chapters/160-skill-sovereignty-and-governed-distribution/index.html": {
+      "candidate": "daa5ad6b1f3aabf1e8590fd05bc3347c5e3385fdceb2a04039a34f366583a878",
+      "prior": "ec1770bd852dbdfbb8368569a16ea2b70d6d0330bdba3393d6db0e86bfcfb1dc"
+    },
+    "index.html": {
+      "candidate": "b00f0d7edd09861491cc538d8f6546438087c2cd9b0bedf73479db5f67d0bccb",
+      "prior": "0339af4bc1cdef57556169b423818496ab1af009ebf8ad2dd37f609c1dc595cd"
+    },
+    "publication-manifest.json": {
+      "candidate": "91aaef7b2d16839da4aeba9e5065a0d926060d6f3abac3d9cdb7a628daeb6bef",
+      "prior": "777c7c34f0f4499476a918627f2487b1cb813490e9f9694dc300d960344b8e8e"
+    },
+    "route-manifest.json": {
+      "candidate": "8d4e1047b615fd986b19257d87fe83b748531e20a083b885ce6f18db953b2034",
+      "prior": "228075d701fc47bd615a0e0e2fe039c052b24b97aebbff53e6235ed68781c850"
+    },
+    "route-map.yaml": {
+      "candidate": "7b86bd185c57d8b91f9771ed2610f9551adf5498ac431b7b42a6495077710a1d",
+      "prior": "4be5b00c26a25e34c5293ada76ed6c87e7ccef63a4b6e214512d720f510eb3c5"
+    }
+  },
+  "predecessorRelease": "static-20261026-ch160-f3d388c",
+  "previousFileCount": 301,
+  "sourceChapterArticleSHA256": "c5e8039caf8395cfc8579bc5dbcb94f577e23be78508dd5519d5fc83b16502f9",
+  "sourceOwner": "Fountain-Coach/governance.fountain.coach",
+  "sourceSVG_SHA256": "caaf0bc54342b39d7ba380b7668784848c2a38aafda67f5e362c94acb19218cc"
+}
