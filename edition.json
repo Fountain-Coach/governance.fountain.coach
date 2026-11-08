@@ -6,9 +6,9 @@
   "authority": "Fountain-Coach/governance.fountain.coach",
   "editionStatus": "published-production-with-explicit-estate-shell-projection",
   "captured": "2026-10-14",
-  "fileCount": 298,
+  "fileCount": 299,
   "chapterCount": 162,
-  "sha256Inventory": "88f3f854e72b5ce3c645ad5e01b5bc69839163128700803c517bda782f2c3231",
+  "sha256Inventory": "52245b4ae48f7c910cf156d4d77a7ab746543a81793324bdb4104603efc182ed",
   "sourceBoundary": "Only exact publicly served bytes in site/ are the publication source; no public release occurs on push.",
   "publishedManifestKnownOmissions": [
     "chapters/158-publishing-is-not-a-distributed-transaction/index.html",
@@ -18,7 +18,7 @@
     "copyright/index.html",
     "compliance/index.html"
   ],
-  "changeIntent": "Chapter 161 authored, proofread, adopted and promoted into the existing Caddy publication shell through the standalone EstatePublisher",
+  "changeIntent": "Approved Chapter 161 social share image: native 1200x630 crop of canonical SVG, correct OG/Twitter metadata; only chapter share image affected",
   "previousLiveWitnessCommit": "9f48476835a9a1fb525cc9001f8b3e504ae44805",
   "latestSourceChapter": "161 — Host Enrollment, Client Consent, and Access Management",
   "publishedAt": "2026-11-08",
@@ -27,7 +27,15 @@
   "verifiedPublicFileCount": 303,
   "publicationWitness": "All 303 files in the exact composed EstatePublisher release manifest matched independent public HTTPS SHA-256 readback",
   "productionWitnessReceipt": "docs/releases/20261108-ch161-production-receipt.md",
-  "pendingPublication": null,
+  "pendingPublication": {
+    "scope": "chapter-social",
+    "chapter": "161-host-enrollment-client-consent-and-access-management",
+    "destination": "governance.fountain.coach",
+    "status": "approved-for-production-awaiting-native-publication-receipt",
+    "date": "2026-11-08",
+    "productionApproved": true,
+    "approvalEvidence": "Writer requested a production social-image correction for the published Chapter 161"
+  },
   "composedPublicationSourceRevision": "7d4200951eb28376238ae72a2f8cddca5c8c25e4",
   "composedPublicationManifest": "docs/releases/20261108-ch161-publication-manifest.json"
 }
