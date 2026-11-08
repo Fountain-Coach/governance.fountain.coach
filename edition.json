@@ -8,7 +8,7 @@
   "captured": "2026-10-14",
   "fileCount": 298,
   "chapterCount": 162,
-  "sha256Inventory": "94d3b307c5a83865e06747ac239f95920ee9f77786a43703c74c0176f8e4a363",
+  "sha256Inventory": "88f3f854e72b5ce3c645ad5e01b5bc69839163128700803c517bda782f2c3231",
   "sourceBoundary": "Only exact publicly served bytes in site/ are the publication source; no public release occurs on push.",
   "publishedManifestKnownOmissions": [
     "chapters/158-publishing-is-not-a-distributed-transaction/index.html",
@@ -18,9 +18,9 @@
     "copyright/index.html",
     "compliance/index.html"
   ],
-  "changeIntent": "Chapter 161 proofreading correction: overflow-safe optional diagram and semantically updated Governance review overview; public production remains at Chapter 160",
+  "changeIntent": "Approved chapter 161 publication candidate, source authority promoted separately from deployment; preserve previous production receipt until live proof",
   "previousLiveWitnessCommit": "9f48476835a9a1fb525cc9001f8b3e504ae44805",
-  "latestSourceChapter": "161 — Host Enrollment, Client Consent, and Access Management (proposed for proofreading)",
+  "latestSourceChapter": "161 — Host Enrollment, Client Consent, and Access Management",
   "publishedAt": "2026-10-26",
   "productionOrigin": "65.109.14.71",
   "productionRelease": "static-20261026-ch160-f3d388c",
@@ -30,9 +30,10 @@
   "pendingPublication": {
     "scope": "chapter",
     "chapter": "161-host-enrollment-client-consent-and-access-management",
-    "destination": "governance staging only",
-    "status": "proposed-for-proofreading",
+    "destination": "governance.fountain.coach",
+    "status": "approved-for-production-awaiting-native-publication-receipt",
     "date": "2026-11-08",
-    "productionApproved": false
+    "productionApproved": true,
+    "approvalEvidence": "Author explicitly completed proofreading and requested promotion using Caddy on 2026-11-08"
   }
 }

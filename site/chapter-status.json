@@ -4,7 +4,7 @@
     "slug": "161-host-enrollment-client-consent-and-access-management",
     "number": "161",
     "title": "Host Enrollment, Client Consent, and Access Management",
-    "label": "Proposed chapter for proofreading"
+    "label": "Current chapter"
   },
   "default": {
     "key": "reference",
@@ -398,9 +398,9 @@
       "description": "The maintained canonical skill authority, provenance, distribution and reconciliation doctrine."
     },
     "161-host-enrollment-client-consent-and-access-management": {
-      "key": "proposed",
-      "label": "Staging candidate",
-      "description": "Proposed owner-facing governance for Host admission, multi-user enrollment, scoped MCP client consent, grant inspection, revocation and recovery; publication and runtime implementation remain separately proven."
+      "key": "current",
+      "label": "Current governance",
+      "description": "Adopted owner-facing governance for Host enrollment, MCP client consent, bounded grants, inspection, revocation and recovery. Multi-user UI implementation and runtime acceptance remain separate."
     }
   }
 }
