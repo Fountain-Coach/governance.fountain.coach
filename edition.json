@@ -18,22 +18,16 @@
     "copyright/index.html",
     "compliance/index.html"
   ],
-  "changeIntent": "Approved chapter 161 publication candidate, source authority promoted separately from deployment; preserve previous production receipt until live proof",
+  "changeIntent": "Chapter 161 authored, proofread, adopted and promoted into the existing Caddy publication shell through the standalone EstatePublisher",
   "previousLiveWitnessCommit": "9f48476835a9a1fb525cc9001f8b3e504ae44805",
   "latestSourceChapter": "161 — Host Enrollment, Client Consent, and Access Management",
-  "publishedAt": "2026-10-26",
+  "publishedAt": "2026-11-08",
   "productionOrigin": "65.109.14.71",
-  "productionRelease": "static-20261026-ch160-f3d388c",
-  "verifiedPublicFileCount": 301,
-  "publicationWitness": "All 301 files in the production-composed release manifest independently matched public HTTPS SHA-256 values",
-  "productionWitnessReceipt": "docs/releases/20261026-ch160-production-receipt.md",
-  "pendingPublication": {
-    "scope": "chapter",
-    "chapter": "161-host-enrollment-client-consent-and-access-management",
-    "destination": "governance.fountain.coach",
-    "status": "approved-for-production-awaiting-native-publication-receipt",
-    "date": "2026-11-08",
-    "productionApproved": true,
-    "approvalEvidence": "Author explicitly completed proofreading and requested promotion using Caddy on 2026-11-08"
-  }
+  "productionRelease": "static-20261108-ch161-7d42009",
+  "verifiedPublicFileCount": 303,
+  "publicationWitness": "All 303 files in the exact composed EstatePublisher release manifest matched independent public HTTPS SHA-256 readback",
+  "productionWitnessReceipt": "docs/releases/20261108-ch161-production-receipt.md",
+  "pendingPublication": null,
+  "composedPublicationSourceRevision": "7d4200951eb28376238ae72a2f8cddca5c8c25e4",
+  "composedPublicationManifest": "docs/releases/20261108-ch161-publication-manifest.json"
 }
