@@ -1,0 +1,19 @@
+{
+  "added": {
+    "assets/social/161-host-enrollment-client-consent-and-access-management-caaf0bc5.png": "ecd0e9d2d8d9825ba40020f217af638615c36b00886719007b53368215a36f23"
+  },
+  "candidateFileCount": 304,
+  "canonicalSourceRevision": "bb81cee46a9d2291db51f6adadc0eba1aed9988e",
+  "modified": {
+    "chapters/161-host-enrollment-client-consent-and-access-management/index.html": {
+      "candidate": "be17a6a93348edd0d5c1d313a571066edc68882fa03c76b6192c249dc7b8eec7",
+      "prior": "799a5d9a3e972bc8797b93cedac4e9d97678aace688e8440128fef56148b21ff"
+    }
+  },
+  "newReleaseID": "static-20261108-ch161-social-bb81cee",
+  "noChapterBodyChanges": true,
+  "preservedFiles": 302,
+  "previousFileCount": 303,
+  "previousReleaseID": "static-20261108-ch161-7d42009",
+  "sourceSocialPNG": "ecd0e9d2d8d9825ba40020f217af638615c36b00886719007b53368215a36f23"
+}

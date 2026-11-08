@@ -1,0 +1,9 @@
+{
+  "elapsedSeconds": 12.83,
+  "expected": 304,
+  "failed": [],
+  "passed": 304,
+  "release": "static-20261108-ch161-social-bb81cee",
+  "sourceRevision": "bb81cee46a9d2291db51f6adadc0eba1aed9988e",
+  "totalBytes": 24811592
+}

@@ -18,24 +18,16 @@
     "copyright/index.html",
     "compliance/index.html"
   ],
-  "changeIntent": "Approved Chapter 161 social share image: native 1200x630 crop of canonical SVG, correct OG/Twitter metadata; only chapter share image affected",
+  "changeIntent": "Chapter 161 Open Graph/Twitter preview now uses source-derived 1200x630 diagram, Caddy release verified; article and original SVG unchanged",
   "previousLiveWitnessCommit": "9f48476835a9a1fb525cc9001f8b3e504ae44805",
   "latestSourceChapter": "161 — Host Enrollment, Client Consent, and Access Management",
   "publishedAt": "2026-11-08",
   "productionOrigin": "65.109.14.71",
-  "productionRelease": "static-20261108-ch161-7d42009",
-  "verifiedPublicFileCount": 303,
-  "publicationWitness": "All 303 files in the exact composed EstatePublisher release manifest matched independent public HTTPS SHA-256 readback",
-  "productionWitnessReceipt": "docs/releases/20261108-ch161-production-receipt.md",
-  "pendingPublication": {
-    "scope": "chapter-social",
-    "chapter": "161-host-enrollment-client-consent-and-access-management",
-    "destination": "governance.fountain.coach",
-    "status": "approved-for-production-awaiting-native-publication-receipt",
-    "date": "2026-11-08",
-    "productionApproved": true,
-    "approvalEvidence": "Writer requested a production social-image correction for the published Chapter 161"
-  },
-  "composedPublicationSourceRevision": "7d4200951eb28376238ae72a2f8cddca5c8c25e4",
-  "composedPublicationManifest": "docs/releases/20261108-ch161-publication-manifest.json"
+  "productionRelease": "static-20261108-ch161-social-bb81cee",
+  "verifiedPublicFileCount": 304,
+  "publicationWitness": "All 304 files in the composed Chapter 161 social release matched independent public HTTPS SHA-256",
+  "productionWitnessReceipt": "docs/releases/20261108-ch161-social-production-receipt.md",
+  "pendingPublication": null,
+  "composedPublicationSourceRevision": "bb81cee46a9d2291db51f6adadc0eba1aed9988e",
+  "composedPublicationManifest": "docs/releases/20261108-ch161-social-publication-manifest.json"
 }

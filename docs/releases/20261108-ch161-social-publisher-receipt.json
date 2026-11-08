@@ -1,0 +1,29 @@
+{
+  "activated" : true,
+  "detail" : "Exact published bytes verified independently via HTTPS",
+  "previousReleaseID" : "static-20261108-ch161-7d42009",
+  "publicHost" : "governance.fountain.coach",
+  "recordedAt" : 815813041.665338,
+  "releaseID" : "static-20261108-ch161-social-bb81cee",
+  "sourceInventorySHA256" : "23a08a83e345c20588b1603235deeab15c3f6d5a372af3f81a6952a086210bdb",
+  "sourceRevision" : "bb81cee46a9d2291db51f6adadc0eba1aed9988e",
+  "state" : "active",
+  "verifiedPublicFiles" : [
+    {
+      "path" : "\/chapters\/161-host-enrollment-client-consent-and-access-management\/index.html",
+      "sha256" : "be17a6a93348edd0d5c1d313a571066edc68882fa03c76b6192c249dc7b8eec7"
+    },
+    {
+      "path" : "\/assets\/social\/161-host-enrollment-client-consent-and-access-management-caaf0bc5.png",
+      "sha256" : "ecd0e9d2d8d9825ba40020f217af638615c36b00886719007b53368215a36f23"
+    },
+    {
+      "path" : "\/index.html",
+      "sha256" : "b00f0d7edd09861491cc538d8f6546438087c2cd9b0bedf73479db5f67d0bccb"
+    },
+    {
+      "path" : "\/chapter-status.json",
+      "sha256" : "194a199b66742c7af1c06e2c71cfefc9dad269c8425a0b5e90ccb38795826576"
+    }
+  ]
+}
