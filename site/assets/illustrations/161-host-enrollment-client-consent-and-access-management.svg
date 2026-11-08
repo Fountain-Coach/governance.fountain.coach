@@ -1,46 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 730" role="img" aria-labelledby="title desc">
-<title id="title">Host access is an owner-governed relationship, not a client account</title>
-<desc id="desc">The owner admits the people, hosts, clients and grants. FountainAuthKit issues a resource-bound grant; a governed Host checks the permission before finite capability execution, whose evidence is recorded in FountainStore. The management interface reads and requests changes but never becomes a separate source of authority.</desc>
-<rect width="1200" height="730" fill="#f7f5ef"/>
-<rect x="26" y="26" width="1148" height="678" rx="3" fill="none" stroke="#b7b3a9" stroke-width="2"/>
-<g font-family="Georgia, Times New Roman, serif" fill="#242a33">
-<text x="62" y="90" font-size="21" letter-spacing="4">FOUNTAIN COACH · GOVERNANCE 161</text>
-<text x="62" y="136" font-size="40">The relationship is admitted, not inherited.</text>
-<text x="62" y="172" font-size="20" fill="#52616e">Identity → grant → Host capability → evidence</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+<title id="title">Owner-managed Host access: identity, consent, execution and evidence</title>
+<desc id="desc">A management interface helps the owner enroll, inspect, approve, revoke and recover, but does not itself grant authority. An authenticated identity requests a client grant from FountainAuthKit; a separately admitted Host checks the grant before executing its finite capability. FountainStore records the authorization and resulting operation evidence.</desc>
+<rect width="1200" height="820" fill="#f7f5ef"/>
+<rect x="28" y="28" width="1144" height="764" rx="2" fill="none" stroke="#9da39f" stroke-width="2"/>
+<g font-family="Georgia, 'Times New Roman', serif" fill="#27313a">
+<text x="70" y="83" font-size="19" letter-spacing="3">FOUNTAIN COACH · GOVERNANCE 161</text>
+<text x="70" y="139" font-size="37">A relationship granted, never inherited.</text>
+<text x="70" y="175" font-size="19" fill="#52636a">Identity → grant → Host capability → evidence</text>
 </g>
-<!-- Administrative surface as explicitly non-authoritative projection -->
-<rect x="62" y="212" width="1076" height="108" rx="2" fill="#e8e8df" stroke="#929e9f" stroke-width="2"/>
-<g font-family="Georgia, Times New Roman, serif" fill="#26323a">
-<text x="86" y="246" font-size="23" font-weight="bold">Owner's management interface</text>
-<text x="86" y="278" font-size="19">Enroll · inspect · approve · limit · revoke · recover</text>
-<text x="850" y="278" font-size="16" fill="#66727a">a view, not a second authority</text>
+<!-- Management view contains no second source of authorization -->
+<rect x="70" y="210" width="1060" height="131" rx="2" fill="#e9eae4" stroke="#829390" stroke-width="2"/>
+<g font-family="Georgia, 'Times New Roman', serif" fill="#2b3c3f">
+<text x="96" y="249" font-size="25" font-weight="bold">Owner's management interface</text>
+<text x="96" y="286" font-size="20">Enroll · inspect · approve · limit · revoke · recover</text>
+<text x="96" y="315" font-size="17" fill="#536368" font-style="italic">A view of granted authority — not a second authority</text>
 </g>
-<g stroke="#596874" fill="none" stroke-width="2.5">
-<path d="M210 320V369"/><path d="M600 320V369"/><path d="M990 320V369"/>
-<path d="M203 359l7 10 7-10"/><path d="M593 359l7 10 7-10"/><path d="M983 359l7 10 7-10"/>
+<g stroke="#586970" stroke-width="2.5" fill="none" stroke-linejoin="round">
+<path d="M220 341V387"/><path d="M600 341V387"/><path d="M980 341V387"/>
+<path d="M212 377l8 10 8-10"/><path d="M592 377l8 10 8-10"/><path d="M972 377l8 10 8-10"/>
 </g>
-<g font-family="Georgia, Times New Roman, serif">
-<rect x="62" y="371" width="302" height="150" rx="3" fill="#e7ebe9" stroke="#718b88" stroke-width="2"/>
-<text x="87" y="411" font-size="23" font-weight="bold" fill="#253d3d">Identity</text>
-<text x="87" y="443" font-size="18" fill="#253d3d">Person and client</text>
-<text x="87" y="477" font-size="16" fill="#415a5a">Authenticated ≠ authorized</text>
-<rect x="449" y="371" width="302" height="150" rx="3" fill="#e7e3ee" stroke="#857997" stroke-width="2"/>
-<text x="474" y="411" font-size="23" font-weight="bold" fill="#352d48">FountainAuthKit</text>
-<text x="474" y="443" font-size="18" fill="#352d48">Resource-bound grant</text>
-<text x="474" y="477" font-size="16" fill="#655b77">Client · scope · expiry</text>
-<rect x="836" y="371" width="302" height="150" rx="3" fill="#e9ece9" stroke="#788c82" stroke-width="2"/>
-<text x="861" y="411" font-size="23" font-weight="bold" fill="#253e34">Admitted Host</text>
-<text x="861" y="443" font-size="18" fill="#253e34">Finite typed execution</text>
-<text x="861" y="477" font-size="16" fill="#426154">Host checks authority again</text>
+<!-- Three equal, well-padded relationship cards -->
+<g font-family="Georgia, 'Times New Roman', serif">
+<rect x="70" y="390" width="307" height="163" rx="2" fill="#e7ebe8" stroke="#768b86" stroke-width="2"/>
+<text x="94" y="431" font-size="25" font-weight="bold" fill="#243d3b">Identity</text>
+<text x="94" y="467" font-size="19" fill="#314b49">Person and client</text>
+<text x="94" y="502" font-size="16.5" fill="#48635c">Login does not grant</text>
+<text x="94" y="525" font-size="16.5" fill="#48635c">an instrument</text>
+<rect x="447" y="390" width="307" height="163" rx="2" fill="#ebe8f0" stroke="#9285a3" stroke-width="2"/>
+<text x="471" y="431" font-size="25" font-weight="bold" fill="#392d4e">FountainAuthKit</text>
+<text x="471" y="467" font-size="19" fill="#493c5d">Resource-bound grant</text>
+<text x="471" y="502" font-size="16.5" fill="#665875">Client · scope · expiry</text>
+<text x="471" y="525" font-size="16.5" fill="#665875">Explicit owner consent</text>
+<rect x="824" y="390" width="307" height="163" rx="2" fill="#e8ece8" stroke="#7b9182" stroke-width="2"/>
+<text x="848" y="431" font-size="25" font-weight="bold" fill="#293f33">Admitted Host</text>
+<text x="848" y="467" font-size="19" fill="#384e40">Finite typed execution</text>
+<text x="848" y="502" font-size="16.5" fill="#536c5d">Rechecks scope for</text>
+<text x="848" y="525" font-size="16.5" fill="#536c5d">each operation</text>
 </g>
-<g stroke="#596874" fill="none" stroke-width="2.5">
-<path d="M364 447H449"/><path d="M436 440l13 7-13 7"/>
-<path d="M751 447H836"/><path d="M823 440l13 7-13 7"/>
-<path d="M988 521V575H599V602"/><path d="M592 589l7 13 7-13"/>
+<!-- The horizontal permissions flow stays outside box text -->
+<g stroke="#536872" stroke-width="2.5" fill="none" stroke-linejoin="round">
+<path d="M377 470H447"/><path d="M437 462l10 8-10 8"/>
+<path d="M754 470H824"/><path d="M814 462l10 8-10 8"/>
+<path d="M975 553V610H600V644"/><path d="M592 632l8 12 8-12"/>
 </g>
-<g font-family="Georgia, Times New Roman, serif" fill="#303a41">
-<rect x="317" y="602" width="567" height="62" rx="2" fill="#f2e9db" stroke="#9c8874" stroke-width="2"/>
-<text x="343" y="640" font-size="22" font-weight="bold">FountainStore · authorization and execution evidence</text>
-<text x="62" y="687" font-size="16" fill="#5f686a">Non-normative diagram. The text of Chapters 142, 152, 157 and 161 governs.</text>
+<!-- Shorter label, generously sized box -->
+<rect x="245" y="646" width="710" height="86" rx="2" fill="#f2ece2" stroke="#9f8b76" stroke-width="2"/>
+<g font-family="Georgia, 'Times New Roman', serif" fill="#343b3d">
+<text x="272" y="683" font-size="24" font-weight="bold">FountainStore · evidence</text>
+<text x="272" y="710" font-size="18" fill="#565d5d">Authorization decisions and terminal capability results</text>
+<text x="70" y="778" font-size="16" fill="#626b69">Explanatory only. Chapters 142, 152, 157 and 161 remain authoritative.</text>
 </g>
 </svg>

@@ -8,7 +8,7 @@
   "captured": "2026-10-14",
   "fileCount": 298,
   "chapterCount": 162,
-  "sha256Inventory": "2ffe3740ac7ff7946c133e816544e65bfcd44b261bccef5aa7cd0b375293dc09",
+  "sha256Inventory": "861cf9649004ba1a6af2b21c1fccb09967fdb79cbb27e3ffa630a2d04b41b4ea",
   "sourceBoundary": "Only exact publicly served bytes in site/ are the publication source; no public release occurs on push.",
   "publishedManifestKnownOmissions": [
     "chapters/158-publishing-is-not-a-distributed-transaction/index.html",
@@ -18,7 +18,7 @@
     "copyright/index.html",
     "compliance/index.html"
   ],
-  "changeIntent": "Canonical Governance Chapter 161 proofreading candidate with one optional explanatory SVG; production edition and production witness remain unchanged",
+  "changeIntent": "Chapter 161 proofreading correction: overflow-safe optional diagram and semantically updated Governance review overview; public production remains at Chapter 160",
   "previousLiveWitnessCommit": "9f48476835a9a1fb525cc9001f8b3e504ae44805",
   "latestSourceChapter": "161 — Host Enrollment, Client Consent, and Access Management (proposed for proofreading)",
   "publishedAt": "2026-10-26",
