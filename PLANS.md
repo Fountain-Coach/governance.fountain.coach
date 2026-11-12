@@ -1,5 +1,19 @@
 # Governance — current execution
 
+## Chapter 90 — owner-authorized release versus independent security assurance (12 November 2026)
+
+**Writer decision:** The sole owner cannot obtain external approval as a routine condition of every software release. Requiring an independent third party in the basic production path turns a distinct security-assurance claim into a circular product stop. Correct that normative contradiction without claiming security review or waiving actual external legal/contractual duties.
+
+**Chapters read:** 07 source-first fixed goal and release evidence; 08 exact source/browser/runtime witness; 90 external review is an identifiable scope, not the owner's release authority; 142 issuer validation and resource-bound scope remain mandatory; 161 owner controls admitted Host/client and revocation.
+**What they forbid:** representing an agent's tests as an independent report, using self-authorization to conceal a critical vulnerability, inventing a second issuer/credential registry, mutating live production by editing a policy, claiming EU cybersecurity conformity without classifying the actual offered product.
+**Conflicts:** the published Chapter 90 linear sequence and no-reviewer stop conditions implied a universal external signature before production, conflicting with its own statement that Fountain Coach owns risk acceptance and release authorization and with the owner's explicit instruction. Resolve in canonical Chapter 90 by separating owner-controlled release from external assurance/certification.
+**Excluded and why:** third-party reviewer procurement, applicability determination for any exact commercial product, FountainAuthKit/Host source implementation, live passwords/refresh grants, remote DNS/Caddy/static publication and unsupported security or certification claims. These retain separate evidence gates.
+
+**Source change:** Amend only canonical Chapter 90's decision diagram, reviewer-claim stop conditions, disposition, and governing sentence; preserve its identity, route and chapter order. Add a concrete self-release evidence contract (named commit and dependency, tested negative paths and recovery, preserved key/grant continuity, rollback, scope/exposure, owner decision and live readback). Preserve the separate ability to claim independent review **only** with a real attributable review, and recognize mandatory legal/contractual assessment when applicable. Amend Chapter 90's existing current status description (do not invent a chapter). The cited Commission CRA guidance distinguishes default-category self-assessment from important/critical category obligations. Update checksum inventory and edition candidate metadata; run canonical publication verifier and source integrity checks before review. Git source amendment is not a Caddy/HTTPS production publication.
+
+**Progression for Host PR #107:** A no-external-review single-owner production lane is no longer categorically blocked. Its genuine pending gates are an exact source/build review, security-negative cases, preserved OAuth signing/grant continuity and rollback, owner-controlled device enrollment/recovery, typed issuer/Host/Store readback, and applicable legal classification where commercialization makes it relevant. Do not silently change production grant state.
+
+
 ## Chapter 160 · skill portability and execution authority (30 October 2026)
 
 **State:** AUTHORED AMENDMENT IN PROGRESS. **Scope:** amend the *existing, current* Chapter 160 in canonical `site/` to distinguish skill distribution, account-wide discovery, API-project copies, per-project execution permission, and commercial/rights exposure. Preserve all 161 chapter routes, status and prior live release.

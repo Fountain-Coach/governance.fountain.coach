@@ -8,7 +8,7 @@
   "captured": "2026-10-14",
   "fileCount": 299,
   "chapterCount": 162,
-  "sha256Inventory": "52245b4ae48f7c910cf156d4d77a7ab746543a81793324bdb4104603efc182ed",
+  "sha256Inventory": "994f6d10dd2a8f30511f8040f50a335421b4bedb61ecf5de5414ced20fa2942e",
   "sourceBoundary": "Only exact publicly served bytes in site/ are the publication source; no public release occurs on push.",
   "publishedManifestKnownOmissions": [
     "chapters/158-publishing-is-not-a-distributed-transaction/index.html",
@@ -18,7 +18,7 @@
     "copyright/index.html",
     "compliance/index.html"
   ],
-  "changeIntent": "Chapter 161 Open Graph/Twitter preview now uses source-derived 1200x630 diagram, Caddy release verified; article and original SVG unchanged",
+  "changeIntent": "Source-only Chapter 90 clarification: owner-authorized risk-based release does not imply external security review, and no unspecified reviewer may universally block production; independently reviewed claims and applicable external conformity remain separate. No public deployment.",
   "previousLiveWitnessCommit": "9f48476835a9a1fb525cc9001f8b3e504ae44805",
   "latestSourceChapter": "161 — Host Enrollment, Client Consent, and Access Management",
   "publishedAt": "2026-11-08",
@@ -27,7 +27,12 @@
   "verifiedPublicFileCount": 304,
   "publicationWitness": "All 304 files in the composed Chapter 161 social release matched independent public HTTPS SHA-256",
   "productionWitnessReceipt": "docs/releases/20261108-ch161-social-production-receipt.md",
-  "pendingPublication": null,
+  "pendingPublication": {
+    "scope": "chapter-90-owner-release",
+    "state": "source-review-only",
+    "sourceEdition": "governance.fountain.coach",
+    "authorization": "not authorized for public deployment"
+  },
   "composedPublicationSourceRevision": "bb81cee46a9d2291db51f6adadc0eba1aed9988e",
   "composedPublicationManifest": "docs/releases/20261108-ch161-social-publication-manifest.json"
 }

@@ -39,20 +39,25 @@
 <p><img src="/assets/illustrations/reframe-security-review-system-top.svg" alt="System semantic top: the Codex auth instrument separated from local evidence, independent review, and release authority" /></p>
 <p><em>Design mock, not security evidence. The illustration is a deterministic architectural projection. It contains no credentials, provider session, Store identifier, runtime result, reviewer finding, or release claim.</em></p>
 <h2 id="the-decision">The decision</h2>
-<p>Security assurance is a distinct evidence lane in the Codex auth lifecycle:</p>
-<pre class="text"><code>governed contract
-    → fixture and boundary tests
-    → provider-authorized scenario evidence
-    → independent security review
-    → Fountain Coach release decision</code></pre>
-<p>Each arrow is a gate, not an assumption. A passing unit test does not prove that a packaged macOS app keeps secrets out of process arguments, WebKit storage, crash material, logs, temporary files, or Store projections. A successful provider sign-in does not prove that the host isolates sessions, handles revocation, or survives malformed and adversarial input. A reviewer’s report does not replace the product’s own live-acceptance and named-build authorities.</p>
+<p>Independent security review is a distinct assurance and public-claim boundary, not a universal prerequisite for an owner-authorized production release. The owning Fountain Coach authority may admit and release a named build after completing the applicable source, adversarial, runtime, credential-continuity, recovery, rollback, and live evidence gates. External review is commissioned when required by an applicable law, contract, announced certification claim, or explicit product-specific risk decision; its absence must be reported truthfully and must not silently become an impossible veto over every release.</p>
+<pre class="text"><code>Owner-controlled production:
+governed contract → bounded security tests → real scenario + rollback proof
+    → owner risk disposition → named-build release + independent live readback
+
+Separate assurance / externally required assessment:
+exact reviewed build + defined reviewer scope → attributable external report
+    → findings disposition → qualified independent-review claim
+
+If external assessment is legally or contractually required for the product
+and market, that obligation is part of the applicable release gate.</code></pre>
+<p>Every required test and release witness is a gate, not an assumption. A passing unit test does not prove that a packaged app protects secrets in process arguments, web storage, crash material, logs, temporary files, or Store projections. An owner sign-in does not prove host session isolation, revocation or adversarial refusal. Independent review may add valuable assurance but does not substitute for real live acceptance and named-build verification; equally, its absence alone does not prohibit an owner-authorized release when no applicable outside obligation requires it.</p>
 <p>The authorities remain separate:</p>
 <ul>
 <li>the MIDI2 IDL and generated facts define the instrument contract;</li>
 <li>the implementation repository owns runtime behavior and its boundary tests;</li>
 <li>FountainStore proves what Reframe recorded;</li>
 <li>AX proves what the user and an accessibility-driven agent could operate and see;</li>
-<li>the external security reviewer assesses the agreed security scope and reports findings;</li>
+<li>an external security reviewer, when commissioned or required, assesses only the expressly agreed scope and reports attributable findings;</li>
 <li>Fountain Coach owns remediation, risk acceptance, and release authorization.</li>
 </ul>
 <p>No witness may silently stand in for another. The system may be secure in one dimension and unproven in another.</p>
@@ -99,9 +104,9 @@
 </tr>
 </tbody>
 </table>
-<p>The matrix is evidence preparation. It may move a capability from untested to locally tested; it cannot move it to security-reviewed, live-accepted, or released by itself.</p>
+<p>The matrix is evidence preparation. It may move a capability from untested to locally tested; it cannot independently prove live acceptance, an external review, or a named released build. A source test is not a reviewer's report, but the absence of that report is not itself evidence that a bounded owner release failed.</p>
 <h2 id="the-independent-review">The independent review</h2>
-<p>For the Codex auth instrument, Fountain Coach should commission an independent security-testing provider with a recognised professional accreditation appropriate to the agreed scope. The provider’s authority comes from its signed engagement and report, not from a badge copied into the website. The engagement should cover, at minimum:</p>
+<p>Fountain Coach SHOULD commission an independent security-testing provider when resources permit, particularly before broad external delegation or making an independently reviewed security claim. It MUST do so where a binding legal classification, contract, certification scheme or specifically adopted high-risk release policy requires an external body. The source and applicability of any such mandate SHALL be documented; an unspecified absent reviewer is not a release blocker. A provider's assurance comes from an attributable engagement and report, never a copied badge. When commissioned, the review scope should include:</p>
 <ul>
 <li>macOS packaging, signing, hardened-runtime and sandbox assumptions;</li>
 <li>Keychain, TCC, WebKit, system-browser handoff, cookies, web storage, and session isolation;</li>
@@ -165,31 +170,37 @@
 <p>These names are candidate conformity-assessment routes, not endorsements or evidence of a Fountain Coach review. The current register must be rechecked at procurement time. A provider can also be a competent independent AppSec reviewer without being an EUCC body; that engagement may be valuable, but it must not be described as EUCC conformity assessment unless the exact scheme, body, scope, and certificate authority all apply.</p>
 <p>EUCC is a product-certification route, not a universal macOS application penetration-test label. Whether a Reframe build, Codex auth instrument, or MIDI2/Store boundary is an eligible target of evaluation must be confirmed with the chosen body. If the requested work is a security review outside EUCC scope, the report must be identified as an independent security review—not as an EUCC certificate or Commission accreditation.</p>
 <h2 id="findings-remediation-and-release">Findings, remediation, and release</h2>
-<p>The reviewer’s report is a reviewed input, not an automatic release decision. Every finding receives a Fountain Coach owner, severity and disposition, remediation or documented risk acceptance, and a retest or rationale. A public claim must identify the report or approved summary that authorizes it without exposing private material.</p>
+<p>An external report, when one exists, is a separate assurance input, never an automatic release decision. Every reported finding receives a Fountain Coach owner, severity and disposition, remediation or documented risk acceptance, and a retest or rationale. For releases without an external report, the same owner SHALL document known test results, unresolved security findings, scope, reason for proceeding or deferring, and rollback controls. A public independent-review claim must identify the report or approved summary that supports it without exposing private material.</p>
 <p>The status vocabulary remains strict:</p>
-<pre class="text"><code>exists → available → executable → locally tested → independently reviewed → live-accepted → released</code></pre>
-<p>These states are not interchangeable. “Independently reviewed” means that the contracted scope produced an attributable review result. “Live-accepted” still requires the Reframe evidence tuple: MIDI2 observation, FountainStore receipt, AX-visible state, window-ID visual evidence, provenance, and the scenario’s terminal predicate. “Released” requires a named, verified build under the release authority. A clean local report or a clean reviewer report cannot erase a missing live or release witness.</p>
+<pre class="text"><code>Execution: exists → available → executable → locally tested
+Release: owner-approved risk disposition → live-accepted → named build released
+Assurance (separate): not externally reviewed | independently reviewed
+Regulatory conformity (separate): not assessed | assessed under named scheme</code></pre>
+<p>These axes must not be collapsed into one compulsory sequence. “Independently reviewed” means an attributable external result for an exact agreed scope; an owner-reviewed release may be legitimate without that status. “Live-accepted” requires the owning scenario's actual evidence tuple (for Reframe, MIDI2, FountainStore, AX, window-ID, provenance and terminal predicates; for a headless OAuth Host, issuer, Host, Store, protected-resource and client/browser witnesses as applicable). “Released” requires the named build, owner authorization, preserved predecessor, rollback and independent live readback. A local or reviewer report cannot erase missing actual release evidence.</p>
+<h2 id="owner-controlled-production-admission">Owner-controlled production admission</h2>
+<p>For a single-owner Host or similarly bounded Fountain Coach service, a release MAY proceed without an external reviewer when no applicable legal or contractual rule requires one. Its release record SHALL identify: the owner, exact commit and dependency versions; protected issuer and credential/refresh continuity; passed source, adversarial and browser/device scenarios; unresolved vulnerabilities and their severity; audience, capabilities and exposure; reversible deployment and preserved rollback; real readback from the issuer, protected Host and Store; and who can revoke, pause or recover the service. An actual unresolved exploit enabling credential theft, cross-client authority or unbounded host execution SHALL be remediated or the affected capability isolated before admission. Owner acceptance is a decision backed by evidence, not an agent self-signed third-party security certificate.</p>
+<p>External conformity assessment is not a universal condition of software operation. Where a regulated product is placed on the market, determine its legal classification, dates, and conformity-assessment obligations under the applicable law; do not infer exemption merely from owner control. For example, under the EU Cyber Resilience Act default-category self-assessment may be available while certain important or critical product classes require external procedures (see the <a href="https://digital-strategy.ec.europa.eu/en/policies/cra-conformity-assessment">European Commission conformity-assessment guidance</a>). Regulatory conformity, independent penetration testing, and internal owner release are different claims.</p>
 <h2 id="public-and-private-boundary">Public and private boundary</h2>
 <p>The public projection can safely expose the governing contract, review scope, sanitized status, approved public findings, remediation state, and named release references. The private implementation and engagement surface may contain source, test fixtures, runtime digests, provider details, credentials, full reports, evidence bundles, and unredacted findings. Naming a private authority is allowed; reconstructing its contents from public prose is not.</p>
-<p>If the required private authority cannot be inspected, the agent must stop. It must not infer security from the public projection, from a successful browser page, from an open Codex process, or from a screenshot.</p>
+<p>If the runtime credentials, issuer state, source revision or necessary private evidence for the proposed release cannot be inspected through an authorized channel, stop that exact deployment. Do not infer security from public prose or a successful browser page. Inability to procure a discretionary external reviewer is not the same failure as inability to inspect the existing authority.</p>
 <h2 id="stop-conditions">Stop conditions</h2>
-<p>Stop rather than claim or promote when:</p>
+<p>Stop the specific release or claim when its applicable evidence or authority is absent:</p>
 <ul>
 <li>the current auth protocol, implementation, or packaged build cannot be inspected;</li>
 <li>the required provider authorization, execution environment, credential authority, or test fixture is unavailable;</li>
-<li>a test result is being used as a substitute for an independent review;</li>
+<li>a local test is presented as an independently reviewed, certified or third-party-assessed result;</li>
 <li>Apple notarization, App Store review, or a provider login is being presented as Fountain Coach security assurance;</li>
-<li>the reviewer’s scope, identity, report, finding disposition, or retest authority is missing;</li>
+<li>an external-review claim is made without the reviewer's actual identity, scope, report and finding disposition, or an external assessment is legally required for that precise product and is missing;</li>
 <li>credentials, cookies, private Store data, exploit material, or unredacted findings would enter the public projection;</li>
 <li>a runtime defect would be inferred without checking the owning implementation;</li>
 <li>MIDI2, Store, AX, window-ID, provenance, or terminal evidence is missing for a live-acceptance claim; or</li>
-<li>a named, verified build is missing for a release claim.</li>
+<li>a named, verified build, recorded owner release decision, required security and negative-path tests, rollback, or authorized live readback is missing for a production release claim;</li>
 <li>a self-operated adversarial agent is presented as an independent conformity-assessment body or EU-accredited service;</li>
 <li>the chosen body's current EUCC notification, technical scope, independence, validity, or certificate authority was not checked in the official register before an EUCC claim; or</li>
 <li>an EUCC product-certification result is generalized into security assurance for unassessed macOS, WebKit, AX, Keychain/TCC, local IPC, FountainStore, or MIDI2 surfaces.</li>
 </ul>
 <h2 id="governing-sentence">Governing sentence</h2>
-<p>Fountain Coach treats independent security review as its own acceptance boundary: local fixtures prepare the question, the reviewer assesses the agreed security scope, FountainStore/AX/MIDI2 prove Reframe behavior, and only the owning release authority may turn those separate witnesses into a public named-build claim.</p>
+<p>Fountain Coach's owner may authorize a bounded production release on real source, security, runtime, recoverability and live evidence, with recorded risk disposition and rollback; an external security review is a distinct, attributable assurance claim or an applicable law/contract gate, not a universally compulsory predecessor that prevents the owner from operating the company. Neither owner approval nor a locally tested release may be misrepresented as independently reviewed or certified.</p>
 </article><footer id="footer" role="contentinfo" class="footer" data-footer-style="scientific-footnote"><div class="footer-footnotes"><p class="footer-footnote"><span class="footer-footnote-number">01</span><span><strong>Fountain Coach</strong> · founded by Benedikt Eickhoff · Berlin · <a href="https://benedikt-eickhoff.de/">personal pointer</a></span></p><p class="footer-footnote"><span class="footer-footnote-number">02</span><span><a href="https://fountain.coach/">Estate</a> · <a href="https://book.fountain.coach/">Book</a> · <a href="https://governance.fountain.coach/">Governance</a> · <a href="https://midi2.fountain.coach/">MIDI2</a> · <a href="https://instruments.fountain.coach/">Instruments</a> · <a href="https://teatro.fountain.coach/">Teatro</a></span></p><p class="footer-footnote"><span class="footer-footnote-number">03</span><span><a href="https://status.fountain.coach/" data-legal-role="company-status" aria-label="Company status and transparency">Company status &amp; transparency</a> · <a href="https://governance.fountain.coach/legal/">Legal notices</a> · <a href="https://governance.fountain.coach/privacy/">Privacy</a> · <a href="https://governance.fountain.coach/accessibility/">Accessibility</a> · <a href="https://governance.fountain.coach/copyright/">Copyright</a> · <a href="https://governance.fountain.coach/compliance/">EU compliance</a></span></p><p class="footer-footnote"><span class="footer-footnote-number">04</span><span>Future-facing public projection · executable runtime and release evidence remain separately governed.</span></p></div><a class="footer-mark" href="/" aria-label="Fountain Coach home"><img src="/assets/fountain-coach-logo-transparent.png" alt="Fountain Coach logo"></a></footer></main>
   </div>
   <script src="/assets/governance.js" defer></script>
