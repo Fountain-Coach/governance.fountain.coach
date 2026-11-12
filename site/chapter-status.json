@@ -115,7 +115,7 @@
     "90-independent-security-review-is-a-separate-acceptance-boundary": {
       "key": "current",
       "label": "Current security-review boundary",
-      "description": "The maintained separation between local tests, independent security review, live acceptance, and named-build release for Codex auth."
+      "description": "Owner-authorized risk-based releases and independent security assurance are separate evidence and claim boundaries; external assessment is mandatory only when actually applicable."
     },
     "91-fcis-kit-instrument-store-is-the-capability-plane": {
       "key": "current",
