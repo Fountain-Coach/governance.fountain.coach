@@ -1,5 +1,7 @@
 # governance.fountain.coach — the authoritative published edition
 
+> **FCIS architecture:** The [FCIS standalone Go stack specification](https://github.com/Fountain-Coach/.github/blob/main/FCIS-STACK.md) is the canonical organization-root **runtime architecture target**. This repository remains the separate, authoritative public Governance edition; a stack-spec commit neither edits the adopted Governance chapters nor constitutes publication.
+
 **Canonical public host:** https://governance.fountain.coach/
 
 This repository is the **Git source of truth for the complete public Governance
