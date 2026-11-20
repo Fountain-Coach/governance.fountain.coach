@@ -1,3 +1,19 @@
+## Chapter 148 — bounded co-located builder on Satzfunk (20 November 2026)
+
+**Writer decision / observable outcome:** The owner turns off the Ubuntu Mac mini and elects the existing Hetzner `satzfunk-audio-fsn1` (CX23, two shared vCPU, 4 GiB RAM, 40-GiB system disk, Ubuntu 24.04) as an additional bounded **FCIS Go DEV builder** while Satzfunk's live publication remains served. Relax the *physical-machine blanket prohibition* in the current Chapter 148, while preserving separate immutable artifact admission into **production**. Source production `satzfunk.fountain.coach` is not an authorization to deploy an FCIS executable or amend DNS/Caddy.
+
+**Chapters read:** 07 — owner goal, one bounded change, do not invent blockers; 08 — exact source, live and resource evidence claims remain distinct; 141 — EstatePublisher machine-side publication effects still require named admission; 148 — current categorical no-build-on-production rule conflicts with co-located workload request and prior OOM accident; 160 — canonical source and reviewed derived projections stay distinct.
+
+**What they forbid:** silently treating the source patch as a live server allocation, compiling inside a production release executor, changing Satzfunk production Caddy/DNS/media/Store roots, copying owner secrets into the worker, claiming Go module acceptance without toolchain/test logs, or weakening signed artifact/rollback controls.
+
+**Conflicts:** The owner's explicit request authorizes considering controlled co-location, while published Ch.148 currently forbids every compiler on a production machine. Resolve in this canonical Chapter by separating a machine's **release role** (strict artifact-only) from an independently resource-isolated **auxiliary builder role**. The previously observed Hetzner Swift OOM remains a binding warning: the worker is forbidden until measured headroom and live publication continuity are demonstrated. An owner permission to change doctrine is not an assertion that the live host has capacity or is enrolled.
+
+**Excluded, and why:** changing historical Chapter 147's EstatePublisher draft materialization rule; installing a compiler or Go Build Instrument on an uninspected host; attaching media recovery volumes as scratch; public governance deployment, infrastructure purchases and production FCIS cutover. Source Governance amendment must pass publication inventory/edition verification and separate review; live host change requires its own read-only preflight and bounded owner-authorized operator.
+
+**Acceptance:** Preserve 299-asset public edition and canonical chapter route, correct Ch.148 operative paragraphs/metadata and 148+status inventory SHA-256, update `edition.json` `sha256Inventory` plus pending publication status; run local `scripts/verify_publication.py`, links, chapter-source parity; review PR. For the physical pilot, require an independent read-only Satzfunk resource/public-health preflight, no simultaneous jobs, least-privileged isolated identity, e.g. CPU <= one core, MemoryMax <=1536MiB, hard wall clock <=15min, protected source-only networkless execution, and health/pressure/rollback receipts. **Neither source edit nor test simulation is live worker admission.**
+
+---
+
 # Governance — current execution
 
 ## Chapter 90 — owner-authorized release versus independent security assurance (12 November 2026)
