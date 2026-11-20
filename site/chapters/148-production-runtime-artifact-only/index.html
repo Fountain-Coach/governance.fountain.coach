@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
   <title>148 — Production Runtime Nodes Are Artifact-Only — Reframe Governance</title>
-  <meta name="description" content="Governance chapter: 148. Production machines execute admitted releases; they do not construct them. Build-on-production is forbidden.">
+  <meta name="description" content="Governance chapter 148. Production release activation is artifact-only; an independently resource-isolated, owner-admitted development worker may share the machine.">
   <meta name="fountain:share-feature" content="Governed Animated Share Card">
   <meta name="fountain:publication-role" content="Rules and authority">
   <meta name="fountain:publication-state" content="Reviewed local projection">
   <link rel="canonical" href="https://governance.fountain.coach/chapters/148-production-runtime-artifact-only/">
   <meta property="og:type" content="article">
   <meta property="og:title" content="148 — Production Runtime Nodes Are Artifact-Only">
-  <meta property="og:description" content="Governance chapter: 148. Production machines execute admitted releases; they do not construct them. Build-on-production is forbidden.">
+  <meta property="og:description" content="Governance chapter 148. Production release activation is artifact-only; an independently resource-isolated, owner-admitted development worker may share the machine.">
   <meta property="og:url" content="https://governance.fountain.coach/chapters/148-production-runtime-artifact-only/">
   <meta property="og:image" content="https://governance.fountain.coach/assets/illustrations/148-production-runtime-artifact-only.svg">
   <meta property="og:image:alt" content="Production runtime artifact-only boundary">
@@ -20,7 +20,7 @@
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="148 — Production Runtime Nodes Are Artifact-Only">
-<meta name="twitter:description" content="Governance chapter: 148. Production machines execute admitted releases; they do not construct them. Build-on-production is forbidden.">
+<meta name="twitter:description" content="Governance chapter 148. Production release activation is artifact-only; an independently resource-isolated, owner-admitted development worker may share the machine.">
 <meta name="twitter:image" content="https://governance.fountain.coach/assets/illustrations/148-production-runtime-artifact-only.svg">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"148 — Production Runtime Nodes Are Artifact-Only","url":"https://governance.fountain.coach/chapters/148-production-runtime-artifact-only/","publisher":{"@type":"Organization","name":"Fountain Coach","url":"https://fountain.coach/"}}</script>
   <link rel="stylesheet" href="/assets/governance.css">
@@ -40,12 +40,13 @@
     <article class="governance-chapter">
 <h1 id="148--production-runtime-nodes-are-artifact-only">148 — Production Runtime Nodes Are Artifact-Only</h1>
 <blockquote>
-<p>Governance chapter: 148. Production machines execute admitted releases; they do not construct them. Build-on-production is forbidden.</p>
+<p>Governance chapter 148. Production release activation is artifact-only; an independently resource-isolated, owner-admitted development worker may share the machine.</p>
 </blockquote>
 <p><img src="/assets/illustrations/148-production-runtime-artifact-only.svg" alt="Production runtime artifact-only boundary" /></p>
 <p><em>Principal illustration — the builder/runtime separation. It is an architectural rule, not a live deployment receipt.</em></p>
 <h2 id="the-decision">The decision</h2>
-<p>A production runtime node MUST NOT run source compilation, package resolution, dependency checkout, linking, or release assembly as part of deployment. EstatePublisher admits only a prebuilt, tested, immutable, digest-bound artifact across the production boundary.</p>
+<p>A production release executor MUST NOT invoke source compilation, package resolution, dependency checkout, linking, or release assembly as part of deployment. EstatePublisher admits only a prebuilt, tested, immutable, digest-bound artifact across the production boundary. This is a constraint on the <strong>release role</strong>, not a prohibition on every other process sharing the physical machine.</p>
+<p>An owner-controlled host MAY also run a separately authorized development builder when independently enforced CPU, memory, disk, time, privilege, and network limits have been admitted and the live public service retains measured capacity. Co-location alone does not grant build execution, signing, release, Host/MIDI2 admission, or Store authority.</p>
 <pre class="text"><code>source + exact dependencies
           │
           ▼
@@ -62,16 +63,18 @@ production joining machine
           └────────────► previous release remains active</code></pre>
 <h2 id="why-this-is-a-system-boundary">Why this is a system boundary</h2>
 <p>The production Hetzner node demonstrated the difference directly. With only its runtime workload it serves the estate quickly. During remote Swift compilation the same one-vCPU, approximately 2 GiB node experienced CPU contention, cache eviction, I/O pressure, repeated system memory-pressure events, and an OOM kill of <code>swift-frontend</code>. The resulting latency variance and outage risk were created by mixing builder and runtime roles.</p>
-<p>The conclusion is architectural rather than incidental: production serving capacity must never be consumed to construct the candidate that may replace the serving process.</p>
+<p>The lesson is capacity isolation, not physical separation as a universal requirement. A source build must never be allowed to exhaust production serving capacity. The prior out-of-memory incident remains the negative acceptance case: a builder without measured headroom and enforceable resource limits is refused.</p>
 <h2 id="normative-invariants">Normative invariants</h2>
 <ol type="1">
 <li>Production release promotion MUST NOT invoke <code>swift build</code>, <code>swift package</code>, compiler, linker, package resolution, or dependency checkout.</li>
-<li>The builder is a separately admitted machine or instrument: developer Mac, Ubuntu staging/builder, or another explicitly governed builder.</li>
+<li>The builder is a separately admitted <em>execution role</em>: a development machine, a staging instrument, or a resource-isolated auxiliary worker sharing a physical server. Sharing a host does not merge credentials or privileges.</li>
 <li>The promoted unit is an immutable artifact identified by artifact version, source revision, digest, and provenance.</li>
 <li>The production joining machine verifies the artifact before activation and does not infer trust from transfer success.</li>
 <li>Activation is atomic. The previous accepted release remains available until health and public read-back succeed.</li>
 <li>Build caches and source worktrees are not production prerequisites.</li>
-<li>Adding production CPU or memory does not legalize remote builds. Scaling runtime capacity and building releases remain separate responsibilities.</li>
+<li>Additional CPU or RAM alone never grants build permission. Controlled physical co-location is permitted only after a recorded owner decision, successful resource-pressure preflight, OS-enforced cgroup budget, separate unprivileged worker, and a public service continuity check. Failed proof means no job is started.</li>
+<li>A co-located DEV builder MUST run in a distinct transient workload boundary with a single-job lease; bounded CPU, RAM, process count, scratch disk and deadline; no production secrets, Store credentials, deployment socket, media volume or writable service roots; and no network during candidate compilation and tests. Any external dependency preparation must use a separate source-pinned, least-privilege preparation phase and must not execute unreviewed code with production privileges.</li>
+<li>Before and after each job, inspect live public HTTPS and server pressure. During execution stop the worker on configured memory/CPU/space pressure, failed service health, expiry, or lost isolation. Record exact source commit, fixed test policy, toolchain, exit code, artifact digest and resource/health observations. A local Go PASS is DEV evidence only; it never promotes or activates production.</li>
 </ol>
 <h2 id="authority-map">Authority map</h2>
 <table>
@@ -90,8 +93,8 @@ production joining machine
 </tr>
 <tr class="even">
 <td>build/test/package</td>
-<td>admitted builder or staging instrument</td>
-<td>none</td>
+<td>admitted distinct builder role, possibly resource-isolated on the same physical host</td>
+<td>none in the production release executor</td>
 </tr>
 <tr class="odd">
 <td>release authorization</td>
@@ -118,13 +121,16 @@ production joining machine
 <h2 id="relationship-to-estatepublisher">Relationship to EstatePublisher</h2>
 <p>EstatePublisher remains the publication authority. Its production release executor must fail closed if only a source-build-on-target path is available. Legacy source-build adapter code may remain temporarily for migration or history, but it is not an admissible production path. The executable production path transfers a prebuilt artifact to the joined production machine and requests verification and activation.</p>
 <h2 id="relationship-to-joining-machines">Relationship to joining machines</h2>
-<p>Chapter 141 remains controlling: every joining machine is a governed MIDI2 instrument. This chapter narrows the production instrument's capability set. A production instrument may admit, verify, activate, inspect, roll back, and report a release. It must not silently acquire the role of compiler or CI worker.</p>
+<p>Chapter 141 remains controlling when a machine joins the estate as an instrument. The production release instrument may admit, verify, activate, inspect, roll back, and report a release; it does not itself compile. A distinct owner-approved auxiliary DEV worker on the same host is permissible only after its own resource/identity isolation has been verified. It acquires no extra Host grant, MIDI-CI readiness, EstatePublisher authority, or FountainStore terminal by proximity.</p>
 <h2 id="capacity-rule">Capacity rule</h2>
-<p>Sizing a production runtime is based on serving, persistence, media, and bounded maintenance workload. Build capacity is sized separately on the builder/staging plane. Scaling production does not legalize build-on-production; it only adds runtime capacity.</p>
+<p>Production service capacity is reserved first. The separate builder role may use only the independently budgeted remainder and is stopped rather than allowed to contend indefinitely. Logical separation is mandatory; physical host separation is an option, not a universal prerequisite. Operators must measure actual available memory, CPU load, system disk headroom and public service behavior before admitting the role.</p>
+<h2 id="satzfunk-go-pilot">Satzfunk co-located Go development pilot — 20 November 2026</h2>
+<p>The owner selects the existing <code>satzfunk-audio-fsn1</code> (Hetzner FSN1, CX23, 2 shared vCPUs, 4 GiB RAM) for a proposed FCIS Go DEV worker, keeping its live static Satzfunk/Caddy publication unchanged. This is authorization to <em>evaluate and admit a bounded DEV role</em>, not evidence the role is installed or that full Go race tests will fit. The existing 100-GB Satzfunk media volume is not scratch; do not change public DNS/Caddy, the media archive or production release roots.</p>
+<p>The initial trial limits one unprivileged, non-public worker to at most one CPU core, 1536 MiB cgroup memory, 256 tasks, an independent small scratch quota on the system filesystem, and 15 minutes. Refuse if less than 6 GiB of free system-disk space, inadequate free memory for the public service, untrusted source or missing source/dependency/toolchain integrity; allow no network access during actual Go verification. Cgroup limits and scratch boundaries must be shown to work on the <em>real host</em>; a command-line flag or Docker configuration is not sufficient evidence. Continuous/after-run public readback and a terminal receipt distinguish a safe pilot from a configured intention. On any refusal the publication continues and no replacement compiler, open-ended job or release action is implied.</p>
 <h2 id="acceptance">Acceptance</h2>
-<p>The decision is pinned at four layers: governance, EstatePublisher runtime policy, CLI/documentation, and tests. A future regression that attempts build-on-production must be rejected before a remote compiler can start.</p>
+<p>The decision is pinned at four layers: governance, EstatePublisher runtime policy, CLI/documentation, and tests. A production <em>release operation</em> that invokes a compiler must be refused before compilation. A separately owner-admitted co-located builder must independently prove the limited cgroup, single-job lease, no-secret/network isolation, source/digest pinning, available service capacity, correct health readbacks and fail-closed termination. Source publication of this exception is not live worker acceptance or a grant.</p>
 <h2 id="governing-sentence">Governing sentence</h2>
-<p><strong>Builders construct and prove immutable artifacts; production runtime nodes verify, activate, serve, and roll back them — they never compile the release they are meant to serve.</strong></p>
+<p><strong>The production release path remains artifact-only. A separately admitted builder may share a physical host only while enforced isolation and measured service capacity keep the production role safe.</strong></p>
 
       </article>
   <footer id="footer" role="contentinfo" class="footer" data-footer-style="scientific-footnote"><div class="footer-footnotes"><p class="footer-footnote"><span class="footer-footnote-number">01</span><span><strong>Fountain Coach</strong> · founded by Benedikt Eickhoff · Berlin · <a href="https://benedikt-eickhoff.de/">personal pointer</a></span></p><p class="footer-footnote"><span class="footer-footnote-number">02</span><span><a href="https://fountain.coach/">Estate</a> · <a href="https://book.fountain.coach/">Book</a> · <a href="https://governance.fountain.coach/">Governance</a> · <a href="https://midi2.fountain.coach/">MIDI2</a> · <a href="https://instruments.fountain.coach/">Instruments</a> · <a href="https://teatro.fountain.coach/">Teatro</a></span></p><p class="footer-footnote"><span class="footer-footnote-number">03</span><span><a href="https://status.fountain.coach/" data-legal-role="company-status" aria-label="Company status and transparency">Company status &amp; transparency</a> · <a href="https://governance.fountain.coach/legal/">Legal notices</a> · <a href="https://governance.fountain.coach/privacy/">Privacy</a> · <a href="https://governance.fountain.coach/accessibility/">Accessibility</a> · <a href="https://governance.fountain.coach/copyright/">Copyright</a> · <a href="https://governance.fountain.coach/compliance/">EU compliance</a></span></p><p class="footer-footnote"><span class="footer-footnote-number">04</span><span>Future-facing public projection · executable runtime and release evidence remain separately governed.</span></p></div><a class="footer-mark" href="/" aria-label="Fountain Coach home"><img src="/assets/fountain-coach-logo-transparent.png" alt="Fountain Coach logo"></a></footer></main></div></body></html>
