@@ -335,7 +335,7 @@
     "148-production-runtime-artifact-only": {
       "key": "current",
       "label": "Latest chapter",
-      "description": "The current production runtime artifact-only boundary."
+      "description": "Production release remains immutable-artifact-only; an owner-admitted, bounded auxiliary DEV worker may share physical hardware after measured isolation and live service continuity acceptance."
     },
     "149-remote-codexkit-governed-midi2-peer-instrument": {
       "key": "current",
